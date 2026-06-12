@@ -1,0 +1,34 @@
+meta {
+  name: Update Product PATCH
+  type: http
+  seq: 4
+}
+
+patch {
+  url: {{baseUrl}}/api/products/{{productId}}
+  body: json
+  auth: none
+}
+
+headers {
+  content-type: application/json
+}
+
+body:json {
+  {
+    "code": "SKU-001",
+    "faName": "Updated Product FA",
+    "enName": "Updated Product EN",
+    "category": "{{categoryId}}",
+    "brand": "{{brandId}}",
+    "images": [
+      "https://example.com/product-updated.jpg"
+    ],
+    "description": "Updated product description",
+    "review": "Updated product review"
+  }
+}
+
+docs {
+  Updates product base fields only. Attributes and variants use separate routes.
+}

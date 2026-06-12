@@ -1,0 +1,41 @@
+meta {
+  name: Upsert Product Variants PUT
+  type: http
+  seq: 3
+}
+
+put {
+  url: {{baseUrl}}/api/products/{{productId}}/variants
+  body: json
+  auth: none
+}
+
+headers {
+  content-type: application/json
+}
+
+body:json {
+  {
+    "variants": [
+      {
+        "id": "{{variantId}}",
+        "color": "black",
+        "size": "L",
+        "images": [
+          "https://example.com/product-black-l.jpg"
+        ]
+      },
+      {
+        "color": "white",
+        "size": "M",
+        "images": [
+          "https://example.com/product-white-m.jpg"
+        ]
+      }
+    ]
+  }
+}
+
+docs {
+  Updates variants that include `id` and creates variants without `id`.
+}

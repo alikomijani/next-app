@@ -1,0 +1,19 @@
+meta {
+  name: Profile
+  type: http
+  seq: 4
+}
+
+get {
+  url: {{baseUrl}}/api/auth/profile
+  body: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{accessToken}}
+}
+
+docs {
+  Returns the current user profile. Requires an access token or `accessToken` cookie.
+}

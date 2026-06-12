@@ -1,0 +1,15 @@
+meta {
+  name: List Product Variants
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{baseUrl}}/api/products/{{productId}}/variants
+  body: none
+  auth: none
+}
+
+docs {
+  Lists variants for a product.
+}

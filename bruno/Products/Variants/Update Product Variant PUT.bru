@@ -1,0 +1,29 @@
+meta {
+  name: Update Product Variant PUT
+  type: http
+  seq: 6
+}
+
+put {
+  url: {{baseUrl}}/api/products/{{productId}}/variants/{{variantId}}
+  body: json
+  auth: none
+}
+
+headers {
+  content-type: application/json
+}
+
+body:json {
+  {
+    "color": "black",
+    "size": "XL",
+    "images": [
+      "https://example.com/product-black-xl.jpg"
+    ]
+  }
+}
+
+docs {
+  Updates one product variant with PUT.
+}

@@ -1,0 +1,53 @@
+meta {
+  name: Create Product
+  type: http
+  seq: 2
+}
+
+post {
+  url: {{baseUrl}}/api/products
+  body: json
+  auth: none
+}
+
+headers {
+  content-type: application/json
+}
+
+body:json {
+  {
+    "code": "SKU-001",
+    "faName": "Product FA",
+    "enName": "Product EN",
+    "category": "{{categoryId}}",
+    "brand": "{{brandId}}",
+    "images": [
+      "https://example.com/product-main.jpg"
+    ],
+    "description": "Product description",
+    "review": "Product review",
+    "attributes": [
+      {
+        "name": "material",
+        "value": "cotton"
+      },
+      {
+        "name": "warranty",
+        "value": "12 months"
+      }
+    ],
+    "variants": [
+      {
+        "color": "black",
+        "size": "M",
+        "images": [
+          "https://example.com/product-black-m.jpg"
+        ]
+      }
+    ]
+  }
+}
+
+docs {
+  Creates product, attributes, and variants in one transaction. MongoDB must support transactions.
+}

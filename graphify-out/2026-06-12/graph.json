@@ -1787,7 +1787,7 @@
       "label": "listProducts()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L80",
+      "source_location": "L76",
       "_origin": "ast",
       "id": "catalog_service_listproducts",
       "community": 13,
@@ -1797,7 +1797,7 @@
       "label": "createProduct()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L115",
+      "source_location": "L111",
       "_origin": "ast",
       "id": "catalog_service_createproduct",
       "community": 5,
@@ -1807,7 +1807,7 @@
       "label": "getProduct()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L166",
+      "source_location": "L162",
       "_origin": "ast",
       "id": "catalog_service_getproduct",
       "community": 5,
@@ -1817,7 +1817,7 @@
       "label": "updateProduct()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L182",
+      "source_location": "L178",
       "_origin": "ast",
       "id": "catalog_service_updateproduct",
       "community": 5,
@@ -1827,7 +1827,7 @@
       "label": "deactivateProduct()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L205",
+      "source_location": "L201",
       "_origin": "ast",
       "id": "catalog_service_deactivateproduct",
       "community": 5,
@@ -1837,7 +1837,7 @@
       "label": "listProductAttributes()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L222",
+      "source_location": "L218",
       "_origin": "ast",
       "id": "catalog_service_listproductattributes",
       "community": 5,
@@ -1847,7 +1847,7 @@
       "label": "upsertProductAttributes()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L229",
+      "source_location": "L225",
       "_origin": "ast",
       "id": "catalog_service_upsertproductattributes",
       "community": 5,
@@ -1857,7 +1857,7 @@
       "label": "deleteProductAttributes()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L255",
+      "source_location": "L251",
       "_origin": "ast",
       "id": "catalog_service_deleteproductattributes",
       "community": 5,
@@ -1867,7 +1867,7 @@
       "label": "listProductVariants()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L269",
+      "source_location": "L265",
       "_origin": "ast",
       "id": "catalog_service_listproductvariants",
       "community": 5,
@@ -1877,7 +1877,7 @@
       "label": "createProductVariant()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L276",
+      "source_location": "L272",
       "_origin": "ast",
       "id": "catalog_service_createproductvariant",
       "community": 5,
@@ -1887,7 +1887,7 @@
       "label": "upsertProductVariants()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L287",
+      "source_location": "L283",
       "_origin": "ast",
       "id": "catalog_service_upsertproductvariants",
       "community": 5,
@@ -1897,7 +1897,7 @@
       "label": "updateProductVariant()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L319",
+      "source_location": "L315",
       "_origin": "ast",
       "id": "catalog_service_updateproductvariant",
       "community": 5,
@@ -1907,7 +1907,7 @@
       "label": "deleteProductVariant()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L349",
+      "source_location": "L345",
       "_origin": "ast",
       "id": "catalog_service_deleteproductvariant",
       "community": 5,
@@ -1917,7 +1917,7 @@
       "label": "listCategories()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L365",
+      "source_location": "L361",
       "_origin": "ast",
       "id": "catalog_service_listcategories",
       "community": 13,
@@ -1927,7 +1927,7 @@
       "label": "createCategory()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L369",
+      "source_location": "L365",
       "_origin": "ast",
       "id": "catalog_service_createcategory",
       "community": 13,
@@ -1937,7 +1937,7 @@
       "label": "getCategory()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L374",
+      "source_location": "L370",
       "_origin": "ast",
       "id": "catalog_service_getcategory",
       "community": 22,
@@ -1947,7 +1947,7 @@
       "label": "updateCategory()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L378",
+      "source_location": "L374",
       "_origin": "ast",
       "id": "catalog_service_updatecategory",
       "community": 22,
@@ -1957,7 +1957,7 @@
       "label": "deactivateCategory()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L382",
+      "source_location": "L378",
       "_origin": "ast",
       "id": "catalog_service_deactivatecategory",
       "community": 22,
@@ -1967,7 +1967,7 @@
       "label": "listBrands()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L386",
+      "source_location": "L382",
       "_origin": "ast",
       "id": "catalog_service_listbrands",
       "community": 13,
@@ -1977,7 +1977,7 @@
       "label": "createBrand()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L390",
+      "source_location": "L386",
       "_origin": "ast",
       "id": "catalog_service_createbrand",
       "community": 13,
@@ -1987,7 +1987,7 @@
       "label": "getBrand()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L395",
+      "source_location": "L391",
       "_origin": "ast",
       "id": "catalog_service_getbrand",
       "community": 22,
@@ -1997,7 +1997,7 @@
       "label": "updateBrand()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L399",
+      "source_location": "L395",
       "_origin": "ast",
       "id": "catalog_service_updatebrand",
       "community": 22,
@@ -2007,7 +2007,7 @@
       "label": "deactivateBrand()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L403",
+      "source_location": "L399",
       "_origin": "ast",
       "id": "catalog_service_deactivatebrand",
       "community": 22,
@@ -2017,7 +2017,7 @@
       "label": "listCatalogEntities()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L407",
+      "source_location": "L403",
       "_origin": "ast",
       "id": "catalog_service_listcatalogentities",
       "community": 13,
@@ -2027,7 +2027,7 @@
       "label": "getCatalogEntity()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L433",
+      "source_location": "L429",
       "_origin": "ast",
       "id": "catalog_service_getcatalogentity",
       "community": 22,
@@ -2037,7 +2037,7 @@
       "label": "updateCatalogEntity()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L448",
+      "source_location": "L444",
       "_origin": "ast",
       "id": "catalog_service_updatecatalogentity",
       "community": 5,
@@ -2047,7 +2047,7 @@
       "label": "deactivateCatalogEntity()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L474",
+      "source_location": "L470",
       "_origin": "ast",
       "id": "catalog_service_deactivatecatalogentity",
       "community": 22,
@@ -2057,7 +2057,7 @@
       "label": "getProductPayload()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L493",
+      "source_location": "L489",
       "_origin": "ast",
       "id": "catalog_service_getproductpayload",
       "community": 13,
@@ -2067,7 +2067,7 @@
       "label": "getProductUpdatePayload()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L509",
+      "source_location": "L505",
       "_origin": "ast",
       "id": "catalog_service_getproductupdatepayload",
       "community": 13,
@@ -2077,7 +2077,7 @@
       "label": "getCatalogPayload()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L546",
+      "source_location": "L542",
       "_origin": "ast",
       "id": "catalog_service_getcatalogpayload",
       "community": 13,
@@ -2087,7 +2087,7 @@
       "label": "getAttributesInput()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L568",
+      "source_location": "L564",
       "_origin": "ast",
       "id": "catalog_service_getattributesinput",
       "community": 5,
@@ -2097,7 +2097,7 @@
       "label": "getAttributeNamesInput()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L601",
+      "source_location": "L597",
       "_origin": "ast",
       "id": "catalog_service_getattributenamesinput",
       "community": 5,
@@ -2107,7 +2107,7 @@
       "label": "getVariantsInput()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L617",
+      "source_location": "L613",
       "_origin": "ast",
       "id": "catalog_service_getvariantsinput",
       "community": 5,
@@ -2117,7 +2117,7 @@
       "label": "getVariantPayload()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L640",
+      "source_location": "L636",
       "_origin": "ast",
       "id": "catalog_service_getvariantpayload",
       "community": 13,
@@ -2127,7 +2127,7 @@
       "label": "assertProductExists()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L665",
+      "source_location": "L661",
       "_origin": "ast",
       "id": "catalog_service_assertproductexists",
       "community": 5,
@@ -2137,7 +2137,7 @@
       "label": "assertActiveDocument()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L673",
+      "source_location": "L669",
       "_origin": "ast",
       "id": "catalog_service_assertactivedocument",
       "community": 13,
@@ -2147,7 +2147,7 @@
       "label": "resolveCategoryId()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L688",
+      "source_location": "L684",
       "_origin": "ast",
       "id": "catalog_service_resolvecategoryid",
       "community": 13,
@@ -2157,7 +2157,7 @@
       "label": "resolveBrandId()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L692",
+      "source_location": "L688",
       "_origin": "ast",
       "id": "catalog_service_resolvebrandid",
       "community": 13,
@@ -2167,7 +2167,7 @@
       "label": "resolveCatalogId()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L696",
+      "source_location": "L692",
       "_origin": "ast",
       "id": "catalog_service_resolvecatalogid",
       "community": 13,
@@ -2177,7 +2177,7 @@
       "label": "getRequiredReference()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L714",
+      "source_location": "L710",
       "_origin": "ast",
       "id": "catalog_service_getrequiredreference",
       "community": 13,
@@ -2187,7 +2187,7 @@
       "label": "getPagination()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L724",
+      "source_location": "L720",
       "_origin": "ast",
       "id": "catalog_service_getpagination",
       "community": 13,
@@ -2197,7 +2197,7 @@
       "label": "getActiveFilter()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L741",
+      "source_location": "L737",
       "_origin": "ast",
       "id": "catalog_service_getactivefilter",
       "community": 13,
@@ -2207,7 +2207,7 @@
       "label": "getSearchValue()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L745",
+      "source_location": "L741",
       "_origin": "ast",
       "id": "catalog_service_getsearchvalue",
       "community": 13,
@@ -2217,7 +2217,7 @@
       "label": "toPaginatedResponse()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L749",
+      "source_location": "L745",
       "_origin": "ast",
       "id": "catalog_service_topaginatedresponse",
       "community": 13,
@@ -2227,7 +2227,7 @@
       "label": "getBodyRecord()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L766",
+      "source_location": "L762",
       "_origin": "ast",
       "id": "catalog_service_getbodyrecord",
       "community": 5,
@@ -2237,7 +2237,7 @@
       "label": "getRequiredString()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L774",
+      "source_location": "L770",
       "_origin": "ast",
       "id": "catalog_service_getrequiredstring",
       "community": 13,
@@ -2247,7 +2247,7 @@
       "label": "getOptionalString()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L784",
+      "source_location": "L780",
       "_origin": "ast",
       "id": "catalog_service_getoptionalstring",
       "community": 13,
@@ -2257,7 +2257,7 @@
       "label": "setOptionalRequiredString()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L798",
+      "source_location": "L794",
       "_origin": "ast",
       "id": "catalog_service_setoptionalrequiredstring",
       "community": 13,
@@ -2267,7 +2267,7 @@
       "label": "getStringArray()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L808",
+      "source_location": "L804",
       "_origin": "ast",
       "id": "catalog_service_getstringarray",
       "community": 13,
@@ -2277,7 +2277,7 @@
       "label": "hasAnyKey()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L828",
+      "source_location": "L824",
       "_origin": "ast",
       "id": "catalog_service_hasanykey",
       "community": 13,
@@ -2287,7 +2287,7 @@
       "label": "getObjectId()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L832",
+      "source_location": "L828",
       "_origin": "ast",
       "id": "catalog_service_getobjectid",
       "community": 5,
@@ -2297,7 +2297,7 @@
       "label": "escapeRegex()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L840",
+      "source_location": "L836",
       "_origin": "ast",
       "id": "catalog_service_escaperegex",
       "community": 13,
@@ -2307,7 +2307,7 @@
       "label": "isDuplicateKeyError()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L844",
+      "source_location": "L840",
       "_origin": "ast",
       "id": "catalog_service_isduplicatekeyerror",
       "community": 5,
@@ -2317,7 +2317,7 @@
       "label": "getDuplicateField()",
       "file_type": "code",
       "source_file": "src/backend/modules/catalog/service.ts",
-      "source_location": "L853",
+      "source_location": "L849",
       "_origin": "ast",
       "id": "catalog_service_getduplicatefield",
       "community": 5,
@@ -4878,9 +4878,9 @@
       "source_file": "src/app/api/brands/[id]/route.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app_api_brands_id_route_ts_id_route",
-      "target": "catalog_service"
+      "target": "catalog_service",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -4889,9 +4889,9 @@
       "source_file": "src/app/api/brands/[id]/route.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app_api_brands_id_route_ts_id_route",
-      "target": "catalog_service_deactivatebrand"
+      "target": "catalog_service_deactivatebrand",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -4900,9 +4900,9 @@
       "source_file": "src/app/api/brands/[id]/route.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app_api_brands_id_route_ts_id_route",
-      "target": "catalog_service_formatapierror"
+      "target": "catalog_service_formatapierror",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -4911,9 +4911,9 @@
       "source_file": "src/app/api/brands/[id]/route.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app_api_brands_id_route_ts_id_route",
-      "target": "catalog_service_getbrand"
+      "target": "catalog_service_getbrand",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -4922,9 +4922,9 @@
       "source_file": "src/app/api/brands/[id]/route.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app_api_brands_id_route_ts_id_route",
-      "target": "catalog_service_updatebrand"
+      "target": "catalog_service_updatebrand",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4932,9 +4932,9 @@
       "source_file": "src/app/api/brands/[id]/route.ts",
       "source_location": "L11",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app_api_brands_id_route_ts_id_route",
-      "target": "id_route_brandroutecontext"
+      "target": "id_route_brandroutecontext",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4942,9 +4942,9 @@
       "source_file": "src/app/api/brands/[id]/route.ts",
       "source_location": "L41",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app_api_brands_id_route_ts_id_route",
-      "target": "src_app_api_brands_id_route_ts_id_route_delete"
+      "target": "src_app_api_brands_id_route_ts_id_route_delete",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4952,9 +4952,9 @@
       "source_file": "src/app/api/brands/[id]/route.ts",
       "source_location": "L15",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app_api_brands_id_route_ts_id_route",
-      "target": "src_app_api_brands_id_route_ts_id_route_get"
+      "target": "src_app_api_brands_id_route_ts_id_route_get",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4962,9 +4962,9 @@
       "source_file": "src/app/api/brands/[id]/route.ts",
       "source_location": "L26",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app_api_brands_id_route_ts_id_route",
-      "target": "src_app_api_brands_id_route_ts_id_route_patch"
+      "target": "src_app_api_brands_id_route_ts_id_route_patch",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4972,9 +4972,9 @@
       "source_file": "src/app/api/brands/[id]/route.ts",
       "source_location": "L37",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app_api_brands_id_route_ts_id_route",
-      "target": "src_app_api_brands_id_route_ts_id_route_put"
+      "target": "src_app_api_brands_id_route_ts_id_route_put",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5027,9 +5027,9 @@
       "source_file": "src/app/api/brands/[id]/route.ts",
       "source_location": "L38",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app_api_brands_id_route_ts_id_route_put",
-      "target": "src_app_api_brands_id_route_ts_id_route_patch"
+      "target": "src_app_api_brands_id_route_ts_id_route_patch",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5059,9 +5059,9 @@
       "source_file": "src/app/api/brands/route.ts",
       "source_location": "L10",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "brands_route",
-      "target": "brands_route_get"
+      "target": "brands_route_get",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5069,9 +5069,9 @@
       "source_file": "src/app/api/brands/route.ts",
       "source_location": "L20",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "brands_route",
-      "target": "brands_route_post"
+      "target": "brands_route_post",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -5080,9 +5080,9 @@
       "source_file": "src/app/api/brands/route.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "brands_route",
-      "target": "catalog_service"
+      "target": "catalog_service",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -5091,9 +5091,9 @@
       "source_file": "src/app/api/brands/route.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "brands_route",
-      "target": "catalog_service_createbrand"
+      "target": "catalog_service_createbrand",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -5102,9 +5102,9 @@
       "source_file": "src/app/api/brands/route.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "brands_route",
-      "target": "catalog_service_formatapierror"
+      "target": "catalog_service_formatapierror",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -5113,9 +5113,9 @@
       "source_file": "src/app/api/brands/route.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "brands_route",
-      "target": "catalog_service_listbrands"
+      "target": "catalog_service_listbrands",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5168,9 +5168,9 @@
       "source_file": "src/app/api/categories/[id]/route.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app_api_categories_id_route_ts_id_route",
-      "target": "catalog_service"
+      "target": "catalog_service",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -5179,9 +5179,9 @@
       "source_file": "src/app/api/categories/[id]/route.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app_api_categories_id_route_ts_id_route",
-      "target": "catalog_service_deactivatecategory"
+      "target": "catalog_service_deactivatecategory",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -5190,9 +5190,9 @@
       "source_file": "src/app/api/categories/[id]/route.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app_api_categories_id_route_ts_id_route",
-      "target": "catalog_service_formatapierror"
+      "target": "catalog_service_formatapierror",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -5201,9 +5201,9 @@
       "source_file": "src/app/api/categories/[id]/route.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app_api_categories_id_route_ts_id_route",
-      "target": "catalog_service_getcategory"
+      "target": "catalog_service_getcategory",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -5212,9 +5212,9 @@
       "source_file": "src/app/api/categories/[id]/route.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app_api_categories_id_route_ts_id_route",
-      "target": "catalog_service_updatecategory"
+      "target": "catalog_service_updatecategory",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5222,9 +5222,9 @@
       "source_file": "src/app/api/categories/[id]/route.ts",
       "source_location": "L11",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app_api_categories_id_route_ts_id_route",
-      "target": "id_route_categoryroutecontext"
+      "target": "id_route_categoryroutecontext",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5232,9 +5232,9 @@
       "source_file": "src/app/api/categories/[id]/route.ts",
       "source_location": "L41",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app_api_categories_id_route_ts_id_route",
-      "target": "src_app_api_categories_id_route_ts_id_route_delete"
+      "target": "src_app_api_categories_id_route_ts_id_route_delete",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5242,9 +5242,9 @@
       "source_file": "src/app/api/categories/[id]/route.ts",
       "source_location": "L15",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app_api_categories_id_route_ts_id_route",
-      "target": "src_app_api_categories_id_route_ts_id_route_get"
+      "target": "src_app_api_categories_id_route_ts_id_route_get",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5252,9 +5252,9 @@
       "source_file": "src/app/api/categories/[id]/route.ts",
       "source_location": "L26",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app_api_categories_id_route_ts_id_route",
-      "target": "src_app_api_categories_id_route_ts_id_route_patch"
+      "target": "src_app_api_categories_id_route_ts_id_route_patch",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5262,9 +5262,9 @@
       "source_file": "src/app/api/categories/[id]/route.ts",
       "source_location": "L37",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app_api_categories_id_route_ts_id_route",
-      "target": "src_app_api_categories_id_route_ts_id_route_put"
+      "target": "src_app_api_categories_id_route_ts_id_route_put",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5317,9 +5317,9 @@
       "source_file": "src/app/api/categories/[id]/route.ts",
       "source_location": "L38",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app_api_categories_id_route_ts_id_route_put",
-      "target": "src_app_api_categories_id_route_ts_id_route_patch"
+      "target": "src_app_api_categories_id_route_ts_id_route_patch",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5350,9 +5350,9 @@
       "source_file": "src/app/api/categories/route.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "categories_route",
-      "target": "catalog_service"
+      "target": "catalog_service",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -5361,9 +5361,9 @@
       "source_file": "src/app/api/categories/route.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "categories_route",
-      "target": "catalog_service_createcategory"
+      "target": "catalog_service_createcategory",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -5372,9 +5372,9 @@
       "source_file": "src/app/api/categories/route.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "categories_route",
-      "target": "catalog_service_formatapierror"
+      "target": "catalog_service_formatapierror",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -5383,9 +5383,9 @@
       "source_file": "src/app/api/categories/route.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "categories_route",
-      "target": "catalog_service_listcategories"
+      "target": "catalog_service_listcategories",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5393,9 +5393,9 @@
       "source_file": "src/app/api/categories/route.ts",
       "source_location": "L10",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "categories_route",
-      "target": "categories_route_get"
+      "target": "categories_route_get",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5403,9 +5403,9 @@
       "source_file": "src/app/api/categories/route.ts",
       "source_location": "L20",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "categories_route",
-      "target": "categories_route_post"
+      "target": "categories_route_post",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5457,9 +5457,9 @@
       "source_file": "src/app/api/products/[id]/attributes/route.ts",
       "source_location": "L53",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "attributes_route",
-      "target": "attributes_route_delete"
+      "target": "attributes_route_delete",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5467,9 +5467,9 @@
       "source_file": "src/app/api/products/[id]/attributes/route.ts",
       "source_location": "L15",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "attributes_route",
-      "target": "attributes_route_get"
+      "target": "attributes_route_get",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5477,9 +5477,9 @@
       "source_file": "src/app/api/products/[id]/attributes/route.ts",
       "source_location": "L49",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "attributes_route",
-      "target": "attributes_route_patch"
+      "target": "attributes_route_patch",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5487,9 +5487,9 @@
       "source_file": "src/app/api/products/[id]/attributes/route.ts",
       "source_location": "L11",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "attributes_route",
-      "target": "attributes_route_productattributesroutecontext"
+      "target": "attributes_route_productattributesroutecontext",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5497,9 +5497,9 @@
       "source_file": "src/app/api/products/[id]/attributes/route.ts",
       "source_location": "L32",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "attributes_route",
-      "target": "attributes_route_put"
+      "target": "attributes_route_put",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -5508,9 +5508,9 @@
       "source_file": "src/app/api/products/[id]/attributes/route.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "attributes_route",
-      "target": "catalog_service"
+      "target": "catalog_service",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -5519,9 +5519,9 @@
       "source_file": "src/app/api/products/[id]/attributes/route.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "attributes_route",
-      "target": "catalog_service_deleteproductattributes"
+      "target": "catalog_service_deleteproductattributes",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -5530,9 +5530,9 @@
       "source_file": "src/app/api/products/[id]/attributes/route.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "attributes_route",
-      "target": "catalog_service_formatapierror"
+      "target": "catalog_service_formatapierror",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -5541,9 +5541,9 @@
       "source_file": "src/app/api/products/[id]/attributes/route.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "attributes_route",
-      "target": "catalog_service_listproductattributes"
+      "target": "catalog_service_listproductattributes",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -5552,9 +5552,9 @@
       "source_file": "src/app/api/products/[id]/attributes/route.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "attributes_route",
-      "target": "catalog_service_upsertproductattributes"
+      "target": "catalog_service_upsertproductattributes",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5585,9 +5585,9 @@
       "source_file": "src/app/api/products/[id]/attributes/route.ts",
       "source_location": "L50",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "attributes_route_patch",
-      "target": "attributes_route_put"
+      "target": "attributes_route_put",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5640,9 +5640,9 @@
       "source_file": "src/app/api/products/[id]/route.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app_api_products_id_route_ts_id_route",
-      "target": "catalog_service"
+      "target": "catalog_service",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -5651,9 +5651,9 @@
       "source_file": "src/app/api/products/[id]/route.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app_api_products_id_route_ts_id_route",
-      "target": "catalog_service_deactivateproduct"
+      "target": "catalog_service_deactivateproduct",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -5662,9 +5662,9 @@
       "source_file": "src/app/api/products/[id]/route.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app_api_products_id_route_ts_id_route",
-      "target": "catalog_service_formatapierror"
+      "target": "catalog_service_formatapierror",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -5673,9 +5673,9 @@
       "source_file": "src/app/api/products/[id]/route.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app_api_products_id_route_ts_id_route",
-      "target": "catalog_service_getproduct"
+      "target": "catalog_service_getproduct",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -5684,9 +5684,9 @@
       "source_file": "src/app/api/products/[id]/route.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app_api_products_id_route_ts_id_route",
-      "target": "catalog_service_updateproduct"
+      "target": "catalog_service_updateproduct",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5694,9 +5694,9 @@
       "source_file": "src/app/api/products/[id]/route.ts",
       "source_location": "L11",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app_api_products_id_route_ts_id_route",
-      "target": "id_route_productroutecontext"
+      "target": "id_route_productroutecontext",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5704,9 +5704,9 @@
       "source_file": "src/app/api/products/[id]/route.ts",
       "source_location": "L41",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app_api_products_id_route_ts_id_route",
-      "target": "src_app_api_products_id_route_ts_id_route_delete"
+      "target": "src_app_api_products_id_route_ts_id_route_delete",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5714,9 +5714,9 @@
       "source_file": "src/app/api/products/[id]/route.ts",
       "source_location": "L15",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app_api_products_id_route_ts_id_route",
-      "target": "src_app_api_products_id_route_ts_id_route_get"
+      "target": "src_app_api_products_id_route_ts_id_route_get",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5724,9 +5724,9 @@
       "source_file": "src/app/api/products/[id]/route.ts",
       "source_location": "L26",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app_api_products_id_route_ts_id_route",
-      "target": "src_app_api_products_id_route_ts_id_route_patch"
+      "target": "src_app_api_products_id_route_ts_id_route_patch",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5734,9 +5734,9 @@
       "source_file": "src/app/api/products/[id]/route.ts",
       "source_location": "L37",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app_api_products_id_route_ts_id_route",
-      "target": "src_app_api_products_id_route_ts_id_route_put"
+      "target": "src_app_api_products_id_route_ts_id_route_put",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5789,9 +5789,9 @@
       "source_file": "src/app/api/products/[id]/route.ts",
       "source_location": "L38",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app_api_products_id_route_ts_id_route_put",
-      "target": "src_app_api_products_id_route_ts_id_route_patch"
+      "target": "src_app_api_products_id_route_ts_id_route_patch",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5822,9 +5822,9 @@
       "source_file": "src/app/api/products/[id]/variants/[variantId]/route.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "variantid_route",
-      "target": "catalog_service"
+      "target": "catalog_service",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -5833,9 +5833,9 @@
       "source_file": "src/app/api/products/[id]/variants/[variantId]/route.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "variantid_route",
-      "target": "catalog_service_deleteproductvariant"
+      "target": "catalog_service_deleteproductvariant",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -5844,9 +5844,9 @@
       "source_file": "src/app/api/products/[id]/variants/[variantId]/route.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "variantid_route",
-      "target": "catalog_service_formatapierror"
+      "target": "catalog_service_formatapierror",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -5855,9 +5855,9 @@
       "source_file": "src/app/api/products/[id]/variants/[variantId]/route.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "variantid_route",
-      "target": "catalog_service_updateproductvariant"
+      "target": "catalog_service_updateproductvariant",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5865,9 +5865,9 @@
       "source_file": "src/app/api/products/[id]/variants/[variantId]/route.ts",
       "source_location": "L35",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "variantid_route",
-      "target": "variantid_route_delete"
+      "target": "variantid_route_delete",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5875,9 +5875,9 @@
       "source_file": "src/app/api/products/[id]/variants/[variantId]/route.ts",
       "source_location": "L14",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "variantid_route",
-      "target": "variantid_route_patch"
+      "target": "variantid_route_patch",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5885,9 +5885,9 @@
       "source_file": "src/app/api/products/[id]/variants/[variantId]/route.ts",
       "source_location": "L10",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "variantid_route",
-      "target": "variantid_route_productvariantroutecontext"
+      "target": "variantid_route_productvariantroutecontext",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5895,9 +5895,9 @@
       "source_file": "src/app/api/products/[id]/variants/[variantId]/route.ts",
       "source_location": "L31",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "variantid_route",
-      "target": "variantid_route_put"
+      "target": "variantid_route_put",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5928,9 +5928,9 @@
       "source_file": "src/app/api/products/[id]/variants/[variantId]/route.ts",
       "source_location": "L32",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "variantid_route_put",
-      "target": "variantid_route_patch"
+      "target": "variantid_route_patch",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5961,9 +5961,9 @@
       "source_file": "src/app/api/products/[id]/variants/route.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "variants_route",
-      "target": "catalog_service"
+      "target": "catalog_service",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -5972,9 +5972,9 @@
       "source_file": "src/app/api/products/[id]/variants/route.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "variants_route",
-      "target": "catalog_service_createproductvariant"
+      "target": "catalog_service_createproductvariant",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -5983,9 +5983,9 @@
       "source_file": "src/app/api/products/[id]/variants/route.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "variants_route",
-      "target": "catalog_service_formatapierror"
+      "target": "catalog_service_formatapierror",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -5994,9 +5994,9 @@
       "source_file": "src/app/api/products/[id]/variants/route.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "variants_route",
-      "target": "catalog_service_listproductvariants"
+      "target": "catalog_service_listproductvariants",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -6005,9 +6005,9 @@
       "source_file": "src/app/api/products/[id]/variants/route.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "variants_route",
-      "target": "catalog_service_upsertproductvariants"
+      "target": "catalog_service_upsertproductvariants",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6015,9 +6015,9 @@
       "source_file": "src/app/api/products/[id]/variants/route.ts",
       "source_location": "L15",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "variants_route",
-      "target": "variants_route_get"
+      "target": "variants_route_get",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6025,9 +6025,9 @@
       "source_file": "src/app/api/products/[id]/variants/route.ts",
       "source_location": "L66",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "variants_route",
-      "target": "variants_route_patch"
+      "target": "variants_route_patch",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6035,9 +6035,9 @@
       "source_file": "src/app/api/products/[id]/variants/route.ts",
       "source_location": "L32",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "variants_route",
-      "target": "variants_route_post"
+      "target": "variants_route_post",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6045,9 +6045,9 @@
       "source_file": "src/app/api/products/[id]/variants/route.ts",
       "source_location": "L11",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "variants_route",
-      "target": "variants_route_productvariantsroutecontext"
+      "target": "variants_route_productvariantsroutecontext",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6055,9 +6055,9 @@
       "source_file": "src/app/api/products/[id]/variants/route.ts",
       "source_location": "L49",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "variants_route",
-      "target": "variants_route_put"
+      "target": "variants_route_put",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -6110,9 +6110,9 @@
       "source_file": "src/app/api/products/[id]/variants/route.ts",
       "source_location": "L67",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "variants_route_patch",
-      "target": "variants_route_put"
+      "target": "variants_route_put",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -6143,9 +6143,9 @@
       "source_file": "src/app/api/products/route.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "products_route",
-      "target": "catalog_service"
+      "target": "catalog_service",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -6154,9 +6154,9 @@
       "source_file": "src/app/api/products/route.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "products_route",
-      "target": "catalog_service_createproduct"
+      "target": "catalog_service_createproduct",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -6165,9 +6165,9 @@
       "source_file": "src/app/api/products/route.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "products_route",
-      "target": "catalog_service_formatapierror"
+      "target": "catalog_service_formatapierror",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -6176,9 +6176,9 @@
       "source_file": "src/app/api/products/route.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "products_route",
-      "target": "catalog_service_listproducts"
+      "target": "catalog_service_listproducts",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6186,9 +6186,9 @@
       "source_file": "src/app/api/products/route.ts",
       "source_location": "L10",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "products_route",
-      "target": "products_route_get"
+      "target": "products_route_get",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6196,9 +6196,9 @@
       "source_file": "src/app/api/products/route.ts",
       "source_location": "L20",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "products_route",
-      "target": "products_route_post"
+      "target": "products_route_post",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -6852,9 +6852,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "lib_mongodb"
+      "target": "lib_mongodb",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6883,9 +6883,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "lib_mongodb_connectdb"
+      "target": "lib_mongodb_connectdb",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -6938,9 +6938,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L475",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_deactivatecatalogentity",
-      "target": "lib_mongodb_connectdb"
+      "target": "lib_mongodb_connectdb",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -6982,9 +6982,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L434",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_getcatalogentity",
-      "target": "lib_mongodb_connectdb"
+      "target": "lib_mongodb_connectdb",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -7004,9 +7004,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L407",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_listcatalogentities",
-      "target": "lib_mongodb_connectdb"
+      "target": "lib_mongodb_connectdb",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -7048,9 +7048,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L450",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_updatecatalogentity",
-      "target": "lib_mongodb_connectdb"
+      "target": "lib_mongodb_connectdb",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -7102,9 +7102,9 @@
       "source_file": "src/backend/modules/catalog/models.ts",
       "source_location": "L36",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_models",
-      "target": "catalog_models_brandrecord"
+      "target": "catalog_models_brandrecord",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7112,9 +7112,9 @@
       "source_file": "src/backend/modules/catalog/models.ts",
       "source_location": "L80",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_models",
-      "target": "catalog_models_brandschema"
+      "target": "catalog_models_brandschema",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7122,9 +7122,9 @@
       "source_file": "src/backend/modules/catalog/models.ts",
       "source_location": "L28",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_models",
-      "target": "catalog_models_categoryrecord"
+      "target": "catalog_models_categoryrecord",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7132,9 +7132,9 @@
       "source_file": "src/backend/modules/catalog/models.ts",
       "source_location": "L69",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_models",
-      "target": "catalog_models_categoryschema"
+      "target": "catalog_models_categoryschema",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7142,9 +7142,9 @@
       "source_file": "src/backend/modules/catalog/models.ts",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_models",
-      "target": "catalog_models_jsontransformret"
+      "target": "catalog_models_jsontransformret",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7152,9 +7152,9 @@
       "source_file": "src/backend/modules/catalog/models.ts",
       "source_location": "L56",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_models",
-      "target": "catalog_models_productattributerecord"
+      "target": "catalog_models_productattributerecord",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7162,9 +7162,9 @@
       "source_file": "src/backend/modules/catalog/models.ts",
       "source_location": "L116",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_models",
-      "target": "catalog_models_productattributeschema"
+      "target": "catalog_models_productattributeschema",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7172,9 +7172,9 @@
       "source_file": "src/backend/modules/catalog/models.ts",
       "source_location": "L44",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_models",
-      "target": "catalog_models_productrecord"
+      "target": "catalog_models_productrecord",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7182,9 +7182,9 @@
       "source_file": "src/backend/modules/catalog/models.ts",
       "source_location": "L91",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_models",
-      "target": "catalog_models_productschema"
+      "target": "catalog_models_productschema",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7192,9 +7192,9 @@
       "source_file": "src/backend/modules/catalog/models.ts",
       "source_location": "L62",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_models",
-      "target": "catalog_models_productvariantrecord"
+      "target": "catalog_models_productvariantrecord",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7202,9 +7202,9 @@
       "source_file": "src/backend/modules/catalog/models.ts",
       "source_location": "L130",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_models",
-      "target": "catalog_models_productvariantschema"
+      "target": "catalog_models_productvariantschema",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7212,9 +7212,9 @@
       "source_file": "src/backend/modules/catalog/models.ts",
       "source_location": "L18",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_models",
-      "target": "catalog_models_schemaoptions"
+      "target": "catalog_models_schemaoptions",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7222,9 +7222,9 @@
       "source_file": "src/backend/modules/catalog/models.ts",
       "source_location": "L8",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_models",
-      "target": "catalog_models_transformid"
+      "target": "catalog_models_transformid",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -7233,9 +7233,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L8",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_models"
+      "target": "catalog_models",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -7244,9 +7244,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L8",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_models_categoryrecord"
+      "target": "catalog_models_categoryrecord",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -7255,9 +7255,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L8",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_models_brandrecord"
+      "target": "catalog_models_brandrecord",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -7266,9 +7266,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L8",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_models_productrecord"
+      "target": "catalog_models_productrecord",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7276,9 +7276,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L669",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_assertactivedocument"
+      "target": "catalog_service_assertactivedocument",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7286,9 +7286,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L661",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_assertproductexists"
+      "target": "catalog_service_assertproductexists",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7296,9 +7296,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L19",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_bodyrecord"
+      "target": "catalog_service_bodyrecord",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7306,9 +7306,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L20",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_catalogentitymodel"
+      "target": "catalog_service_catalogentitymodel",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7316,9 +7316,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L386",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_createbrand"
+      "target": "catalog_service_createbrand",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7326,9 +7326,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L365",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_createcategory"
+      "target": "catalog_service_createcategory",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7336,9 +7336,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L111",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_createproduct"
+      "target": "catalog_service_createproduct",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7346,9 +7346,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L272",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_createproductvariant"
+      "target": "catalog_service_createproductvariant",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7356,9 +7356,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L399",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_deactivatebrand"
+      "target": "catalog_service_deactivatebrand",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7366,9 +7366,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L470",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_deactivatecatalogentity"
+      "target": "catalog_service_deactivatecatalogentity",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7376,9 +7376,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L378",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_deactivatecategory"
+      "target": "catalog_service_deactivatecategory",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7386,9 +7386,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L201",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_deactivateproduct"
+      "target": "catalog_service_deactivateproduct",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7396,9 +7396,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L251",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_deleteproductattributes"
+      "target": "catalog_service_deleteproductattributes",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7406,9 +7406,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L345",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_deleteproductvariant"
+      "target": "catalog_service_deleteproductvariant",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7416,9 +7416,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L836",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_escaperegex"
+      "target": "catalog_service_escaperegex",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7426,9 +7426,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L48",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_formatapierror"
+      "target": "catalog_service_formatapierror",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7436,9 +7436,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L737",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_getactivefilter"
+      "target": "catalog_service_getactivefilter",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7446,9 +7446,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L597",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_getattributenamesinput"
+      "target": "catalog_service_getattributenamesinput",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7456,9 +7456,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L564",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_getattributesinput"
+      "target": "catalog_service_getattributesinput",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7466,9 +7466,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L762",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_getbodyrecord"
+      "target": "catalog_service_getbodyrecord",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7476,9 +7476,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L391",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_getbrand"
+      "target": "catalog_service_getbrand",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7486,9 +7486,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L429",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_getcatalogentity"
+      "target": "catalog_service_getcatalogentity",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7496,9 +7496,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L542",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_getcatalogpayload"
+      "target": "catalog_service_getcatalogpayload",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7506,9 +7506,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L370",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_getcategory"
+      "target": "catalog_service_getcategory",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7516,9 +7516,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L849",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_getduplicatefield"
+      "target": "catalog_service_getduplicatefield",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7526,9 +7526,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L828",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_getobjectid"
+      "target": "catalog_service_getobjectid",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7536,9 +7536,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L780",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_getoptionalstring"
+      "target": "catalog_service_getoptionalstring",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7546,9 +7546,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L720",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_getpagination"
+      "target": "catalog_service_getpagination",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7556,9 +7556,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L162",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_getproduct"
+      "target": "catalog_service_getproduct",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7566,9 +7566,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L489",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_getproductpayload"
+      "target": "catalog_service_getproductpayload",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7576,9 +7576,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L505",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_getproductupdatepayload"
+      "target": "catalog_service_getproductupdatepayload",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7586,9 +7586,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L710",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_getrequiredreference"
+      "target": "catalog_service_getrequiredreference",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7596,9 +7596,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L770",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_getrequiredstring"
+      "target": "catalog_service_getrequiredstring",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7606,9 +7606,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L741",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_getsearchvalue"
+      "target": "catalog_service_getsearchvalue",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7616,9 +7616,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L804",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_getstringarray"
+      "target": "catalog_service_getstringarray",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7626,9 +7626,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L636",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_getvariantpayload"
+      "target": "catalog_service_getvariantpayload",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7636,9 +7636,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L613",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_getvariantsinput"
+      "target": "catalog_service_getvariantsinput",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7646,9 +7646,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L824",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_hasanykey"
+      "target": "catalog_service_hasanykey",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7656,9 +7656,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L39",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_httperror"
+      "target": "catalog_service_httperror",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7666,9 +7666,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L840",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_isduplicatekeyerror"
+      "target": "catalog_service_isduplicatekeyerror",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7676,9 +7676,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L382",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_listbrands"
+      "target": "catalog_service_listbrands",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7686,9 +7686,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L403",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_listcatalogentities"
+      "target": "catalog_service_listcatalogentities",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7696,9 +7696,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L361",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_listcategories"
+      "target": "catalog_service_listcategories",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7706,9 +7706,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L37",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_listfilter"
+      "target": "catalog_service_listfilter",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7716,9 +7716,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L218",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_listproductattributes"
+      "target": "catalog_service_listproductattributes",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7726,9 +7726,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L76",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_listproducts"
+      "target": "catalog_service_listproducts",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7736,9 +7736,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L265",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_listproductvariants"
+      "target": "catalog_service_listproductvariants",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7746,9 +7746,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L25",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_productattributeinput"
+      "target": "catalog_service_productattributeinput",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7756,9 +7756,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L22",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_productpayload"
+      "target": "catalog_service_productpayload",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7766,9 +7766,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L23",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_productupdatepayload"
+      "target": "catalog_service_productupdatepayload",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7776,9 +7776,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L30",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_productvariantinput"
+      "target": "catalog_service_productvariantinput",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7786,9 +7786,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L688",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_resolvebrandid"
+      "target": "catalog_service_resolvebrandid",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7796,9 +7796,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L692",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_resolvecatalogid"
+      "target": "catalog_service_resolvecatalogid",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7806,9 +7806,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L684",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_resolvecategoryid"
+      "target": "catalog_service_resolvecategoryid",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7816,9 +7816,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L794",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_setoptionalrequiredstring"
+      "target": "catalog_service_setoptionalrequiredstring",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7826,9 +7826,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L745",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_topaginatedresponse"
+      "target": "catalog_service_topaginatedresponse",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7836,9 +7836,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L395",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_updatebrand"
+      "target": "catalog_service_updatebrand",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7846,9 +7846,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L444",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_updatecatalogentity"
+      "target": "catalog_service_updatecatalogentity",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7856,9 +7856,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L374",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_updatecategory"
+      "target": "catalog_service_updatecategory",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7866,9 +7866,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L178",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_updateproduct"
+      "target": "catalog_service_updateproduct",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7876,9 +7876,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L315",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_updateproductvariant"
+      "target": "catalog_service_updateproductvariant",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7886,9 +7886,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L225",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_upsertproductattributes"
+      "target": "catalog_service_upsertproductattributes",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7896,9 +7896,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L283",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "catalog_service_upsertproductvariants"
+      "target": "catalog_service_upsertproductvariants",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -7907,9 +7907,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "validation_validationparams"
+      "target": "validation_validationparams",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -7918,9 +7918,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service",
-      "target": "validation_validationparams_validationpaginationparams"
+      "target": "validation_validationparams_validationpaginationparams",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -7928,9 +7928,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L42",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_httperror",
-      "target": "catalog_service_httperror_constructor"
+      "target": "catalog_service_httperror_constructor",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -7939,9 +7939,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L56",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_formatapierror",
-      "target": "catalog_service_getduplicatefield"
+      "target": "catalog_service_getduplicatefield",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -7950,9 +7950,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L53",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_formatapierror",
-      "target": "catalog_service_isduplicatekeyerror"
+      "target": "catalog_service_isduplicatekeyerror",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -7961,9 +7961,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L86",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_listproducts",
-      "target": "catalog_service_escaperegex"
+      "target": "catalog_service_escaperegex",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -7972,9 +7972,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L80",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_listproducts",
-      "target": "catalog_service_getactivefilter"
+      "target": "catalog_service_getactivefilter",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -7983,9 +7983,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L79",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_listproducts",
-      "target": "catalog_service_getpagination"
+      "target": "catalog_service_getpagination",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -7994,9 +7994,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L81",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_listproducts",
-      "target": "catalog_service_getsearchvalue"
+      "target": "catalog_service_getsearchvalue",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8005,9 +8005,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L95",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_listproducts",
-      "target": "catalog_service_resolvebrandid"
+      "target": "catalog_service_resolvebrandid",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8016,9 +8016,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L91",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_listproducts",
-      "target": "catalog_service_resolvecategoryid"
+      "target": "catalog_service_resolvecategoryid",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8027,9 +8027,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L108",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_listproducts",
-      "target": "catalog_service_topaginatedresponse"
+      "target": "catalog_service_topaginatedresponse",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8038,9 +8038,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L115",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_createproduct",
-      "target": "catalog_service_getattributesinput"
+      "target": "catalog_service_getattributesinput",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8049,9 +8049,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L113",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_createproduct",
-      "target": "catalog_service_getbodyrecord"
+      "target": "catalog_service_getbodyrecord",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8060,9 +8060,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L159",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_createproduct",
-      "target": "catalog_service_getproduct"
+      "target": "catalog_service_getproduct",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8071,9 +8071,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L114",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_createproduct",
-      "target": "catalog_service_getproductpayload"
+      "target": "catalog_service_getproductpayload",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8082,9 +8082,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L116",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_createproduct",
-      "target": "catalog_service_getvariantsinput"
+      "target": "catalog_service_getvariantsinput",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8093,9 +8093,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L164",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_getproduct",
-      "target": "catalog_service_getobjectid"
+      "target": "catalog_service_getobjectid",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8104,9 +8104,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L181",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_updateproduct",
-      "target": "catalog_service_getbodyrecord"
+      "target": "catalog_service_getbodyrecord",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8115,9 +8115,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L180",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_updateproduct",
-      "target": "catalog_service_getobjectid"
+      "target": "catalog_service_getobjectid",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8126,9 +8126,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L181",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_updateproduct",
-      "target": "catalog_service_getproductupdatepayload"
+      "target": "catalog_service_getproductupdatepayload",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8137,9 +8137,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L204",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_deactivateproduct",
-      "target": "catalog_service_getobjectid"
+      "target": "catalog_service_getobjectid",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8148,9 +8148,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L221",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_listproductattributes",
-      "target": "catalog_service_assertproductexists"
+      "target": "catalog_service_assertproductexists",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8159,9 +8159,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L220",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_listproductattributes",
-      "target": "catalog_service_getobjectid"
+      "target": "catalog_service_getobjectid",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8170,9 +8170,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L228",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_upsertproductattributes",
-      "target": "catalog_service_assertproductexists"
+      "target": "catalog_service_assertproductexists",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8181,9 +8181,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L229",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_upsertproductattributes",
-      "target": "catalog_service_getattributesinput"
+      "target": "catalog_service_getattributesinput",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8192,9 +8192,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L227",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_upsertproductattributes",
-      "target": "catalog_service_getobjectid"
+      "target": "catalog_service_getobjectid",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8203,9 +8203,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L254",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_deleteproductattributes",
-      "target": "catalog_service_assertproductexists"
+      "target": "catalog_service_assertproductexists",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8214,9 +8214,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L255",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_deleteproductattributes",
-      "target": "catalog_service_getattributenamesinput"
+      "target": "catalog_service_getattributenamesinput",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8225,9 +8225,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L253",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_deleteproductattributes",
-      "target": "catalog_service_getobjectid"
+      "target": "catalog_service_getobjectid",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8236,9 +8236,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L268",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_listproductvariants",
-      "target": "catalog_service_assertproductexists"
+      "target": "catalog_service_assertproductexists",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8247,9 +8247,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L267",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_listproductvariants",
-      "target": "catalog_service_getobjectid"
+      "target": "catalog_service_getobjectid",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8258,9 +8258,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L275",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_createproductvariant",
-      "target": "catalog_service_assertproductexists"
+      "target": "catalog_service_assertproductexists",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8269,9 +8269,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L276",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_createproductvariant",
-      "target": "catalog_service_getbodyrecord"
+      "target": "catalog_service_getbodyrecord",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8280,9 +8280,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L274",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_createproductvariant",
-      "target": "catalog_service_getobjectid"
+      "target": "catalog_service_getobjectid",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8291,9 +8291,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L276",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_createproductvariant",
-      "target": "catalog_service_getvariantpayload"
+      "target": "catalog_service_getvariantpayload",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8302,9 +8302,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L286",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_upsertproductvariants",
-      "target": "catalog_service_assertproductexists"
+      "target": "catalog_service_assertproductexists",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8313,9 +8313,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L285",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_upsertproductvariants",
-      "target": "catalog_service_getobjectid"
+      "target": "catalog_service_getobjectid",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8324,9 +8324,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L287",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_upsertproductvariants",
-      "target": "catalog_service_getvariantsinput"
+      "target": "catalog_service_getvariantsinput",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8335,9 +8335,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L322",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_updateproductvariant",
-      "target": "catalog_service_assertproductexists"
+      "target": "catalog_service_assertproductexists",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8346,9 +8346,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L323",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_updateproductvariant",
-      "target": "catalog_service_getbodyrecord"
+      "target": "catalog_service_getbodyrecord",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8357,9 +8357,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L321",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_updateproductvariant",
-      "target": "catalog_service_getobjectid"
+      "target": "catalog_service_getobjectid",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8368,9 +8368,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L323",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_updateproductvariant",
-      "target": "catalog_service_getvariantpayload"
+      "target": "catalog_service_getvariantpayload",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8379,9 +8379,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L348",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_deleteproductvariant",
-      "target": "catalog_service_assertproductexists"
+      "target": "catalog_service_assertproductexists",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8390,9 +8390,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L347",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_deleteproductvariant",
-      "target": "catalog_service_getobjectid"
+      "target": "catalog_service_getobjectid",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8401,9 +8401,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L362",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_listcategories",
-      "target": "catalog_service_listcatalogentities"
+      "target": "catalog_service_listcatalogentities",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8412,9 +8412,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L367",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_createcategory",
-      "target": "catalog_service_getbodyrecord"
+      "target": "catalog_service_getbodyrecord",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8423,9 +8423,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L367",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_createcategory",
-      "target": "catalog_service_getcatalogpayload"
+      "target": "catalog_service_getcatalogpayload",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8434,9 +8434,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L371",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_getcategory",
-      "target": "catalog_service_getcatalogentity"
+      "target": "catalog_service_getcatalogentity",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8445,9 +8445,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L375",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_updatecategory",
-      "target": "catalog_service_updatecatalogentity"
+      "target": "catalog_service_updatecatalogentity",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8456,9 +8456,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L379",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_deactivatecategory",
-      "target": "catalog_service_deactivatecatalogentity"
+      "target": "catalog_service_deactivatecatalogentity",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8467,9 +8467,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L383",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_listbrands",
-      "target": "catalog_service_listcatalogentities"
+      "target": "catalog_service_listcatalogentities",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8478,9 +8478,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L388",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_createbrand",
-      "target": "catalog_service_getbodyrecord"
+      "target": "catalog_service_getbodyrecord",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8489,9 +8489,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L388",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_createbrand",
-      "target": "catalog_service_getcatalogpayload"
+      "target": "catalog_service_getcatalogpayload",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8500,9 +8500,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L392",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_getbrand",
-      "target": "catalog_service_getcatalogentity"
+      "target": "catalog_service_getcatalogentity",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8511,9 +8511,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L396",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_updatebrand",
-      "target": "catalog_service_updatecatalogentity"
+      "target": "catalog_service_updatecatalogentity",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8522,9 +8522,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L400",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_deactivatebrand",
-      "target": "catalog_service_deactivatecatalogentity"
+      "target": "catalog_service_deactivatecatalogentity",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8533,9 +8533,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L413",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_listcatalogentities",
-      "target": "catalog_service_escaperegex"
+      "target": "catalog_service_escaperegex",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8544,9 +8544,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L409",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_listcatalogentities",
-      "target": "catalog_service_getactivefilter"
+      "target": "catalog_service_getactivefilter",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8555,9 +8555,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L408",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_listcatalogentities",
-      "target": "catalog_service_getpagination"
+      "target": "catalog_service_getpagination",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8566,9 +8566,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L410",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_listcatalogentities",
-      "target": "catalog_service_getsearchvalue"
+      "target": "catalog_service_getsearchvalue",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8577,9 +8577,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L426",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_listcatalogentities",
-      "target": "catalog_service_topaginatedresponse"
+      "target": "catalog_service_topaginatedresponse",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8588,9 +8588,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L435",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_getcatalogentity",
-      "target": "catalog_service_getobjectid"
+      "target": "catalog_service_getobjectid",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8599,9 +8599,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L451",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_updatecatalogentity",
-      "target": "catalog_service_getbodyrecord"
+      "target": "catalog_service_getbodyrecord",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8610,9 +8610,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L451",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_updatecatalogentity",
-      "target": "catalog_service_getcatalogpayload"
+      "target": "catalog_service_getcatalogpayload",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8621,9 +8621,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L458",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_updatecatalogentity",
-      "target": "catalog_service_getobjectid"
+      "target": "catalog_service_getobjectid",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8632,9 +8632,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L477",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_deactivatecatalogentity",
-      "target": "catalog_service_getobjectid"
+      "target": "catalog_service_getobjectid",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8643,9 +8643,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L500",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_getproductpayload",
-      "target": "catalog_service_getoptionalstring"
+      "target": "catalog_service_getoptionalstring",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8654,9 +8654,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L490",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_getproductpayload",
-      "target": "catalog_service_getrequiredreference"
+      "target": "catalog_service_getrequiredreference",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8665,9 +8665,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L494",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_getproductpayload",
-      "target": "catalog_service_getrequiredstring"
+      "target": "catalog_service_getrequiredstring",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8676,9 +8676,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L499",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_getproductpayload",
-      "target": "catalog_service_getstringarray"
+      "target": "catalog_service_getstringarray",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8687,9 +8687,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L491",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_getproductpayload",
-      "target": "catalog_service_resolvebrandid"
+      "target": "catalog_service_resolvebrandid",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8698,9 +8698,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L490",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_getproductpayload",
-      "target": "catalog_service_resolvecategoryid"
+      "target": "catalog_service_resolvecategoryid",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8709,9 +8709,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L527",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_getproductupdatepayload",
-      "target": "catalog_service_getoptionalstring"
+      "target": "catalog_service_getoptionalstring",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8720,9 +8720,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L515",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_getproductupdatepayload",
-      "target": "catalog_service_getrequiredreference"
+      "target": "catalog_service_getrequiredreference",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8731,9 +8731,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L523",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_getproductupdatepayload",
-      "target": "catalog_service_getstringarray"
+      "target": "catalog_service_getstringarray",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8742,9 +8742,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L514",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_getproductupdatepayload",
-      "target": "catalog_service_hasanykey"
+      "target": "catalog_service_hasanykey",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8753,9 +8753,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L519",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_getproductupdatepayload",
-      "target": "catalog_service_resolvebrandid"
+      "target": "catalog_service_resolvebrandid",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8764,9 +8764,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L515",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_getproductupdatepayload",
-      "target": "catalog_service_resolvecategoryid"
+      "target": "catalog_service_resolvecategoryid",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8775,9 +8775,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L510",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_getproductupdatepayload",
-      "target": "catalog_service_setoptionalrequiredstring"
+      "target": "catalog_service_setoptionalrequiredstring",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8786,9 +8786,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L547",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_getcatalogpayload",
-      "target": "catalog_service_getoptionalstring"
+      "target": "catalog_service_getoptionalstring",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8797,9 +8797,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L545",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_getcatalogpayload",
-      "target": "catalog_service_getrequiredstring"
+      "target": "catalog_service_getrequiredstring",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8808,9 +8808,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L553",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_getcatalogpayload",
-      "target": "catalog_service_setoptionalrequiredstring"
+      "target": "catalog_service_setoptionalrequiredstring",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8819,9 +8819,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L565",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_getattributesinput",
-      "target": "catalog_service_getbodyrecord"
+      "target": "catalog_service_getbodyrecord",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8830,9 +8830,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L579",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_getattributesinput",
-      "target": "catalog_service_getrequiredstring"
+      "target": "catalog_service_getrequiredstring",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8841,9 +8841,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L598",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_getattributenamesinput",
-      "target": "catalog_service_getbodyrecord"
+      "target": "catalog_service_getbodyrecord",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8852,9 +8852,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L617",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_getvariantsinput",
-      "target": "catalog_service_getbodyrecord"
+      "target": "catalog_service_getbodyrecord",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8863,9 +8863,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L651",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_getvariantpayload",
-      "target": "catalog_service_getoptionalstring"
+      "target": "catalog_service_getoptionalstring",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8874,9 +8874,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L643",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_getvariantpayload",
-      "target": "catalog_service_getrequiredstring"
+      "target": "catalog_service_getrequiredstring",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8885,9 +8885,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L647",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_getvariantpayload",
-      "target": "catalog_service_getstringarray"
+      "target": "catalog_service_getstringarray",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8896,9 +8896,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L685",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_resolvecategoryid",
-      "target": "catalog_service_resolvecatalogid"
+      "target": "catalog_service_resolvecatalogid",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8907,9 +8907,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L689",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_resolvebrandid",
-      "target": "catalog_service_resolvecatalogid"
+      "target": "catalog_service_resolvecatalogid",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8918,9 +8918,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L728",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_getpagination",
-      "target": "validation_validationparams_validationpaginationparams"
+      "target": "validation_validationparams_validationpaginationparams",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8929,9 +8929,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L800",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_setoptionalrequiredstring",
-      "target": "catalog_service_getrequiredstring"
+      "target": "catalog_service_getrequiredstring",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8940,9 +8940,9 @@
       "source_file": "src/backend/modules/catalog/service.ts",
       "source_location": "L850",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "catalog_service_getduplicatefield",
-      "target": "catalog_service_isduplicatekeyerror"
+      "target": "catalog_service_isduplicatekeyerror",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10024,9 +10024,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill",
-      "target": "graphify_skill_graphify"
+      "target": "graphify_skill_graphify",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10034,9 +10034,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L605",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_for_graphify_add_and_watch"
+      "target": "graphify_skill_for_graphify_add_and_watch",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10044,9 +10044,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L593",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_for_graphify_query"
+      "target": "graphify_skill_for_graphify_query",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10054,9 +10054,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L611",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_for_the_commit_hook_and_native_claude_md_integration"
+      "target": "graphify_skill_for_the_commit_hook_and_native_claude_md_integration",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10064,9 +10064,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L587",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_for_update_and_cluster_only"
+      "target": "graphify_skill_for_update_and_cluster_only",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10074,9 +10074,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L617",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_honesty_rules"
+      "target": "graphify_skill_honesty_rules",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10084,9 +10084,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L569",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_interpreter_guard_for_subcommands"
+      "target": "graphify_skill_interpreter_guard_for_subcommands",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10094,9 +10094,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L10",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_usage"
+      "target": "graphify_skill_usage",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10104,9 +10104,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L43",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_what_graphify_is_for"
+      "target": "graphify_skill_what_graphify_is_for",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10114,9 +10114,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L47",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_what_you_must_do_when_invoked"
+      "target": "graphify_skill_what_you_must_do_when_invoked",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10124,9 +10124,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L59",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_0_github_repos_and_multi_path_merge_only_if_a_url_or_several_paths"
+      "target": "graphify_skill_step_0_github_repos_and_multi_path_merge_only_if_a_url_or_several_paths",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10134,9 +10134,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L63",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_1_ensure_graphify_is_installed"
+      "target": "graphify_skill_step_1_ensure_graphify_is_installed",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10144,9 +10144,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L143",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_2_5_video_and_audio_only_if_video_files_detected"
+      "target": "graphify_skill_step_2_5_video_and_audio_only_if_video_files_detected",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10154,9 +10154,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L105",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_2_detect_files"
+      "target": "graphify_skill_step_2_detect_files",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10164,9 +10164,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L147",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_3_extract_entities_and_relationships"
+      "target": "graphify_skill_step_3_extract_entities_and_relationships",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10174,9 +10174,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L374",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_4_build_graph_cluster_analyze_generate_outputs"
+      "target": "graphify_skill_step_4_build_graph_cluster_analyze_generate_outputs",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10184,9 +10184,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L426",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_5_label_communities"
+      "target": "graphify_skill_step_5_label_communities",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10194,9 +10194,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L466",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_6_generate_obsidian_vault_opt_in_html"
+      "target": "graphify_skill_step_6_generate_obsidian_vault_opt_in_html",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10204,9 +10204,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L492",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_9_save_manifest_update_cost_tracker_clean_up_and_report"
+      "target": "graphify_skill_step_9_save_manifest_update_cost_tracker_clean_up_and_report",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10214,9 +10214,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L486",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_steps_6b_8_wiki_neo4j_svg_graphml_mcp_benchmark_only_on_their_flags"
+      "target": "graphify_skill_steps_6b_8_wiki_neo4j_svg_graphml_mcp_benchmark_only_on_their_flags",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10224,9 +10224,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L165",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_step_3_extract_entities_and_relationships",
-      "target": "graphify_skill_part_a_structural_extraction_for_code_files"
+      "target": "graphify_skill_part_a_structural_extraction_for_code_files",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10234,9 +10234,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L191",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_step_3_extract_entities_and_relationships",
-      "target": "graphify_skill_part_b_semantic_extraction_parallel_subagents"
+      "target": "graphify_skill_part_b_semantic_extraction_parallel_subagents",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10244,9 +10244,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L340",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_step_3_extract_entities_and_relationships",
-      "target": "graphify_skill_part_c_merge_ast_semantic_into_final_extraction"
+      "target": "graphify_skill_part_c_merge_ast_semantic_into_final_extraction",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10254,9 +10254,9 @@
       "source_file": ".codex/skills/graphify/references/add-watch.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "references_add_watch",
-      "target": "references_add_watch_graphify_reference_add_a_url_and_watch_a_folder"
+      "target": "references_add_watch_graphify_reference_add_a_url_and_watch_a_folder",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10264,9 +10264,9 @@
       "source_file": ".codex/skills/graphify/references/add-watch.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "references_add_watch_graphify_reference_add_a_url_and_watch_a_folder",
-      "target": "references_add_watch_for_graphify_add"
+      "target": "references_add_watch_for_graphify_add",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10274,9 +10274,9 @@
       "source_file": ".codex/skills/graphify/references/add-watch.md",
       "source_location": "L39",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "references_add_watch_graphify_reference_add_a_url_and_watch_a_folder",
-      "target": "references_add_watch_for_watch"
+      "target": "references_add_watch_for_watch",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10284,9 +10284,9 @@
       "source_file": ".codex/skills/graphify/references/exports.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "references_exports",
-      "target": "references_exports_graphify_reference_extra_exports_and_benchmark"
+      "target": "references_exports_graphify_reference_extra_exports_and_benchmark",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10294,9 +10294,9 @@
       "source_file": ".codex/skills/graphify/references/exports.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "references_exports_graphify_reference_extra_exports_and_benchmark",
-      "target": "references_exports_step_6b_wiki_only_if_wiki_flag"
+      "target": "references_exports_step_6b_wiki_only_if_wiki_flag",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10304,9 +10304,9 @@
       "source_file": ".codex/skills/graphify/references/exports.md",
       "source_location": "L15",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "references_exports_graphify_reference_extra_exports_and_benchmark",
-      "target": "references_exports_step_7_neo4j_export_only_if_neo4j_or_neo4j_push_flag"
+      "target": "references_exports_step_7_neo4j_export_only_if_neo4j_or_neo4j_push_flag",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10314,9 +10314,9 @@
       "source_file": ".codex/skills/graphify/references/exports.md",
       "source_location": "L31",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "references_exports_graphify_reference_extra_exports_and_benchmark",
-      "target": "references_exports_step_7b_svg_export_only_if_svg_flag"
+      "target": "references_exports_step_7b_svg_export_only_if_svg_flag",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10324,9 +10324,9 @@
       "source_file": ".codex/skills/graphify/references/exports.md",
       "source_location": "L37",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "references_exports_graphify_reference_extra_exports_and_benchmark",
-      "target": "references_exports_step_7c_graphml_export_only_if_graphml_flag"
+      "target": "references_exports_step_7c_graphml_export_only_if_graphml_flag",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10334,9 +10334,9 @@
       "source_file": ".codex/skills/graphify/references/exports.md",
       "source_location": "L43",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "references_exports_graphify_reference_extra_exports_and_benchmark",
-      "target": "references_exports_step_7d_mcp_server_only_if_mcp_flag"
+      "target": "references_exports_step_7d_mcp_server_only_if_mcp_flag",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10344,9 +10344,9 @@
       "source_file": ".codex/skills/graphify/references/exports.md",
       "source_location": "L63",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "references_exports_graphify_reference_extra_exports_and_benchmark",
-      "target": "references_exports_step_8_token_reduction_benchmark_only_if_total_words_5000"
+      "target": "references_exports_step_8_token_reduction_benchmark_only_if_total_words_5000",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10354,9 +10354,9 @@
       "source_file": ".codex/skills/graphify/references/extraction-spec.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "references_extraction_spec",
-      "target": "references_extraction_spec_graphify_reference_extraction_subagent_prompt_compact"
+      "target": "references_extraction_spec_graphify_reference_extraction_subagent_prompt_compact",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10364,9 +10364,9 @@
       "source_file": ".codex/skills/graphify/references/github-and-merge.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "references_github_and_merge",
-      "target": "references_github_and_merge_graphify_reference_github_clone_and_cross_repo_merge"
+      "target": "references_github_and_merge_graphify_reference_github_clone_and_cross_repo_merge",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10374,9 +10374,9 @@
       "source_file": ".codex/skills/graphify/references/github-and-merge.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "references_github_and_merge_graphify_reference_github_clone_and_cross_repo_merge",
-      "target": "references_github_and_merge_step_0_clone_github_repo_s_only_if_a_github_url_was_given"
+      "target": "references_github_and_merge_step_0_clone_github_repo_s_only_if_a_github_url_was_given",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10384,9 +10384,9 @@
       "source_file": ".codex/skills/graphify/references/hooks.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "references_hooks",
-      "target": "references_hooks_graphify_reference_commit_hook_and_native_claude_md_integration"
+      "target": "references_hooks_graphify_reference_commit_hook_and_native_claude_md_integration",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10394,9 +10394,9 @@
       "source_file": ".codex/skills/graphify/references/hooks.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "references_hooks_graphify_reference_commit_hook_and_native_claude_md_integration",
-      "target": "references_hooks_for_git_commit_hook"
+      "target": "references_hooks_for_git_commit_hook",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10404,9 +10404,9 @@
       "source_file": ".codex/skills/graphify/references/hooks.md",
       "source_location": "L21",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "references_hooks_graphify_reference_commit_hook_and_native_claude_md_integration",
-      "target": "references_hooks_for_native_claude_md_integration"
+      "target": "references_hooks_for_native_claude_md_integration",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10414,9 +10414,9 @@
       "source_file": ".codex/skills/graphify/references/query.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "references_query",
-      "target": "references_query_graphify_reference_query_path_explain"
+      "target": "references_query_graphify_reference_query_path_explain",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10424,9 +10424,9 @@
       "source_file": ".codex/skills/graphify/references/query.md",
       "source_location": "L198",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "references_query_graphify_reference_query_path_explain",
-      "target": "references_query_for_graphify_explain"
+      "target": "references_query_for_graphify_explain",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10434,9 +10434,9 @@
       "source_file": ".codex/skills/graphify/references/query.md",
       "source_location": "L136",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "references_query_graphify_reference_query_path_explain",
-      "target": "references_query_for_graphify_path"
+      "target": "references_query_for_graphify_path",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10444,9 +10444,9 @@
       "source_file": ".codex/skills/graphify/references/transcribe.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "references_transcribe",
-      "target": "references_transcribe_graphify_reference_transcribe_video_and_audio"
+      "target": "references_transcribe_graphify_reference_transcribe_video_and_audio",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10454,9 +10454,9 @@
       "source_file": ".codex/skills/graphify/references/transcribe.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "references_transcribe_graphify_reference_transcribe_video_and_audio",
-      "target": "references_transcribe_step_2_5_transcribe_video_audio_files_only_if_video_files_detected"
+      "target": "references_transcribe_step_2_5_transcribe_video_audio_files_only_if_video_files_detected",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10464,9 +10464,9 @@
       "source_file": ".codex/skills/graphify/references/update.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "references_update",
-      "target": "references_update_graphify_reference_incremental_update_and_cluster_only"
+      "target": "references_update_graphify_reference_incremental_update_and_cluster_only",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10474,9 +10474,9 @@
       "source_file": ".codex/skills/graphify/references/update.md",
       "source_location": "L171",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "references_update_graphify_reference_incremental_update_and_cluster_only",
-      "target": "references_update_for_cluster_only"
+      "target": "references_update_for_cluster_only",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10484,9 +10484,9 @@
       "source_file": ".codex/skills/graphify/references/update.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "references_update_graphify_reference_incremental_update_and_cluster_only",
-      "target": "references_update_for_update_incremental_re_extraction"
+      "target": "references_update_for_update_incremental_re_extraction",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10494,9 +10494,9 @@
       "source_file": "AGENTS.md",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "agents",
-      "target": "agents_this_is_not_the_next_js_you_know"
+      "target": "agents_this_is_not_the_next_js_you_know",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10504,9 +10504,9 @@
       "source_file": "AGENTS.md",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "agents_this_is_not_the_next_js_you_know",
-      "target": "agents_graphify"
+      "target": "agents_graphify",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10514,9 +10514,9 @@
       "source_file": "README.md",
       "source_location": "L32",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "readme",
-      "target": "readme_deploy_on_vercel"
+      "target": "readme_deploy_on_vercel",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10524,9 +10524,9 @@
       "source_file": "README.md",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "readme",
-      "target": "readme_getting_started"
+      "target": "readme_getting_started",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10534,9 +10534,9 @@
       "source_file": "README.md",
       "source_location": "L23",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "readme",
-      "target": "readme_learn_more"
+      "target": "readme_learn_more",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",

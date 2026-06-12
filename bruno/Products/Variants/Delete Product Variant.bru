@@ -1,0 +1,15 @@
+meta {
+  name: Delete Product Variant
+  type: http
+  seq: 7
+}
+
+delete {
+  url: {{baseUrl}}/api/products/{{productId}}/variants/{{variantId}}
+  body: none
+  auth: none
+}
+
+docs {
+  Deletes one product variant from a product.
+}

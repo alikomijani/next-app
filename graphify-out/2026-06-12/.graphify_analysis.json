@@ -1,0 +1,432 @@
+{
+  "communities": {
+    "0": [
+      "controller_newusercontroller",
+      "controller_user_controller",
+      "controller_user_controller_createuserdto",
+      "controller_user_controller_hasherinterface",
+      "controller_user_controller_publicuser",
+      "controller_user_controller_refreshtokendto",
+      "controller_user_controller_updateuserdto",
+      "controller_user_controller_updateuserpassworddto",
+      "controller_user_controller_user",
+      "controller_user_controller_usermodelinterface",
+      "lib_bycript",
+      "lib_bycript_bcrypt",
+      "lib_bycript_bcrypt_compare",
+      "lib_bycript_bcrypt_hash",
+      "model_modelfactory",
+      "model_modelfactory_modelfactories",
+      "model_modelfactory_modelfactory",
+      "model_modelfactory_modeltype",
+      "model_user_model_mock",
+      "model_user_model_mock_usermodelmock",
+      "model_user_model_mock_usermodelmock_createuser",
+      "model_user_model_mock_usermodelmock_getuserbyemail",
+      "model_user_model_mock_usermodelmock_getuserbyid",
+      "model_user_model_mock_usermodelmock_updateuser",
+      "model_user_model_mock_users",
+      "model_user_model_mongo",
+      "model_user_model_mongo_autoincrement",
+      "model_user_model_mongo_autoincrementfactory",
+      "model_user_model_mongo_autoincrementplugin",
+      "model_user_model_mongo_usermodelmongo",
+      "model_user_model_mongo_usermodelmongo_createuser",
+      "model_user_model_mongo_usermodelmongo_getuserbyemail",
+      "model_user_model_mongo_usermodelmongo_getuserbyid",
+      "model_user_model_mongo_usermodelmongo_updateuser",
+      "model_user_model_mongo_userschema"
+    ],
+    "1": [
+      "controller_newusercontroller_newusercontroller",
+      "lib_jwt",
+      "lib_jwt_getaccesstoken",
+      "lib_jwt_getbearertoken",
+      "lib_jwt_isjwtpayload",
+      "lib_jwt_jwtpayload",
+      "lib_jwt_verifytoken",
+      "login_route",
+      "login_route_post",
+      "password_route",
+      "password_route_geterrorstatus",
+      "password_route_getstringvalue",
+      "password_route_patch",
+      "password_route_put",
+      "password_route_readbody",
+      "password_route_updatepassword",
+      "password_route_updatepasswordbody",
+      "profile_route",
+      "profile_route_get",
+      "refresh_token_route",
+      "refresh_token_route_getstringvalue",
+      "refresh_token_route_post",
+      "refresh_token_route_readbody",
+      "refresh_token_route_refreshtokenbody",
+      "register_route",
+      "register_route_post"
+    ],
+    "2": [
+      "package",
+      "package_devdependencies",
+      "package_devdependencies_babel_plugin_react_compiler",
+      "package_devdependencies_eslint",
+      "package_devdependencies_eslint_config_next",
+      "package_devdependencies_jest",
+      "package_devdependencies_tailwindcss",
+      "package_devdependencies_tailwindcss_postcss",
+      "package_devdependencies_ts_jest",
+      "package_devdependencies_types_bcrypt",
+      "package_devdependencies_types_jest",
+      "package_devdependencies_types_jsonwebtoken",
+      "package_devdependencies_types_mongoose_sequence",
+      "package_devdependencies_types_node",
+      "package_devdependencies_types_react",
+      "package_devdependencies_types_react_dom",
+      "package_devdependencies_typescript",
+      "package_name",
+      "package_private",
+      "package_scripts",
+      "package_scripts_build",
+      "package_scripts_dev",
+      "package_scripts_lint",
+      "package_scripts_start",
+      "package_scripts_test",
+      "package_version"
+    ],
+    "3": [
+      "tsconfig",
+      "tsconfig_compileroptions",
+      "tsconfig_compileroptions_allowjs",
+      "tsconfig_compileroptions_esmoduleinterop",
+      "tsconfig_compileroptions_incremental",
+      "tsconfig_compileroptions_isolatedmodules",
+      "tsconfig_compileroptions_jsx",
+      "tsconfig_compileroptions_lib",
+      "tsconfig_compileroptions_module",
+      "tsconfig_compileroptions_moduleresolution",
+      "tsconfig_compileroptions_noemit",
+      "tsconfig_compileroptions_paths",
+      "tsconfig_compileroptions_plugins",
+      "tsconfig_compileroptions_resolvejsonmodule",
+      "tsconfig_compileroptions_skiplibcheck",
+      "tsconfig_compileroptions_strict",
+      "tsconfig_compileroptions_target",
+      "tsconfig_exclude",
+      "tsconfig_include",
+      "tsconfig_paths"
+    ],
+    "4": [
+      "package_dependencies",
+      "package_dependencies_bcrypt",
+      "package_dependencies_emotion_react",
+      "package_dependencies_emotion_styled",
+      "package_dependencies_jsonwebtoken",
+      "package_dependencies_mongoose",
+      "package_dependencies_mongoose_sequence",
+      "package_dependencies_mui_material",
+      "package_dependencies_mui_material_nextjs",
+      "package_dependencies_mui_stylis_plugin_rtl",
+      "package_dependencies_next",
+      "package_dependencies_react",
+      "package_dependencies_react_dom",
+      "package_dependencies_react_hook_form",
+      "package_dependencies_v16_approuter"
+    ],
+    "5": [
+      "controller_user_controller_topublicuser",
+      "controller_user_controller_usercontroller",
+      "controller_user_controller_usercontroller_constructor",
+      "controller_user_controller_usercontroller_getuserprofile",
+      "controller_user_controller_usercontroller_login",
+      "controller_user_controller_usercontroller_refreshtoken",
+      "controller_user_controller_usercontroller_register",
+      "controller_user_controller_usercontroller_updatepassword",
+      "controller_user_controller_usercontroller_updateuser",
+      "controller_user_controller_usercontroller_updateuserpassword",
+      "lib_jwt_createaccesstoken",
+      "lib_jwt_createrefreshtoken"
+    ],
+    "6": [
+      "app_layout",
+      "app_layout_metadata",
+      "app_layout_rootlayout",
+      "theme_theme",
+      "theme_theme_theme",
+      "theme_themeprovider",
+      "theme_themeprovider_muithemeregistry"
+    ],
+    "7": [
+      "slug_api",
+      "slug_api_getcomments",
+      "slug_commentssectionserver",
+      "slug_commentssectionserver_comment",
+      "slug_commentssectionserver_commentssection",
+      "slug_page",
+      "slug_page_page"
+    ],
+    "8": [
+      "graphify_out_graph_json",
+      "networkx_python",
+      "pathlib_python",
+      "query_md_explain",
+      "query_md_path",
+      "query_md_query"
+    ],
+    "9": [
+      "login_loginform",
+      "login_loginform_loginform",
+      "login_loginform_loginformdata",
+      "login_page",
+      "login_page_page"
+    ],
+    "10": [
+      "register_page",
+      "register_page_page",
+      "register_registerform",
+      "register_registerform_registerform",
+      "register_registerform_registerformdata"
+    ],
+    "11": [
+      "docker_compose_yaml_mongo_service",
+      "pnpm_workspace_yaml_ignored_dependencies",
+      "readme_md_nextjs_project"
+    ],
+    "12": [
+      "graphify_add_url",
+      "graphify_exports",
+      "graphify_extraction_spec"
+    ],
+    "13": [
+      "lib_mongodb",
+      "lib_mongodb_connectdb",
+      "lib_mongodb_mongoosecache"
+    ],
+    "14": [
+      "slug_commentssectionclient",
+      "slug_commentssectionclient_comment",
+      "slug_commentssectionclient_commentssectionclient"
+    ],
+    "15": [
+      "agents_md_graphify",
+      "claudio_md_agents_md"
+    ],
+    "16": [
+      "app_page",
+      "app_page_home"
+    ],
+    "17": [
+      "eslint_config",
+      "eslint_config_eslintconfig"
+    ],
+    "18": [
+      "next_config",
+      "next_config_nextconfig"
+    ],
+    "19": [
+      "postcss_config",
+      "postcss_config_config"
+    ],
+    "20": [
+      "posts_page",
+      "posts_page_page"
+    ],
+    "21": [
+      "transcribe_md_transcribe_video_audio_files",
+      "update_md_update_and_cluster_only"
+    ],
+    "22": [
+      "validation_validationparams",
+      "validation_validationparams_validationpaginationparams"
+    ],
+    "23": [
+      "claude_install"
+    ],
+    "24": [
+      "claude_uninstall"
+    ],
+    "25": [
+      "github_and_merge_clone"
+    ],
+    "26": [
+      "github_and_merge_merge_graphs"
+    ],
+    "27": [
+      "hooks_install"
+    ],
+    "28": [
+      "hooks_status"
+    ],
+    "29": [
+      "hooks_uninstall"
+    ],
+    "30": [
+      "jest_config"
+    ],
+    "31": [
+      "public_file_svg"
+    ],
+    "32": [
+      "public_globe_svg"
+    ],
+    "33": [
+      "public_next_svg"
+    ],
+    "34": [
+      "public_vercel_svg"
+    ],
+    "35": [
+      "public_window_svg"
+    ]
+  },
+  "cohesion": {
+    "0": 0.11260504201680673,
+    "1": 0.14461538461538462,
+    "2": 0.07692307692307693,
+    "3": 0.1,
+    "4": 0.13333333333333333,
+    "5": 0.30303030303030304,
+    "6": 0.38095238095238093,
+    "7": 0.47619047619047616,
+    "8": 0.6,
+    "9": 0.5,
+    "10": 0.5,
+    "11": 0.6666666666666666,
+    "12": 0.6666666666666666,
+    "13": 0.6666666666666666,
+    "14": 0.6666666666666666,
+    "15": 1.0,
+    "16": 1.0,
+    "17": 1.0,
+    "18": 1.0,
+    "19": 1.0,
+    "20": 1.0,
+    "21": 1.0,
+    "22": 1.0,
+    "23": 1.0,
+    "24": 1.0,
+    "25": 1.0,
+    "26": 1.0,
+    "27": 1.0,
+    "28": 1.0,
+    "29": 1.0,
+    "30": 1.0,
+    "31": 1.0,
+    "32": 1.0,
+    "33": 1.0,
+    "34": 1.0,
+    "35": 1.0
+  },
+  "gods": [
+    {
+      "id": "tsconfig_compileroptions",
+      "label": "compilerOptions",
+      "degree": 16
+    },
+    {
+      "id": "controller_newusercontroller_newusercontroller",
+      "label": "newUserController()",
+      "degree": 11
+    },
+    {
+      "id": "controller_user_controller_user",
+      "label": "User",
+      "degree": 11
+    },
+    {
+      "id": "controller_user_controller_usercontroller",
+      "label": "UserController",
+      "degree": 10
+    },
+    {
+      "id": "password_route_updatepassword",
+      "label": "updatePassword()",
+      "degree": 8
+    },
+    {
+      "id": "lib_jwt_getaccesstoken",
+      "label": "getAccessToken()",
+      "degree": 7
+    },
+    {
+      "id": "controller_user_controller_topublicuser",
+      "label": "toPublicUser()",
+      "degree": 7
+    },
+    {
+      "id": "controller_user_controller_usermodelinterface",
+      "label": "UserModelInterface",
+      "degree": 7
+    },
+    {
+      "id": "model_user_model_mock_usermodelmock",
+      "label": "UserModelMock",
+      "degree": 7
+    },
+    {
+      "id": "package_scripts",
+      "label": "scripts",
+      "degree": 6
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Query Function",
+      "target": "Graph JSON File",
+      "source_files": [
+        ".codex/skills/graphify/references/query.md",
+        "graphify-out/graph.json"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "crosses file types (doc \u2194 code); connects across different repos/directories"
+    },
+    {
+      "source": "Path Function",
+      "target": "Graph JSON File",
+      "source_files": [
+        ".codex/skills/graphify/references/query.md",
+        "graphify-out/graph.json"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "crosses file types (doc \u2194 code); connects across different repos/directories"
+    },
+    {
+      "source": "Explain Function",
+      "target": "Graph JSON File",
+      "source_files": [
+        ".codex/skills/graphify/references/query.md",
+        "graphify-out/graph.json"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "crosses file types (doc \u2194 code); connects across different repos/directories"
+    },
+    {
+      "source": "Next.js Project README",
+      "target": "MongoDB Service in docker-compose.yaml",
+      "source_files": [
+        "README.md",
+        "docker-compose.yaml"
+      ],
+      "confidence": "INFERRED",
+      "relation": "shares_data_with",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
+    },
+    {
+      "source": "Next.js Project README",
+      "target": "Ignored Dependencies in pnpm-workspace.yaml",
+      "source_files": [
+        "README.md",
+        "pnpm-workspace.yaml"
+      ],
+      "confidence": "INFERRED",
+      "relation": "shares_data_with",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
+    }
+  ],
+  "tokens": {
+    "input": 20285,
+    "output": 5620
+  }
+}

@@ -1,0 +1,15 @@
+meta {
+  name: List Product Attributes
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{baseUrl}}/api/products/{{productId}}/attributes
+  body: none
+  auth: none
+}
+
+docs {
+  Lists custom attributes for a product.
+}

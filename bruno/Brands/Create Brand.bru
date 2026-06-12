@@ -1,0 +1,28 @@
+meta {
+  name: Create Brand
+  type: http
+  seq: 2
+}
+
+post {
+  url: {{baseUrl}}/api/brands
+  body: json
+  auth: none
+}
+
+headers {
+  content-type: application/json
+}
+
+body:json {
+  {
+    "faName": "Brand FA",
+    "enName": "Brand EN",
+    "description": "Brand description",
+    "slug": "{{brandSlug}}"
+  }
+}
+
+docs {
+  Creates a brand. `slug` is unique.
+}

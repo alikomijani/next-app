@@ -1,0 +1,21 @@
+meta {
+  name: List Categories
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{baseUrl}}/api/categories
+  body: none
+  auth: none
+}
+
+params:query {
+  page: {{page}}
+  perPage: {{perPage}}
+  search: {{search}}
+}
+
+docs {
+  Lists active categories with pagination. Add `includeInactive=true` to include deactivated categories.
+}

@@ -1,0 +1,15 @@
+meta {
+  name: Get Brand
+  type: http
+  seq: 3
+}
+
+get {
+  url: {{baseUrl}}/api/brands/{{brandId}}
+  body: none
+  auth: none
+}
+
+docs {
+  Gets a brand by ObjectId.
+}

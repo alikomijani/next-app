@@ -1,0 +1,23 @@
+meta {
+  name: List Products
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{baseUrl}}/api/products
+  body: none
+  auth: none
+}
+
+params:query {
+  page: {{page}}
+  perPage: {{perPage}}
+  search: {{search}}
+  category: {{categoryId}}
+  brand: {{brandId}}
+}
+
+docs {
+  Lists active products with pagination. `search` matches `faName` or `enName` using a regex-like query. `category` and `brand` accept ObjectId or slug.
+}

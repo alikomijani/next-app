@@ -1,0 +1,29 @@
+meta {
+  name: Create Product Variant
+  type: http
+  seq: 2
+}
+
+post {
+  url: {{baseUrl}}/api/products/{{productId}}/variants
+  body: json
+  auth: none
+}
+
+headers {
+  content-type: application/json
+}
+
+body:json {
+  {
+    "color": "black",
+    "size": "M",
+    "images": [
+      "https://example.com/product-black-m.jpg"
+    ]
+  }
+}
+
+docs {
+  Creates a product variant. `color` and `size` are optional.
+}

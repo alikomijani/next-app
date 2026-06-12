@@ -1,0 +1,34 @@
+meta {
+  name: Upsert Product Attributes PATCH
+  type: http
+  seq: 3
+}
+
+patch {
+  url: {{baseUrl}}/api/products/{{productId}}/attributes
+  body: json
+  auth: none
+}
+
+headers {
+  content-type: application/json
+}
+
+body:json {
+  {
+    "attributes": [
+      {
+        "name": "material",
+        "value": "cotton"
+      },
+      {
+        "name": "origin",
+        "value": "local"
+      }
+    ]
+  }
+}
+
+docs {
+  Upserts product attributes using PATCH. Attribute `name` is unique per product.
+}
