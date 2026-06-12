@@ -1,16 +1,16 @@
 # Graph Report - next-app  (2026-06-12)
 
 ## Corpus Check
-- 57 files · ~16,938 words
+- 58 files · ~17,001 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 391 nodes · 637 edges · 48 communities (26 shown, 22 thin omitted)
+- 393 nodes · 638 edges · 50 communities (27 shown, 23 thin omitted)
 - Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 22 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `1e154229`
+- Built from commit: `bbebb7f0`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -59,6 +59,8 @@
 - [[_COMMUNITY_Community 44|Community 44]]
 - [[_COMMUNITY_Community 45|Community 45]]
 - [[_COMMUNITY_Community 46|Community 46]]
+- [[_COMMUNITY_Community 48|Community 48]]
+- [[_COMMUNITY_Community 49|Community 49]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `formatApiError()` - 35 edges
@@ -87,15 +89,15 @@
 ## Import Cycles
 - None detected.
 
-## Communities (48 total, 22 thin omitted)
+## Communities (50 total, 23 thin omitted)
 
 ### Community 0 - "Community 0"
-Cohesion: 0.16
-Nodes (12): CreateUserDto, UpdateUserDto, User, UserModelInterface, ModelFactory, UserModelMock, users, AutoIncrement (+4 more)
+Cohesion: 0.11
+Nodes (19): CreateUserDto, HasherInterface, PublicUser, RefreshTokenDto, UpdateUserDto, UpdateUserPasswordDto, User, UserModelInterface (+11 more)
 
 ### Community 1 - "Community 1"
-Cohesion: 0.08
-Nodes (31): newUserController(), HasherInterface, PublicUser, RefreshTokenDto, toPublicUser(), UpdateUserPasswordDto, UserController, Bcrypt (+23 more)
+Cohesion: 0.14
+Nodes (20): newUserController(), getAccessToken(), getBearerToken(), isJwtPayload(), JwtPayload, verifyToken(), POST(), getErrorStatus() (+12 more)
 
 ### Community 2 - "Community 2"
 Cohesion: 0.08
@@ -111,7 +113,7 @@ Nodes (15): dependencies, bcrypt, @emotion/react, @emotion/styled, jsonwebtoken,
 
 ### Community 5 - "Community 5"
 Cohesion: 0.09
-Nodes (43): DELETE(), GET(), PATCH(), ProductAttributesRouteContext, PUT(), assertProductExists(), createProduct(), createProductVariant() (+35 more)
+Nodes (31): DELETE(), GET(), PATCH(), ProductAttributesRouteContext, PUT(), GET(), POST(), deactivateProduct() (+23 more)
 
 ### Community 6 - "Community 6"
 Cohesion: 0.38
@@ -126,8 +128,8 @@ Cohesion: 0.60
 Nodes (5): NetworkX Python Library, Pathlib Python Library, Explain Function, Path Function, Query Function
 
 ### Community 9 - "Community 9"
-Cohesion: 0.22
-Nodes (4): LoginForm(), LoginFormData, RegisterForm(), RegisterFormData
+Cohesion: 0.14
+Nodes (8): toPublicUser(), UserController, createAccessToken(), createRefreshToken(), LoginForm(), LoginFormData, RegisterForm(), RegisterFormData
 
 ### Community 10 - "Community 10"
 Cohesion: 0.08
@@ -143,11 +145,11 @@ Nodes (3): Add URL and Watch Folder, Export Options, Extraction Specification
 
 ### Community 13 - "Community 13"
 Cohesion: 0.09
-Nodes (39): GET(), POST(), BodyRecord, CatalogEntityModel, createBrand(), createCategory(), escapeRegex(), getActiveFilter() (+31 more)
+Nodes (53): assertProductExists(), BodyRecord, CatalogEntityModel, createBrand(), createCategory(), createProduct(), createProductVariant(), deactivateCatalogEntity() (+45 more)
 
 ### Community 22 - "Community 22"
-Cohesion: 0.15
-Nodes (18): deactivateBrand(), deactivateCatalogEntity(), deactivateCategory(), getBrand(), getCatalogEntity(), getCategory(), updateBrand(), updateCategory() (+10 more)
+Cohesion: 0.33
+Nodes (8): deactivateBrand(), getBrand(), updateBrand(), BrandRouteContext, DELETE(), GET(), PATCH(), PUT()
 
 ### Community 36 - "Community 36"
 Cohesion: 0.14
@@ -177,25 +179,29 @@ Nodes (3): For /graphify explain, For /graphify path, graphify reference: query,
 Cohesion: 0.50
 Nodes (3): For --cluster-only, For --update (incremental re-extraction), graphify reference: incremental update and cluster-only
 
+### Community 48 - "Community 48"
+Cohesion: 0.33
+Nodes (8): deactivateCategory(), getCategory(), updateCategory(), CategoryRouteContext, DELETE(), GET(), PATCH(), PUT()
+
 ## Knowledge Gaps
-- **157 isolated node(s):** `eslintConfig`, `nextConfig`, `name`, `version`, `private` (+152 more)
+- **158 isolated node(s):** `Bruno API Collection`, `BrandRouteContext`, `CategoryRouteContext`, `ProductAttributesRouteContext`, `ProductRouteContext` (+153 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **22 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **23 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `formatApiError()` connect `Community 5` to `Community 13`, `Community 22`?**
+- **Why does `formatApiError()` connect `Community 5` to `Community 48`, `Community 13`, `Community 22`?**
   _High betweenness centrality (0.020) - this node is a cross-community bridge._
+- **Why does `UserController` connect `Community 9` to `Community 0`?**
+  _High betweenness centrality (0.011) - this node is a cross-community bridge._
 - **Are the 9 inferred relationships involving `formatApiError()` (e.g. with `DELETE()` and `GET()`) actually correct?**
   _`formatApiError()` has 9 INFERRED edges - model-reasoned connections that need verification._
-- **What connects `eslintConfig`, `nextConfig`, `name` to the rest of the system?**
-  _157 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **What connects `Bruno API Collection`, `BrandRouteContext`, `CategoryRouteContext` to the rest of the system?**
+  _158 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `Community 0` be split into smaller, more focused modules?**
+  _Cohesion score 0.11260504201680673 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
-  _Cohesion score 0.08 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.14461538461538462 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
   _Cohesion score 0.07692307692307693 - nodes in this community are weakly interconnected._
-- **Should `Community 3` be split into smaller, more focused modules?**
-  _Cohesion score 0.1 - nodes in this community are weakly interconnected._
-- **Should `Community 4` be split into smaller, more focused modules?**
-  _Cohesion score 0.13333333333333333 - nodes in this community are weakly interconnected._

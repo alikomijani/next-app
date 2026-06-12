@@ -60,7 +60,7 @@ hr { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
 <div class="container">
 
 <h1>next-app — Complete Call Flow &amp; Architecture Documentation</h1>
-<p class="subtitle">Generated from graphify knowledge graph: 391 nodes, 637 edges, 48 communities. Commit: 1e15422</p>
+<p class="subtitle">Generated from graphify knowledge graph: 393 nodes, 638 edges, 50 communities. Commit: bbebb7f</p>
 
 <div class="nav">
     <a href="#overview">Architecture Overview</a>
@@ -72,12 +72,12 @@ hr { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
     <a href="#serve-api">Serving API</a>
     <a href="#security-global">Security &amp; Global Graph</a>
     <a href="#tests-fixtures">Tests &amp; Fixtures</a>
-    <a href="#community-36">Community 36</a>
+    <a href="#community-13">Community 13</a>
     <a href="#community-9">Community 9</a>
+    <a href="#community-36">Community 36</a>
     <a href="#community-6">Community 6</a>
     <a href="#community-38">Community 38</a>
     <a href="#community-11">Community 11</a>
-    <a href="#community-14">Community 14</a>
     <a href="#other">Other</a>
 </div>
 
@@ -98,29 +98,34 @@ flowchart LR
     class CLI_SKILLS_9964CBB8 module;
     INGEST_CACHE_UPDATE_FF457338("Ingestion &amp; Updates<br/><small>13 nodes</small>")
     class INGEST_CACHE_UPDATE_FF457338 module;
-    SERVE_API_35EC8E86("Serving API<br/><small>172 nodes</small>")
+    SERVE_API_35EC8E86("Serving API<br/><small>89 nodes</small>")
     class SERVE_API_35EC8E86 module;
     SECURITY_GLOBAL_5B9C6A04("Security &amp; Global Graph<br/><small>1 nodes</small>")
     class SECURITY_GLOBAL_5B9C6A04 module;
-    TESTS_FIXTURES_B84B1DCC("Tests &amp; Fixtures<br/><small>22 nodes</small>")
+    TESTS_FIXTURES_B84B1DCC("Tests &amp; Fixtures<br/><small>35 nodes</small>")
     class TESTS_FIXTURES_B84B1DCC module;
+    COMMUNITY_13_E329587C("Community 13<br/><small>58 nodes</small>")
+    class COMMUNITY_13_E329587C module;
+    COMMUNITY_9_1D55D1EE("Community 9<br/><small>22 nodes</small>")
+    class COMMUNITY_9_1D55D1EE module;
     COMMUNITY_36_F6473446("Community 36<br/><small>14 nodes</small>")
     class COMMUNITY_36_F6473446 module;
-    COMMUNITY_9_1D55D1EE("Community 9<br/><small>10 nodes</small>")
-    class COMMUNITY_9_1D55D1EE module;
     COMMUNITY_6_7D637A07("Community 6<br/><small>7 nodes</small>")
     class COMMUNITY_6_7D637A07 module;
     COMMUNITY_38_353E518F("Community 38<br/><small>4 nodes</small>")
     class COMMUNITY_38_353E518F module;
     COMMUNITY_11_DE018FC2("Community 11<br/><small>3 nodes</small>")
     class COMMUNITY_11_DE018FC2 module;
-    COMMUNITY_14_21BC55C3("Community 14<br/><small>3 nodes</small>")
-    class COMMUNITY_14_21BC55C3 module;
-    OTHER_D0941E68("Other<br/><small>14 nodes</small>")
+    OTHER_D0941E68("Other<br/><small>19 nodes</small>")
     class OTHER_D0941E68 module;
-    SERVE_API_35EC8E86 -->|contains x9| TESTS_FIXTURES_B84B1DCC
-    COMMUNITY_36_F6473446 -->|imports x4| SERVE_API_35EC8E86
-    TESTS_FIXTURES_B84B1DCC -->|imports| SERVE_API_35EC8E86
+    SERVE_API_35EC8E86 -->|calls x45| COMMUNITY_13_E329587C
+    COMMUNITY_13_E329587C -->|contains x12| SERVE_API_35EC8E86
+    SERVE_API_35EC8E86 -->|imports x7| TESTS_FIXTURES_B84B1DCC
+    COMMUNITY_36_F6473446 -->|imports x4| COMMUNITY_13_E329587C
+    SERVE_API_35EC8E86 -->|contains x3| COMMUNITY_9_1D55D1EE
+    TESTS_FIXTURES_B84B1DCC -->|contains x3| COMMUNITY_9_1D55D1EE
+    COMMUNITY_9_1D55D1EE -->|imports x2| TESTS_FIXTURES_B84B1DCC
+    TESTS_FIXTURES_B84B1DCC -->|contains| SERVE_API_35EC8E86
     classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
     classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
     classDef async fill:#2e1065,stroke:#a78bfa,color:#ede9fe,stroke-width:1px;
@@ -137,19 +142,19 @@ flowchart LR
     <h4>Architecture Layers</h4>
     <table style="width:100%;font-size:0.85rem;">
       <tr><th>Layer</th><th>Nodes</th><th>Communities</th></tr>
-      <tr><td>Graph Build</td><td>65</td><td><code>2, 3, 4, 44, 26</code></td></tr><tr><td>Analysis &amp; Clustering</td><td>9</td><td><code>8, 41</code></td></tr><tr><td>Outputs &amp; Docs</td><td>13</td><td><code>37, 31, 32, 33, 34, 35</code></td></tr><tr><td>CLI &amp; Skill Installers</td><td>41</td><td><code>10, 40, 12, 15, 46, 23, 24, 27, 28, 29, 47</code></td></tr><tr><td>Ingestion &amp; Updates</td><td>13</td><td><code>39, 42, 45, 21</code></td></tr><tr><td>Serving API</td><td>172</td><td><code>1, 5, 13, 22, 7</code></td></tr><tr><td>Security &amp; Global Graph</td><td>1</td><td><code>25</code></td></tr><tr><td>Tests &amp; Fixtures</td><td>22</td><td><code>0</code></td></tr><tr><td>Community 36</td><td>14</td><td><code>36</code></td></tr><tr><td>Community 9</td><td>10</td><td><code>9</code></td></tr><tr><td>Community 6</td><td>7</td><td><code>6</code></td></tr><tr><td>Community 38</td><td>4</td><td><code>38</code></td></tr><tr><td>Community 11</td><td>3</td><td><code>11</code></td></tr><tr><td>Community 14</td><td>3</td><td><code>14</code></td></tr><tr><td>Other</td><td>14</td><td><code>43, 16, 17, 18, 19, 20, 30</code></td></tr>
+      <tr><td>Graph Build</td><td>65</td><td><code>2, 3, 4, 44, 26</code></td></tr><tr><td>Analysis &amp; Clustering</td><td>9</td><td><code>8, 41</code></td></tr><tr><td>Outputs &amp; Docs</td><td>13</td><td><code>37, 31, 32, 33, 34, 35</code></td></tr><tr><td>CLI &amp; Skill Installers</td><td>41</td><td><code>10, 40, 12, 15, 46, 23, 24, 27, 28, 29, 47</code></td></tr><tr><td>Ingestion &amp; Updates</td><td>13</td><td><code>39, 42, 45, 21</code></td></tr><tr><td>Serving API</td><td>89</td><td><code>5, 1, 22, 48, 7</code></td></tr><tr><td>Security &amp; Global Graph</td><td>1</td><td><code>25</code></td></tr><tr><td>Tests &amp; Fixtures</td><td>35</td><td><code>0</code></td></tr><tr><td>Community 13</td><td>58</td><td><code>13</code></td></tr><tr><td>Community 9</td><td>22</td><td><code>9</code></td></tr><tr><td>Community 36</td><td>14</td><td><code>36</code></td></tr><tr><td>Community 6</td><td>7</td><td><code>6</code></td></tr><tr><td>Community 38</td><td>4</td><td><code>38</code></td></tr><tr><td>Community 11</td><td>3</td><td><code>11</code></td></tr><tr><td>Other</td><td>19</td><td><code>14, 43, 16, 17, 18, 19, 20, 49, 30</code></td></tr>
     </table>
   </div>
   <div class="card">
     <h4>Core Flow</h4>
-    <div class="arrow-chain">Graph Build -&gt; Analysis &amp; Clustering -&gt; Outputs &amp; Docs -&gt; CLI &amp; Skill Installers -&gt; Ingestion &amp; Updates -&gt; Serving API -&gt; Tests &amp; Fixtures</div>
+    <div class="arrow-chain">Graph Build -&gt; Analysis &amp; Clustering -&gt; Outputs &amp; Docs -&gt; CLI &amp; Skill Installers -&gt; Ingestion &amp; Updates -&gt; Serving API -&gt; Community 13</div>
   </div>
 </div>
 <div class="grid">
   <div class="card">
     <h4>Graph Report Highlights</h4>
     <ul>
-      <li>391 nodes · 637 edges · 48 communities (26 shown, 22 thin omitted)</li>
+      <li>393 nodes · 638 edges · 50 communities (27 shown, 23 thin omitted)</li>
       <li>Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 22 edges (avg confidence: 0.8)</li>
       <li>Token cost: 0 input · 0 output</li>
       <li>1. `formatApiError()` - 35 edges</li>
@@ -1378,67 +1383,72 @@ flowchart LR
 
 <!-- ====== 7. Serving API ====== -->
 <h2 id="serve-api">7. Serving API</h2>
-<p>Serving API groups implementation around backend, modules, routets, app, mostly in modules/catalog/service.ts, user/controller/user.controller.ts, auth/password/route.ts. This section covers 172 nodes and 422 internal edges; the diagram shows only representative relationships to stay readable.</p>
+<p>Serving API groups implementation around routets, app, api, products, mostly in modules/catalog/service.ts, auth/password/route.ts, [id]/attributes/route.ts. This section covers 89 nodes and 151 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
 %%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
 flowchart LR
-    %% Section: Serving API (172 nodes, 422 edges)
-    subgraph serve_api_auth_password_route_ts_c32a42df["auth/password/route.ts"]
-        password_route_patch_fb7a6e93("PATCH()<br/><small>auth/password/route.ts</small>")
-        password_route_updatepassword_e9860628("updatePassword()<br/><small>auth/password/route.ts</small>")
-        password_route_put_075b5af6("PUT()<br/><small>auth/password/route.ts</small>")
-        password_route_geterrorstatus_2b092de7("getErrorStatus()<br/><small>auth/password/route.ts</small>")
-        password_route_getstringvalue_8a34de28("getStringValue()<br/><small>auth/password/route.ts</small>")
-        password_route_readbody_bf695391("readBody()<br/><small>auth/password/route.ts</small>")
+    %% Section: Serving API (89 nodes, 151 edges)
+    subgraph serve_api_brands_id_route_ts_891748fc["brands/[id]/route.ts"]
+        src_app_api_brands_id_route_ts_id_route_599220af("route.ts")
+        src_app_api_brands_id_route_ts_id_route_patch_a9752bfd("PATCH()<br/><small>brands/[id]/route.ts</small>")
+        src_app_api_brands_id_route_ts_id_route_put_05e767fb("PUT()<br/><small>brands/[id]/route.ts</small>")
     end
-    subgraph serve_api_auth_refresh_token_route_ts_4353b9fe["auth/refresh-token/route.ts"]
-        refresh_token_route_post_d51c5649("POST()<br/><small>auth/refresh-token/route.ts</small>")
-        refresh_token_route_getstringvalue_805c3a2d("getStringValue()<br/><small>auth/refresh-token/route.ts</small>")
+    subgraph serve_api_categories_id_route_ts_c59703a5["categories/[id]/route.ts"]
+        src_app_api_categories_id_route_ts_id_route_b9c07dcf("route.ts")
+        src_app_api_categories_id_route_ts_id_route_patc_c10bbaf2("PATCH()<br/><small>categories/[id]/route.ts</small>")
+        src_app_api_categories_id_route_ts_id_route_put_00e30cfb("PUT()<br/><small>categories/[id]/route.ts</small>")
     end
     subgraph serve_api_modules_catalog_service_ts_0b5bb2ee["modules/catalog/service.ts"]
-        catalog_service_getproductupdatepayload_f4a5fa75("getProductUpdatePayload()<br/><small>modules/catalog/service.ts</small>")
-        catalog_service_getproductpayload_26206e84("getProductPayload()<br/><small>modules/catalog/service.ts</small>")
+        catalog_service_formatapierror_c11d2b7d("formatApiError()<br/><small>modules/catalog/service.ts</small>")
+        catalog_service_listbrands_a5247e0a("listBrands()<br/><small>modules/catalog/service.ts</small>")
+        catalog_service_listcategories_485f76fa("listCategories()<br/><small>modules/catalog/service.ts</small>")
     end
-    attributes_route_bb171562("route.ts")
-    login_route_post_d13b4082("POST()<br/><small>auth/login/route.ts</small>")
-    profile_route_get_c5a9c8c9("GET()<br/><small>auth/profile/route.ts</small>")
-    lib_jwt_getaccesstoken_acd152f5("getAccessToken()<br/><small>backend/lib/jwt.ts</small>")
-    lib_mongodb_connectdb_2fdf6332("connectDB()<br/><small>backend/lib/mongodb.ts</small>")
-    src_app_api_brands_id_route_ts_id_route_599220af("route.ts")
-    controller_newusercontroller_newusercontroller_1c9d4106("newUserController()<br/><small>user/controller/newUserController.ts</small>")
-    controller_user_controller_usercontroller_a5d5ed55("UserController<br/><small>user/controller/user.controller.ts</small>")
-    login_route_post_d13b4082 -->|calls| controller_newusercontroller_newusercontroller_1c9d4106
-    password_route_patch_fb7a6e93 -->|calls| password_route_updatepassword_e9860628
-    password_route_put_075b5af6 -->|calls| password_route_updatepassword_e9860628
-    password_route_updatepassword_e9860628 -->|calls| controller_newusercontroller_newusercontroller_1c9d4106
-    password_route_updatepassword_e9860628 -->|calls| lib_jwt_getaccesstoken_acd152f5
-    password_route_updatepassword_e9860628 -->|calls| password_route_geterrorstatus_2b092de7
-    password_route_updatepassword_e9860628 -->|calls| password_route_getstringvalue_8a34de28
-    password_route_updatepassword_e9860628 -->|calls| password_route_readbody_bf695391
-    profile_route_get_c5a9c8c9 -->|calls| controller_newusercontroller_newusercontroller_1c9d4106
-    profile_route_get_c5a9c8c9 -->|calls| lib_jwt_getaccesstoken_acd152f5
-    refresh_token_route_post_d51c5649 -->|calls| controller_newusercontroller_newusercontroller_1c9d4106
-    refresh_token_route_post_d51c5649 -->|calls| refresh_token_route_getstringvalue_805c3a2d
-    %% Omitted for readability: 154 nodes, 0 edges
-    class password_route_patch_fb7a6e93 function;
-    class password_route_updatepassword_e9860628 function;
-    class password_route_put_075b5af6 function;
-    class password_route_geterrorstatus_2b092de7 function;
-    class password_route_getstringvalue_8a34de28 function;
-    class password_route_readbody_bf695391 function;
-    class refresh_token_route_post_d51c5649 function;
-    class refresh_token_route_getstringvalue_805c3a2d function;
-    class catalog_service_getproductupdatepayload_f4a5fa75 function;
-    class catalog_service_getproductpayload_26206e84 function;
-    class attributes_route_bb171562 api;
-    class login_route_post_d13b4082 function;
-    class profile_route_get_c5a9c8c9 function;
-    class lib_jwt_getaccesstoken_acd152f5 function;
-    class lib_mongodb_connectdb_2fdf6332 function;
+    subgraph serve_api_api_brands_route_ts_148cf528["api/brands/route.ts"]
+        brands_route_get_5a38734c("GET()<br/><small>api/brands/route.ts</small>")
+        brands_route_post_aebee9ff("POST()<br/><small>api/brands/route.ts</small>")
+    end
+    subgraph serve_api_api_categories_route_ts_8f1ce380["api/categories/route.ts"]
+        categories_route_get_b9156c11("GET()<br/><small>api/categories/route.ts</small>")
+        categories_route_post_f510491e("POST()<br/><small>api/categories/route.ts</small>")
+    end
+    subgraph serve_api_auth_password_route_ts_c32a42df["auth/password/route.ts"]
+        password_route_updatepassword_e9860628("updatePassword()<br/><small>auth/password/route.ts</small>")
+        password_route_32559716("route.ts")
+    end
+    attributes_route_get_468d2a52("GET()<br/><small>[id]/attributes/route.ts</small>")
+    profile_route_3e80ad8a("route.ts")
+    refresh_token_route_post_d51c5649("POST()<br/><small>auth/refresh-token/route.ts</small>")
+    src_app_api_brands_id_route_ts_id_route_patch_a9752bfd -->|calls| src_app_api_brands_id_route_ts_id_route_put_05e767fb
+    brands_route_get_5a38734c -->|calls| catalog_service_formatapierror_c11d2b7d
+    brands_route_get_5a38734c -->|calls| catalog_service_listbrands_a5247e0a
+    brands_route_post_aebee9ff -->|calls| catalog_service_formatapierror_c11d2b7d
+    src_app_api_categories_id_route_ts_id_route_patc_c10bbaf2 -->|calls| src_app_api_categories_id_route_ts_id_route_put_00e30cfb
+    categories_route_get_b9156c11 -->|calls| catalog_service_formatapierror_c11d2b7d
+    categories_route_get_b9156c11 -->|calls| catalog_service_listcategories_485f76fa
+    categories_route_post_f510491e -->|calls| catalog_service_formatapierror_c11d2b7d
+    attributes_route_get_468d2a52 -->|calls| catalog_service_formatapierror_c11d2b7d
+    src_app_api_brands_id_route_ts_id_route_599220af -->|imports| catalog_service_formatapierror_c11d2b7d
+    src_app_api_categories_id_route_ts_id_route_b9c07dcf -->|imports| catalog_service_formatapierror_c11d2b7d
+    %% Omitted for readability: 71 nodes, 0 edges
     class src_app_api_brands_id_route_ts_id_route_599220af api;
-    class controller_newusercontroller_newusercontroller_1c9d4106 function;
-    class controller_user_controller_usercontroller_a5d5ed55 klass;
+    class src_app_api_brands_id_route_ts_id_route_patch_a9752bfd function;
+    class src_app_api_brands_id_route_ts_id_route_put_05e767fb function;
+    class src_app_api_categories_id_route_ts_id_route_b9c07dcf api;
+    class src_app_api_categories_id_route_ts_id_route_patc_c10bbaf2 function;
+    class src_app_api_categories_id_route_ts_id_route_put_00e30cfb function;
+    class catalog_service_formatapierror_c11d2b7d api;
+    class catalog_service_listbrands_a5247e0a function;
+    class catalog_service_listcategories_485f76fa function;
+    class brands_route_get_5a38734c function;
+    class brands_route_post_aebee9ff function;
+    class categories_route_get_b9156c11 function;
+    class categories_route_post_f510491e function;
+    class password_route_updatepassword_e9860628 function;
+    class password_route_32559716 api;
+    class attributes_route_get_468d2a52 function;
+    class profile_route_3e80ad8a api;
+    class refresh_token_route_post_d51c5649 function;
     classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
     classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
     classDef async fill:#2e1065,stroke:#a78bfa,color:#ede9fe,stroke-width:1px;
@@ -1462,243 +1472,243 @@ flowchart LR
 </tr>
 <tr>
   <td>1</td>
-  <td><code>route.ts</code><br><small style="color:var(--muted)">auth/login/route.ts</small></td>
+  <td><code>route.ts</code><br><small style="color:var(--muted)">api/brands/route.ts</small></td>
   <td><span class="tag tag-endpoint">API</span></td>
   <td>External entry / no inbound edge</td>
-  <td><code>jwt.ts</code><br><small style="color:var(--muted)">backend/lib/jwt.ts</small><br><code>newUserController()</code><br><small style="color:var(--muted)">user/controller/newUserController.ts</small><br><code>newUserController.ts</code><br><small style="color:var(--muted)">user/controller/newUserController.ts</small></td>
-  <td>Module file in auth/login/route.ts.</td>
+  <td><code>formatApiError()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small><br><code>listBrands()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td>Module file in api/brands/route.ts.</td>
 </tr>
 <tr>
   <td>2</td>
-  <td><code>POST()</code><br><small style="color:var(--muted)">auth/login/route.ts</small></td>
+  <td><code>GET()</code><br><small style="color:var(--muted)">api/brands/route.ts</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
-  <td><code>newUserController()</code><br><small style="color:var(--muted)">user/controller/newUserController.ts</small></td>
-  <td>POST() node in auth/login/route.ts.</td>
+  <td><code>formatApiError()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small><br><code>listBrands()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td>GET() node in api/brands/route.ts.</td>
 </tr>
 <tr>
   <td>3</td>
-  <td><code>route.ts</code><br><small style="color:var(--muted)">auth/password/route.ts</small></td>
-  <td><span class="tag tag-endpoint">API</span></td>
+  <td><code>POST()</code><br><small style="color:var(--muted)">api/brands/route.ts</small></td>
+  <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
-  <td><code>getAccessToken()</code><br><small style="color:var(--muted)">backend/lib/jwt.ts</small><br><code>jwt.ts</code><br><small style="color:var(--muted)">backend/lib/jwt.ts</small><br><code>newUserController()</code><br><small style="color:var(--muted)">user/controller/newUserController.ts</small><br>+1 more</td>
-  <td>Module file in auth/password/route.ts.</td>
+  <td><code>formatApiError()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td>POST() node in api/brands/route.ts.</td>
 </tr>
 <tr>
   <td>4</td>
-  <td><code>UpdatePasswordBody</code><br><small style="color:var(--muted)">auth/password/route.ts</small></td>
-  <td><span class="tag tag-class">Class</span></td>
+  <td><code>route.ts</code><br><small style="color:var(--muted)">api/categories/route.ts</small></td>
+  <td><span class="tag tag-endpoint">API</span></td>
   <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>UpdatePasswordBody node in auth/password/route.ts.</td>
+  <td><code>formatApiError()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small><br><code>listCategories()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td>Module file in api/categories/route.ts.</td>
 </tr>
 <tr>
   <td>5</td>
-  <td><code>PATCH()</code><br><small style="color:var(--muted)">auth/password/route.ts</small></td>
+  <td><code>GET()</code><br><small style="color:var(--muted)">api/categories/route.ts</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
-  <td><code>updatePassword()</code><br><small style="color:var(--muted)">auth/password/route.ts</small></td>
-  <td>PATCH() node in auth/password/route.ts.</td>
+  <td><code>formatApiError()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small><br><code>listCategories()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td>GET() node in api/categories/route.ts.</td>
 </tr>
 <tr>
   <td>6</td>
-  <td><code>PUT()</code><br><small style="color:var(--muted)">auth/password/route.ts</small></td>
+  <td><code>POST()</code><br><small style="color:var(--muted)">api/categories/route.ts</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
-  <td><code>updatePassword()</code><br><small style="color:var(--muted)">auth/password/route.ts</small></td>
-  <td>PUT() node in auth/password/route.ts.</td>
+  <td><code>formatApiError()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td>POST() node in api/categories/route.ts.</td>
 </tr>
 <tr>
   <td>7</td>
-  <td><code>updatePassword()</code><br><small style="color:var(--muted)">auth/password/route.ts</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>PATCH()</code><br><small style="color:var(--muted)">auth/password/route.ts</small><br><code>PUT()</code><br><small style="color:var(--muted)">auth/password/route.ts</small></td>
-  <td><code>getAccessToken()</code><br><small style="color:var(--muted)">backend/lib/jwt.ts</small><br><code>getErrorStatus()</code><br><small style="color:var(--muted)">auth/password/route.ts</small><br><code>getStringValue()</code><br><small style="color:var(--muted)">auth/password/route.ts</small><br>+2 more</td>
-  <td>updatePassword() node in auth/password/route.ts.</td>
+  <td><code>route.ts</code><br><small style="color:var(--muted)">[id]/attributes/route.ts</small></td>
+  <td><span class="tag tag-endpoint">API</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>formatApiError()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td>Module file in [id]/attributes/route.ts.</td>
 </tr>
 <tr>
   <td>8</td>
-  <td><code>readBody()</code><br><small style="color:var(--muted)">auth/password/route.ts</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>updatePassword()</code><br><small style="color:var(--muted)">auth/password/route.ts</small></td>
+  <td><code>ProductAttributesRouteContext</code><br><small style="color:var(--muted)">[id]/attributes/route.ts</small></td>
+  <td><span class="tag tag-endpoint">API</span></td>
+  <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>readBody() node in auth/password/route.ts.</td>
+  <td>ProductAttributesRouteContext node in [id]/attributes/route.ts.</td>
 </tr>
 <tr>
   <td>9</td>
-  <td><code>getStringValue()</code><br><small style="color:var(--muted)">auth/password/route.ts</small></td>
+  <td><code>GET()</code><br><small style="color:var(--muted)">[id]/attributes/route.ts</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>updatePassword()</code><br><small style="color:var(--muted)">auth/password/route.ts</small></td>
-  <td>No direct outbound edge</td>
-  <td>getStringValue() node in auth/password/route.ts.</td>
+  <td>External entry / no inbound edge</td>
+  <td><code>formatApiError()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td>GET() node in [id]/attributes/route.ts.</td>
 </tr>
 <tr>
   <td>10</td>
-  <td><code>getErrorStatus()</code><br><small style="color:var(--muted)">auth/password/route.ts</small></td>
+  <td><code>PUT()</code><br><small style="color:var(--muted)">[id]/attributes/route.ts</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>updatePassword()</code><br><small style="color:var(--muted)">auth/password/route.ts</small></td>
-  <td>No direct outbound edge</td>
-  <td>getErrorStatus() node in auth/password/route.ts.</td>
+  <td>External entry / no inbound edge</td>
+  <td><code>formatApiError()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small><br><code>PATCH()</code><br><small style="color:var(--muted)">[id]/attributes/route.ts</small></td>
+  <td>PUT() node in [id]/attributes/route.ts.</td>
 </tr>
 <tr>
   <td>11</td>
-  <td><code>route.ts</code><br><small style="color:var(--muted)">auth/profile/route.ts</small></td>
-  <td><span class="tag tag-endpoint">API</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>getAccessToken()</code><br><small style="color:var(--muted)">backend/lib/jwt.ts</small><br><code>jwt.ts</code><br><small style="color:var(--muted)">backend/lib/jwt.ts</small><br><code>newUserController()</code><br><small style="color:var(--muted)">user/controller/newUserController.ts</small><br>+1 more</td>
-  <td>Module file in auth/profile/route.ts.</td>
+  <td><code>PATCH()</code><br><small style="color:var(--muted)">[id]/attributes/route.ts</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>PUT()</code><br><small style="color:var(--muted)">[id]/attributes/route.ts</small></td>
+  <td>No direct outbound edge</td>
+  <td>PATCH() node in [id]/attributes/route.ts.</td>
 </tr>
 <tr>
   <td>12</td>
-  <td><code>GET()</code><br><small style="color:var(--muted)">auth/profile/route.ts</small></td>
+  <td><code>DELETE()</code><br><small style="color:var(--muted)">[id]/attributes/route.ts</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
-  <td><code>getAccessToken()</code><br><small style="color:var(--muted)">backend/lib/jwt.ts</small><br><code>newUserController()</code><br><small style="color:var(--muted)">user/controller/newUserController.ts</small></td>
-  <td>GET() node in auth/profile/route.ts.</td>
+  <td><code>formatApiError()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td>DELETE() node in [id]/attributes/route.ts.</td>
 </tr>
 <tr>
   <td>13</td>
-  <td><code>route.ts</code><br><small style="color:var(--muted)">auth/refresh-token/route.ts</small></td>
+  <td><code>route.ts</code><br><small style="color:var(--muted)">products/[id]/route.ts</small></td>
   <td><span class="tag tag-endpoint">API</span></td>
   <td>External entry / no inbound edge</td>
-  <td><code>jwt.ts</code><br><small style="color:var(--muted)">backend/lib/jwt.ts</small><br><code>newUserController()</code><br><small style="color:var(--muted)">user/controller/newUserController.ts</small><br><code>newUserController.ts</code><br><small style="color:var(--muted)">user/controller/newUserController.ts</small></td>
-  <td>Module file in auth/refresh-token/route.ts.</td>
+  <td><code>deactivateProduct()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small><br><code>formatApiError()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td>Module file in products/[id]/route.ts.</td>
 </tr>
 <tr>
   <td>14</td>
-  <td><code>RefreshTokenBody</code><br><small style="color:var(--muted)">auth/refresh-token/route.ts</small></td>
-  <td><span class="tag tag-class">Class</span></td>
+  <td><code>ProductRouteContext</code><br><small style="color:var(--muted)">products/[id]/route.ts</small></td>
+  <td><span class="tag tag-endpoint">API</span></td>
   <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>RefreshTokenBody node in auth/refresh-token/route.ts.</td>
+  <td>ProductRouteContext node in products/[id]/route.ts.</td>
 </tr>
 <tr>
   <td>15</td>
-  <td><code>POST()</code><br><small style="color:var(--muted)">auth/refresh-token/route.ts</small></td>
+  <td><code>GET()</code><br><small style="color:var(--muted)">products/[id]/route.ts</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
-  <td><code>getStringValue()</code><br><small style="color:var(--muted)">auth/refresh-token/route.ts</small><br><code>newUserController()</code><br><small style="color:var(--muted)">user/controller/newUserController.ts</small><br><code>readBody()</code><br><small style="color:var(--muted)">auth/refresh-token/route.ts</small></td>
-  <td>POST() node in auth/refresh-token/route.ts.</td>
+  <td><code>formatApiError()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td>GET() node in products/[id]/route.ts.</td>
 </tr>
 <tr>
   <td>16</td>
-  <td><code>readBody()</code><br><small style="color:var(--muted)">auth/refresh-token/route.ts</small></td>
+  <td><code>PATCH()</code><br><small style="color:var(--muted)">products/[id]/route.ts</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>POST()</code><br><small style="color:var(--muted)">auth/refresh-token/route.ts</small></td>
-  <td>No direct outbound edge</td>
-  <td>readBody() node in auth/refresh-token/route.ts.</td>
+  <td>External entry / no inbound edge</td>
+  <td><code>formatApiError()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small><br><code>PUT()</code><br><small style="color:var(--muted)">products/[id]/route.ts</small></td>
+  <td>PATCH() node in products/[id]/route.ts.</td>
 </tr>
 <tr>
   <td>17</td>
-  <td><code>getStringValue()</code><br><small style="color:var(--muted)">auth/refresh-token/route.ts</small></td>
+  <td><code>PUT()</code><br><small style="color:var(--muted)">products/[id]/route.ts</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>POST()</code><br><small style="color:var(--muted)">auth/refresh-token/route.ts</small></td>
+  <td><code>PATCH()</code><br><small style="color:var(--muted)">products/[id]/route.ts</small></td>
   <td>No direct outbound edge</td>
-  <td>getStringValue() node in auth/refresh-token/route.ts.</td>
+  <td>PUT() node in products/[id]/route.ts.</td>
 </tr>
 <tr>
   <td>18</td>
-  <td><code>route.ts</code><br><small style="color:var(--muted)">auth/register/route.ts</small></td>
-  <td><span class="tag tag-endpoint">API</span></td>
+  <td><code>DELETE()</code><br><small style="color:var(--muted)">products/[id]/route.ts</small></td>
+  <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
-  <td><code>newUserController()</code><br><small style="color:var(--muted)">user/controller/newUserController.ts</small><br><code>newUserController.ts</code><br><small style="color:var(--muted)">user/controller/newUserController.ts</small></td>
-  <td>Module file in auth/register/route.ts.</td>
+  <td><code>deactivateProduct()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small><br><code>formatApiError()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td>DELETE() node in products/[id]/route.ts.</td>
 </tr>
 <tr>
   <td>19</td>
-  <td><code>POST()</code><br><small style="color:var(--muted)">auth/register/route.ts</small></td>
-  <td><span class="tag tag-func">Function</span></td>
+  <td><code>route.ts</code><br><small style="color:var(--muted)">variants/[variantId]/route.ts</small></td>
+  <td><span class="tag tag-endpoint">API</span></td>
   <td>External entry / no inbound edge</td>
-  <td><code>newUserController()</code><br><small style="color:var(--muted)">user/controller/newUserController.ts</small></td>
-  <td>POST() node in auth/register/route.ts.</td>
+  <td><code>formatApiError()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td>Module file in variants/[variantId]/route.ts.</td>
 </tr>
 <tr>
   <td>20</td>
-  <td><code>bycript.ts</code><br><small style="color:var(--muted)">backend/lib/bycript.ts</small></td>
-  <td><span class="tag tag-class">Module</span></td>
+  <td><code>ProductVariantRouteContext</code><br><small style="color:var(--muted)">variants/[variantId]/route.ts</small></td>
+  <td><span class="tag tag-endpoint">API</span></td>
   <td>External entry / no inbound edge</td>
-  <td><code>HasherInterface</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small><br><code>newUserController.ts</code><br><small style="color:var(--muted)">user/controller/newUserController.ts</small><br><code>user.controller.ts</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
-  <td>Module file in backend/lib/bycript.ts.</td>
+  <td>No direct outbound edge</td>
+  <td>ProductVariantRouteContext node in variants/[variantId]/route.ts.</td>
 </tr>
 <tr>
   <td>21</td>
-  <td><code>Bcrypt</code><br><small style="color:var(--muted)">backend/lib/bycript.ts</small></td>
-  <td><span class="tag tag-class">Class</span></td>
+  <td><code>PATCH()</code><br><small style="color:var(--muted)">variants/[variantId]/route.ts</small></td>
+  <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
-  <td><code>compare()</code><br><small style="color:var(--muted)">backend/lib/bycript.ts</small><br><code>hash()</code><br><small style="color:var(--muted)">backend/lib/bycript.ts</small><br><code>newUserController.ts</code><br><small style="color:var(--muted)">user/controller/newUserController.ts</small></td>
-  <td>Bcrypt node in backend/lib/bycript.ts.</td>
+  <td><code>formatApiError()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small><br><code>PUT()</code><br><small style="color:var(--muted)">variants/[variantId]/route.ts</small></td>
+  <td>PATCH() node in variants/[variantId]/route.ts.</td>
 </tr>
 <tr>
   <td>22</td>
-  <td><code>.compare()</code><br><small style="color:var(--muted)">backend/lib/bycript.ts</small></td>
+  <td><code>PUT()</code><br><small style="color:var(--muted)">variants/[variantId]/route.ts</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>Bcrypt</code><br><small style="color:var(--muted)">backend/lib/bycript.ts</small></td>
+  <td><code>PATCH()</code><br><small style="color:var(--muted)">variants/[variantId]/route.ts</small></td>
   <td>No direct outbound edge</td>
-  <td>.compare() node in backend/lib/bycript.ts.</td>
+  <td>PUT() node in variants/[variantId]/route.ts.</td>
 </tr>
 <tr>
   <td>23</td>
-  <td><code>.hash()</code><br><small style="color:var(--muted)">backend/lib/bycript.ts</small></td>
+  <td><code>DELETE()</code><br><small style="color:var(--muted)">variants/[variantId]/route.ts</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>Bcrypt</code><br><small style="color:var(--muted)">backend/lib/bycript.ts</small></td>
-  <td>No direct outbound edge</td>
-  <td>Caches analysis results or computes cache keys.</td>
+  <td>External entry / no inbound edge</td>
+  <td><code>formatApiError()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td>DELETE() node in variants/[variantId]/route.ts.</td>
 </tr>
 <tr>
   <td>24</td>
-  <td><code>jwt.ts</code><br><small style="color:var(--muted)">backend/lib/jwt.ts</small></td>
-  <td><span class="tag tag-class">Module</span></td>
-  <td><code>route.ts</code><br><small style="color:var(--muted)">auth/refresh-token/route.ts</small><br><code>route.ts</code><br><small style="color:var(--muted)">auth/password/route.ts</small><br><code>route.ts</code><br><small style="color:var(--muted)">auth/profile/route.ts</small><br>+1 more</td>
-  <td><code>user.controller.ts</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
-  <td>Module file in backend/lib/jwt.ts.</td>
+  <td><code>route.ts</code><br><small style="color:var(--muted)">[id]/variants/route.ts</small></td>
+  <td><span class="tag tag-endpoint">API</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>formatApiError()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td>Module file in [id]/variants/route.ts.</td>
 </tr>
 <tr>
   <td>25</td>
-  <td><code>JwtPayload</code><br><small style="color:var(--muted)">backend/lib/jwt.ts</small></td>
-  <td><span class="tag tag-class">Class</span></td>
+  <td><code>ProductVariantsRouteContext</code><br><small style="color:var(--muted)">[id]/variants/route.ts</small></td>
+  <td><span class="tag tag-endpoint">API</span></td>
   <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>JwtPayload node in backend/lib/jwt.ts.</td>
+  <td>ProductVariantsRouteContext node in [id]/variants/route.ts.</td>
 </tr>
 <tr>
   <td>26</td>
-  <td><code>createAccessToken()</code><br><small style="color:var(--muted)">backend/lib/jwt.ts</small></td>
+  <td><code>GET()</code><br><small style="color:var(--muted)">[id]/variants/route.ts</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
-  <td><code>login()</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small><br><code>refreshToken()</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small><br><code>user.controller.ts</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
-  <td>createAccessToken() node in backend/lib/jwt.ts.</td>
+  <td><code>formatApiError()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td>GET() node in [id]/variants/route.ts.</td>
 </tr>
 <tr>
   <td>27</td>
-  <td><code>createRefreshToken()</code><br><small style="color:var(--muted)">backend/lib/jwt.ts</small></td>
+  <td><code>POST()</code><br><small style="color:var(--muted)">[id]/variants/route.ts</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
-  <td><code>login()</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small><br><code>refreshToken()</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small><br><code>user.controller.ts</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
-  <td>createRefreshToken() node in backend/lib/jwt.ts.</td>
+  <td><code>formatApiError()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td>POST() node in [id]/variants/route.ts.</td>
 </tr>
 <tr>
   <td>28</td>
-  <td><code>verifyToken()</code><br><small style="color:var(--muted)">backend/lib/jwt.ts</small></td>
+  <td><code>PUT()</code><br><small style="color:var(--muted)">[id]/variants/route.ts</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
-  <td><code>getAccessToken()</code><br><small style="color:var(--muted)">backend/lib/jwt.ts</small><br><code>isJwtPayload()</code><br><small style="color:var(--muted)">backend/lib/jwt.ts</small><br><code>refreshToken()</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small><br>+1 more</td>
-  <td>verifyToken() node in backend/lib/jwt.ts.</td>
+  <td><code>formatApiError()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small><br><code>PATCH()</code><br><small style="color:var(--muted)">[id]/variants/route.ts</small></td>
+  <td>PUT() node in [id]/variants/route.ts.</td>
 </tr>
 <tr>
   <td>29</td>
-  <td><code>isJwtPayload()</code><br><small style="color:var(--muted)">backend/lib/jwt.ts</small></td>
+  <td><code>PATCH()</code><br><small style="color:var(--muted)">[id]/variants/route.ts</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>verifyToken()</code><br><small style="color:var(--muted)">backend/lib/jwt.ts</small></td>
+  <td><code>PUT()</code><br><small style="color:var(--muted)">[id]/variants/route.ts</small></td>
   <td>No direct outbound edge</td>
-  <td>isJwtPayload() node in backend/lib/jwt.ts.</td>
+  <td>PATCH() node in [id]/variants/route.ts.</td>
 </tr>
 <tr>
   <td>30</td>
-  <td><code>getAccessToken()</code><br><small style="color:var(--muted)">backend/lib/jwt.ts</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>GET()</code><br><small style="color:var(--muted)">auth/profile/route.ts</small><br><code>route.ts</code><br><small style="color:var(--muted)">auth/password/route.ts</small><br><code>route.ts</code><br><small style="color:var(--muted)">auth/profile/route.ts</small><br>+2 more</td>
-  <td><code>getBearerToken()</code><br><small style="color:var(--muted)">backend/lib/jwt.ts</small></td>
-  <td>getAccessToken() node in backend/lib/jwt.ts.</td>
+  <td><code>route.ts</code><br><small style="color:var(--muted)">api/products/route.ts</small></td>
+  <td><span class="tag tag-endpoint">API</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>formatApiError()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td>Module file in api/products/route.ts.</td>
 </tr>
 </table>
 
@@ -1707,19 +1717,19 @@ flowchart LR
     <h4>Key Files</h4>
     <table style="width:100%;font-size:0.85rem;">
       <tr><th>File</th><th>Coverage</th></tr>
-      <tr><td><code>modules/catalog/service.ts</code></td><td>65 nodes</td></tr>
-<tr><td><code>user/controller/user.controller.ts</code></td><td>15 nodes</td></tr>
+      <tr><td><code>modules/catalog/service.ts</code></td><td>12 nodes</td></tr>
 <tr><td><code>auth/password/route.ts</code></td><td>8 nodes</td></tr>
-<tr><td><code>backend/lib/jwt.ts</code></td><td>8 nodes</td></tr>
 <tr><td><code>brands/[id]/route.ts</code></td><td>6 nodes</td></tr>
 <tr><td><code>categories/[id]/route.ts</code></td><td>6 nodes</td></tr>
 <tr><td><code>[id]/attributes/route.ts</code></td><td>6 nodes</td></tr>
 <tr><td><code>products/[id]/route.ts</code></td><td>6 nodes</td></tr>
+<tr><td><code>[id]/variants/route.ts</code></td><td>6 nodes</td></tr>
+<tr><td><code>backend/lib/jwt.ts</code></td><td>6 nodes</td></tr>
     </table>
   </div>
   <div class="card">
     <h4>Design Notes</h4>
-    <p>This section comes from graphify community clustering. Relationship summary: calls x176, contains x136, imports x51, imports x29. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
+    <p>This section comes from graphify community clustering. Relationship summary: contains x58, calls x43, imports x27, imports x7. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
   </div>
 </div>
 <hr>
@@ -1782,20 +1792,18 @@ flowchart LR
 
 <!-- ====== 9. Tests & Fixtures ====== -->
 <h2 id="tests-fixtures">9. Tests &amp; Fixtures</h2>
-<p>Tests &amp; Fixtures groups implementation around user, backend, modules, model, mostly in user/model/user.model.mongo.ts, user/model/user.model.mock.ts, user/controller/user.controller.ts. This section covers 22 nodes and 38 internal edges; the diagram shows only representative relationships to stay readable.</p>
+<p>Tests &amp; Fixtures groups implementation around backend, user, modules, model, mostly in user/model/user.model.mongo.ts, user/controller/user.controller.ts, user/model/user.model.mock.ts. This section covers 35 nodes and 67 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
 %%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
 flowchart LR
-    %% Section: Tests &amp; Fixtures (22 nodes, 38 edges)
+    %% Section: Tests &amp; Fixtures (35 nodes, 67 edges)
     subgraph tests_fixtures_user_model_user_model_mock_ts_6953e805["user/model/user.model.mock.ts"]
         model_user_model_mock_usermodelmock_448d639a("UserModelMock<br/><small>user/model/user.model.mock.ts</small>")
         model_user_model_mock_usermodelmock_createuser_30ad4c66("createUser()<br/><small>user/model/user.model.mock.ts</small>")
         model_user_model_mock_usermodelmock_getuserbyema_97266e23("getUserByEmail()<br/><small>user/model/user.model.mock.ts</small>")
         model_user_model_mock_usermodelmock_getuserbyid_131c86ba("getUserByID()<br/><small>user/model/user.model.mock.ts</small>")
         model_user_model_mock_usermodelmock_updateuser_b69262cd("updateUser()<br/><small>user/model/user.model.mock.ts</small>")
-        model_user_model_mock_bf2b7a31("user.model.mock.ts")
-        model_user_model_mock_users_9409649d("users<br/><small>user/model/user.model.mock.ts</small>")
     end
     subgraph tests_fixtures_user_model_user_model_mongo_ts_07482ecf["user/model/user.model.mongo.ts"]
         model_user_model_mongo_usermodelmongo_1408d9ed("UserModelMongo<br/><small>user/model/user.model.mongo.ts</small>")
@@ -1803,15 +1811,21 @@ flowchart LR
         model_user_model_mongo_usermodelmongo_getuserbye_009ae089("getUserByEmail()<br/><small>user/model/user.model.mongo.ts</small>")
         model_user_model_mongo_usermodelmongo_getuserbyi_e74fd46c("getUserByID()<br/><small>user/model/user.model.mongo.ts</small>")
         model_user_model_mongo_usermodelmongo_updateuser_f19f8804("updateUser()<br/><small>user/model/user.model.mongo.ts</small>")
-        model_user_model_mongo_b46ae121("user.model.mongo.ts")
+    end
+    subgraph tests_fixtures_backend_lib_bycript_ts_7c82054e["backend/lib/bycript.ts"]
+        lib_bycript_927d33a6("bycript.ts")
+        lib_bycript_bcrypt_630e4578("Bcrypt<br/><small>backend/lib/bycript.ts</small>")
+        lib_bycript_bcrypt_compare_abca3aee("compare()<br/><small>backend/lib/bycript.ts</small>")
+        lib_bycript_bcrypt_hash_c42f63b7("hash()<br/><small>backend/lib/bycript.ts</small>")
     end
     subgraph tests_fixtures_user_controller_user_controller_t_ad2a4b83["user/controller/user.controller.ts"]
-        controller_user_controller_createuserdto_e8d48a97("CreateUserDto<br/><small>user/controller/user.controller.ts</small>")
-        controller_user_controller_updateuserdto_f239bcac("UpdateUserDto<br/><small>user/controller/user.controller.ts</small>")
-        controller_user_controller_user_1e49678a("User<br/><small>user/controller/user.controller.ts</small>")
         controller_user_controller_usermodelinterface_3d411ba4("UserModelInterface<br/><small>user/controller/user.controller.ts</small>")
+        controller_user_controller_391c2858("user.controller.ts")
+        controller_user_controller_hasherinterface_caa3f86b("HasherInterface<br/><small>user/controller/user.controller.ts</small>")
     end
-    model_modelfactory_modelfactory_0044626f("ModelFactory<br/><small>user/model/modelFactory.ts</small>")
+    controller_newusercontroller_b8274aa6("newUserController.ts")
+    lib_bycript_bcrypt_630e4578 -->|method| lib_bycript_bcrypt_compare_abca3aee
+    lib_bycript_bcrypt_630e4578 -->|method| lib_bycript_bcrypt_hash_c42f63b7
     model_user_model_mock_usermodelmock_448d639a -->|method| model_user_model_mock_usermodelmock_createuser_30ad4c66
     model_user_model_mock_usermodelmock_448d639a -->|method| model_user_model_mock_usermodelmock_getuserbyema_97266e23
     model_user_model_mock_usermodelmock_448d639a -->|method| model_user_model_mock_usermodelmock_getuserbyid_131c86ba
@@ -1820,33 +1834,30 @@ flowchart LR
     model_user_model_mongo_usermodelmongo_1408d9ed -->|method| model_user_model_mongo_usermodelmongo_getuserbye_009ae089
     model_user_model_mongo_usermodelmongo_1408d9ed -->|method| model_user_model_mongo_usermodelmongo_getuserbyi_e74fd46c
     model_user_model_mongo_usermodelmongo_1408d9ed -->|method| model_user_model_mongo_usermodelmongo_updateuser_f19f8804
-    controller_user_controller_usermodelinterface_3d411ba4 -->|imports| model_user_model_mock_bf2b7a31
-    controller_user_controller_usermodelinterface_3d411ba4 -->|imports| model_user_model_mongo_b46ae121
-    controller_user_controller_createuserdto_e8d48a97 -->|imports| model_user_model_mock_bf2b7a31
-    controller_user_controller_createuserdto_e8d48a97 -->|imports| model_user_model_mongo_b46ae121
-    controller_user_controller_updateuserdto_f239bcac -->|imports| model_user_model_mock_bf2b7a31
-    controller_user_controller_updateuserdto_f239bcac -->|imports| model_user_model_mongo_b46ae121
-    controller_user_controller_user_1e49678a -->|imports| model_user_model_mock_bf2b7a31
-    controller_user_controller_user_1e49678a -->|imports| model_user_model_mongo_b46ae121
-    %% Omitted for readability: 4 nodes, 0 edges
+    lib_bycript_927d33a6 -->|imports| controller_newusercontroller_b8274aa6
+    lib_bycript_927d33a6 -->|imports| controller_user_controller_391c2858
+    lib_bycript_927d33a6 -->|imports| controller_user_controller_hasherinterface_caa3f86b
+    lib_bycript_bcrypt_630e4578 -->|imports| controller_newusercontroller_b8274aa6
+    controller_newusercontroller_b8274aa6 -->|imports| controller_user_controller_391c2858
+    %% Omitted for readability: 17 nodes, 0 edges
     class model_user_model_mock_usermodelmock_448d639a klass;
     class model_user_model_mock_usermodelmock_createuser_30ad4c66 function;
     class model_user_model_mock_usermodelmock_getuserbyema_97266e23 function;
     class model_user_model_mock_usermodelmock_getuserbyid_131c86ba function;
     class model_user_model_mock_usermodelmock_updateuser_b69262cd function;
-    class model_user_model_mock_bf2b7a31 module;
-    class model_user_model_mock_users_9409649d function;
     class model_user_model_mongo_usermodelmongo_1408d9ed klass;
     class model_user_model_mongo_usermodelmongo_createuser_675cf679 function;
     class model_user_model_mongo_usermodelmongo_getuserbye_009ae089 function;
     class model_user_model_mongo_usermodelmongo_getuserbyi_e74fd46c function;
     class model_user_model_mongo_usermodelmongo_updateuser_f19f8804 function;
-    class model_user_model_mongo_b46ae121 module;
-    class controller_user_controller_createuserdto_e8d48a97 klass;
-    class controller_user_controller_updateuserdto_f239bcac klass;
-    class controller_user_controller_user_1e49678a klass;
+    class lib_bycript_927d33a6 module;
+    class lib_bycript_bcrypt_630e4578 klass;
+    class lib_bycript_bcrypt_compare_abca3aee function;
+    class lib_bycript_bcrypt_hash_c42f63b7 function;
     class controller_user_controller_usermodelinterface_3d411ba4 klass;
-    class model_modelfactory_modelfactory_0044626f klass;
+    class controller_user_controller_391c2858 module;
+    class controller_user_controller_hasherinterface_caa3f86b klass;
+    class controller_newusercontroller_b8274aa6 module;
     classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
     classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
     classDef async fill:#2e1065,stroke:#a78bfa,color:#ede9fe,stroke-width:1px;
@@ -1870,14 +1881,70 @@ flowchart LR
 </tr>
 <tr>
   <td>1</td>
-  <td><code>UserModelInterface</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
-  <td><span class="tag tag-class">Class</span></td>
+  <td><code>bycript.ts</code><br><small style="color:var(--muted)">backend/lib/bycript.ts</small></td>
+  <td><span class="tag tag-class">Module</span></td>
   <td>External entry / no inbound edge</td>
-  <td><code>user.model.mock.ts</code><br><small style="color:var(--muted)">user/model/user.model.mock.ts</small><br><code>user.model.mongo.ts</code><br><small style="color:var(--muted)">user/model/user.model.mongo.ts</small></td>
-  <td>UserModelInterface node in user/controller/user.controller.ts.</td>
+  <td><code>HasherInterface</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small><br><code>newUserController.ts</code><br><small style="color:var(--muted)">user/controller/newUserController.ts</small><br><code>user.controller.ts</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
+  <td>Module file in backend/lib/bycript.ts.</td>
 </tr>
 <tr>
   <td>2</td>
+  <td><code>Bcrypt</code><br><small style="color:var(--muted)">backend/lib/bycript.ts</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>compare()</code><br><small style="color:var(--muted)">backend/lib/bycript.ts</small><br><code>hash()</code><br><small style="color:var(--muted)">backend/lib/bycript.ts</small><br><code>newUserController.ts</code><br><small style="color:var(--muted)">user/controller/newUserController.ts</small></td>
+  <td>Bcrypt node in backend/lib/bycript.ts.</td>
+</tr>
+<tr>
+  <td>3</td>
+  <td><code>.compare()</code><br><small style="color:var(--muted)">backend/lib/bycript.ts</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>Bcrypt</code><br><small style="color:var(--muted)">backend/lib/bycript.ts</small></td>
+  <td>No direct outbound edge</td>
+  <td>.compare() node in backend/lib/bycript.ts.</td>
+</tr>
+<tr>
+  <td>4</td>
+  <td><code>.hash()</code><br><small style="color:var(--muted)">backend/lib/bycript.ts</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>Bcrypt</code><br><small style="color:var(--muted)">backend/lib/bycript.ts</small></td>
+  <td>No direct outbound edge</td>
+  <td>Caches analysis results or computes cache keys.</td>
+</tr>
+<tr>
+  <td>5</td>
+  <td><code>newUserController.ts</code><br><small style="color:var(--muted)">user/controller/newUserController.ts</small></td>
+  <td><span class="tag tag-class">Module</span></td>
+  <td><code>Bcrypt</code><br><small style="color:var(--muted)">backend/lib/bycript.ts</small><br><code>bycript.ts</code><br><small style="color:var(--muted)">backend/lib/bycript.ts</small></td>
+  <td><code>modelFactories</code><br><small style="color:var(--muted)">user/model/modelFactory.ts</small><br><code>modelFactory.ts</code><br><small style="color:var(--muted)">user/model/modelFactory.ts</small><br><code>ModelType</code><br><small style="color:var(--muted)">user/model/modelFactory.ts</small><br>+1 more</td>
+  <td>Module file in user/controller/newUserController.ts.</td>
+</tr>
+<tr>
+  <td>6</td>
+  <td><code>user.controller.ts</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
+  <td><span class="tag tag-class">Module</span></td>
+  <td><code>bycript.ts</code><br><small style="color:var(--muted)">backend/lib/bycript.ts</small><br><code>newUserController.ts</code><br><small style="color:var(--muted)">user/controller/newUserController.ts</small></td>
+  <td><code>modelFactory.ts</code><br><small style="color:var(--muted)">user/model/modelFactory.ts</small><br><code>user.model.mock.ts</code><br><small style="color:var(--muted)">user/model/user.model.mock.ts</small><br><code>user.model.mongo.ts</code><br><small style="color:var(--muted)">user/model/user.model.mongo.ts</small></td>
+  <td>Module file in user/controller/user.controller.ts.</td>
+</tr>
+<tr>
+  <td>7</td>
+  <td><code>HasherInterface</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td><code>bycript.ts</code><br><small style="color:var(--muted)">backend/lib/bycript.ts</small></td>
+  <td>No direct outbound edge</td>
+  <td>Caches analysis results or computes cache keys.</td>
+</tr>
+<tr>
+  <td>8</td>
+  <td><code>UserModelInterface</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>modelFactory.ts</code><br><small style="color:var(--muted)">user/model/modelFactory.ts</small><br><code>user.model.mock.ts</code><br><small style="color:var(--muted)">user/model/user.model.mock.ts</small><br><code>user.model.mongo.ts</code><br><small style="color:var(--muted)">user/model/user.model.mongo.ts</small></td>
+  <td>UserModelInterface node in user/controller/user.controller.ts.</td>
+</tr>
+<tr>
+  <td>9</td>
   <td><code>CreateUserDto</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
   <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
@@ -1885,7 +1952,7 @@ flowchart LR
   <td>CreateUserDto node in user/controller/user.controller.ts.</td>
 </tr>
 <tr>
-  <td>3</td>
+  <td>10</td>
   <td><code>UpdateUserDto</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
   <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
@@ -1893,7 +1960,23 @@ flowchart LR
   <td>UpdateUserDto node in user/controller/user.controller.ts.</td>
 </tr>
 <tr>
-  <td>4</td>
+  <td>11</td>
+  <td><code>RefreshTokenDto</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>RefreshTokenDto node in user/controller/user.controller.ts.</td>
+</tr>
+<tr>
+  <td>12</td>
+  <td><code>UpdateUserPasswordDto</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>UpdateUserPasswordDto node in user/controller/user.controller.ts.</td>
+</tr>
+<tr>
+  <td>13</td>
   <td><code>User</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
   <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
@@ -1901,7 +1984,31 @@ flowchart LR
   <td>User node in user/controller/user.controller.ts.</td>
 </tr>
 <tr>
-  <td>5</td>
+  <td>14</td>
+  <td><code>PublicUser</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>PublicUser node in user/controller/user.controller.ts.</td>
+</tr>
+<tr>
+  <td>15</td>
+  <td><code>modelFactory.ts</code><br><small style="color:var(--muted)">user/model/modelFactory.ts</small></td>
+  <td><span class="tag tag-class">Module</span></td>
+  <td><code>newUserController.ts</code><br><small style="color:var(--muted)">user/controller/newUserController.ts</small><br><code>user.controller.ts</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small><br><code>UserModelInterface</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
+  <td><code>user.model.mock.ts</code><br><small style="color:var(--muted)">user/model/user.model.mock.ts</small><br><code>UserModelMock</code><br><small style="color:var(--muted)">user/model/user.model.mock.ts</small></td>
+  <td>Module file in user/model/modelFactory.ts.</td>
+</tr>
+<tr>
+  <td>16</td>
+  <td><code>ModelType</code><br><small style="color:var(--muted)">user/model/modelFactory.ts</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td><code>newUserController.ts</code><br><small style="color:var(--muted)">user/controller/newUserController.ts</small></td>
+  <td>No direct outbound edge</td>
+  <td>ModelType node in user/model/modelFactory.ts.</td>
+</tr>
+<tr>
+  <td>17</td>
   <td><code>ModelFactory</code><br><small style="color:var(--muted)">user/model/modelFactory.ts</small></td>
   <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
@@ -1909,15 +2016,23 @@ flowchart LR
   <td>ModelFactory node in user/model/modelFactory.ts.</td>
 </tr>
 <tr>
-  <td>6</td>
+  <td>18</td>
+  <td><code>modelFactories</code><br><small style="color:var(--muted)">user/model/modelFactory.ts</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>newUserController.ts</code><br><small style="color:var(--muted)">user/controller/newUserController.ts</small></td>
+  <td>No direct outbound edge</td>
+  <td>modelFactories node in user/model/modelFactory.ts.</td>
+</tr>
+<tr>
+  <td>19</td>
   <td><code>user.model.mock.ts</code><br><small style="color:var(--muted)">user/model/user.model.mock.ts</small></td>
   <td><span class="tag tag-class">Module</span></td>
-  <td><code>CreateUserDto</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small><br><code>UpdateUserDto</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small><br><code>User</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small><br>+1 more</td>
+  <td><code>CreateUserDto</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small><br><code>modelFactory.ts</code><br><small style="color:var(--muted)">user/model/modelFactory.ts</small><br><code>UpdateUserDto</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small><br>+3 more</td>
   <td>No direct outbound edge</td>
   <td>Module file in user/model/user.model.mock.ts.</td>
 </tr>
 <tr>
-  <td>7</td>
+  <td>20</td>
   <td><code>users</code><br><small style="color:var(--muted)">user/model/user.model.mock.ts</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -1925,15 +2040,15 @@ flowchart LR
   <td>users node in user/model/user.model.mock.ts.</td>
 </tr>
 <tr>
-  <td>8</td>
+  <td>21</td>
   <td><code>UserModelMock</code><br><small style="color:var(--muted)">user/model/user.model.mock.ts</small></td>
   <td><span class="tag tag-class">Class</span></td>
-  <td>External entry / no inbound edge</td>
+  <td><code>modelFactory.ts</code><br><small style="color:var(--muted)">user/model/modelFactory.ts</small></td>
   <td><code>createUser()</code><br><small style="color:var(--muted)">user/model/user.model.mock.ts</small><br><code>getUserByEmail()</code><br><small style="color:var(--muted)">user/model/user.model.mock.ts</small><br><code>getUserByID()</code><br><small style="color:var(--muted)">user/model/user.model.mock.ts</small><br>+1 more</td>
   <td>UserModelMock node in user/model/user.model.mock.ts.</td>
 </tr>
 <tr>
-  <td>9</td>
+  <td>22</td>
   <td><code>.getUserByEmail()</code><br><small style="color:var(--muted)">user/model/user.model.mock.ts</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>UserModelMock</code><br><small style="color:var(--muted)">user/model/user.model.mock.ts</small></td>
@@ -1941,7 +2056,7 @@ flowchart LR
   <td>.getUserByEmail() node in user/model/user.model.mock.ts.</td>
 </tr>
 <tr>
-  <td>10</td>
+  <td>23</td>
   <td><code>.createUser()</code><br><small style="color:var(--muted)">user/model/user.model.mock.ts</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>UserModelMock</code><br><small style="color:var(--muted)">user/model/user.model.mock.ts</small></td>
@@ -1949,7 +2064,7 @@ flowchart LR
   <td>.createUser() node in user/model/user.model.mock.ts.</td>
 </tr>
 <tr>
-  <td>11</td>
+  <td>24</td>
   <td><code>.updateUser()</code><br><small style="color:var(--muted)">user/model/user.model.mock.ts</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>UserModelMock</code><br><small style="color:var(--muted)">user/model/user.model.mock.ts</small></td>
@@ -1957,7 +2072,7 @@ flowchart LR
   <td>.updateUser() node in user/model/user.model.mock.ts.</td>
 </tr>
 <tr>
-  <td>12</td>
+  <td>25</td>
   <td><code>.getUserByID()</code><br><small style="color:var(--muted)">user/model/user.model.mock.ts</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>UserModelMock</code><br><small style="color:var(--muted)">user/model/user.model.mock.ts</small></td>
@@ -1965,15 +2080,15 @@ flowchart LR
   <td>.getUserByID() node in user/model/user.model.mock.ts.</td>
 </tr>
 <tr>
-  <td>13</td>
+  <td>26</td>
   <td><code>user.model.mongo.ts</code><br><small style="color:var(--muted)">user/model/user.model.mongo.ts</small></td>
   <td><span class="tag tag-class">Module</span></td>
-  <td><code>CreateUserDto</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small><br><code>UpdateUserDto</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small><br><code>User</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small><br>+1 more</td>
+  <td><code>CreateUserDto</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small><br><code>UpdateUserDto</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small><br><code>User</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small><br>+2 more</td>
   <td>No direct outbound edge</td>
   <td>Module file in user/model/user.model.mongo.ts.</td>
 </tr>
 <tr>
-  <td>14</td>
+  <td>27</td>
   <td><code>AutoIncrementPlugin</code><br><small style="color:var(--muted)">user/model/user.model.mongo.ts</small></td>
   <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
@@ -1981,7 +2096,7 @@ flowchart LR
   <td>AutoIncrementPlugin node in user/model/user.model.mongo.ts.</td>
 </tr>
 <tr>
-  <td>15</td>
+  <td>28</td>
   <td><code>AutoIncrementFactory</code><br><small style="color:var(--muted)">user/model/user.model.mongo.ts</small></td>
   <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
@@ -1989,7 +2104,7 @@ flowchart LR
   <td>AutoIncrementFactory node in user/model/user.model.mongo.ts.</td>
 </tr>
 <tr>
-  <td>16</td>
+  <td>29</td>
   <td><code>AutoIncrement</code><br><small style="color:var(--muted)">user/model/user.model.mongo.ts</small></td>
   <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
@@ -1997,52 +2112,12 @@ flowchart LR
   <td>AutoIncrement node in user/model/user.model.mongo.ts.</td>
 </tr>
 <tr>
-  <td>17</td>
+  <td>30</td>
   <td><code>UserSchema</code><br><small style="color:var(--muted)">user/model/user.model.mongo.ts</small></td>
   <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
   <td>UserSchema node in user/model/user.model.mongo.ts.</td>
-</tr>
-<tr>
-  <td>18</td>
-  <td><code>UserModelMongo</code><br><small style="color:var(--muted)">user/model/user.model.mongo.ts</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>createUser()</code><br><small style="color:var(--muted)">user/model/user.model.mongo.ts</small><br><code>getUserByEmail()</code><br><small style="color:var(--muted)">user/model/user.model.mongo.ts</small><br><code>getUserByID()</code><br><small style="color:var(--muted)">user/model/user.model.mongo.ts</small><br>+1 more</td>
-  <td>UserModelMongo node in user/model/user.model.mongo.ts.</td>
-</tr>
-<tr>
-  <td>19</td>
-  <td><code>.getUserByEmail()</code><br><small style="color:var(--muted)">user/model/user.model.mongo.ts</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>UserModelMongo</code><br><small style="color:var(--muted)">user/model/user.model.mongo.ts</small></td>
-  <td>No direct outbound edge</td>
-  <td>.getUserByEmail() node in user/model/user.model.mongo.ts.</td>
-</tr>
-<tr>
-  <td>20</td>
-  <td><code>.createUser()</code><br><small style="color:var(--muted)">user/model/user.model.mongo.ts</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>UserModelMongo</code><br><small style="color:var(--muted)">user/model/user.model.mongo.ts</small></td>
-  <td>No direct outbound edge</td>
-  <td>.createUser() node in user/model/user.model.mongo.ts.</td>
-</tr>
-<tr>
-  <td>21</td>
-  <td><code>.updateUser()</code><br><small style="color:var(--muted)">user/model/user.model.mongo.ts</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>UserModelMongo</code><br><small style="color:var(--muted)">user/model/user.model.mongo.ts</small></td>
-  <td>No direct outbound edge</td>
-  <td>.updateUser() node in user/model/user.model.mongo.ts.</td>
-</tr>
-<tr>
-  <td>22</td>
-  <td><code>.getUserByID()</code><br><small style="color:var(--muted)">user/model/user.model.mongo.ts</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>UserModelMongo</code><br><small style="color:var(--muted)">user/model/user.model.mongo.ts</small></td>
-  <td>No direct outbound edge</td>
-  <td>.getUserByID() node in user/model/user.model.mongo.ts.</td>
 </tr>
 </table>
 
@@ -2052,20 +2127,669 @@ flowchart LR
     <table style="width:100%;font-size:0.85rem;">
       <tr><th>File</th><th>Coverage</th></tr>
       <tr><td><code>user/model/user.model.mongo.ts</code></td><td>10 nodes</td></tr>
+<tr><td><code>user/controller/user.controller.ts</code></td><td>9 nodes</td></tr>
 <tr><td><code>user/model/user.model.mock.ts</code></td><td>7 nodes</td></tr>
-<tr><td><code>user/controller/user.controller.ts</code></td><td>4 nodes</td></tr>
-<tr><td><code>user/model/modelFactory.ts</code></td><td>1 nodes</td></tr>
+<tr><td><code>backend/lib/bycript.ts</code></td><td>4 nodes</td></tr>
+<tr><td><code>user/model/modelFactory.ts</code></td><td>4 nodes</td></tr>
+<tr><td><code>user/controller/newUserController.ts</code></td><td>1 nodes</td></tr>
     </table>
   </div>
   <div class="card">
     <h4>Design Notes</h4>
-    <p>This section comes from graphify community clustering. Relationship summary: references x13, imports x8, method x8, contains x7. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
+    <p>This section comes from graphify community clustering. Relationship summary: contains x19, imports x14, references x13, method x10. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
   </div>
 </div>
 <hr>
 
-<!-- ====== 10. Community 36 ====== -->
-<h2 id="community-36">10. Community 36</h2>
+<!-- ====== 10. Community 13 ====== -->
+<h2 id="community-13">10. Community 13</h2>
+<p>Community 13 groups implementation around backend, servicets, modules, catalog, mostly in modules/catalog/service.ts, backend/lib/mongodb.ts, shared/validation/validationParams.ts. This section covers 58 nodes and 157 internal edges; the diagram shows only representative relationships to stay readable.</p>
+
+<div class="mermaid">
+%%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
+flowchart LR
+    %% Section: Community 13 (58 nodes, 157 edges)
+    subgraph community_13_modules_catalog_service_ts_4f34274d["modules/catalog/service.ts"]
+        catalog_service_listproducts_9e0038be("listProducts()<br/><small>modules/catalog/service.ts</small>")
+        catalog_service_getproductupdatepayload_f4a5fa75("getProductUpdatePayload()<br/><small>modules/catalog/service.ts</small>")
+        catalog_service_createproduct_fd73ebb5("createProduct()<br/><small>modules/catalog/service.ts</small>")
+        catalog_service_listcatalogentities_4c80da41("listCatalogEntities()<br/><small>modules/catalog/service.ts</small>")
+        catalog_service_getproductpayload_26206e84("getProductPayload()<br/><small>modules/catalog/service.ts</small>")
+        catalog_service_createproductvariant_e9d0b09a("createProductVariant()<br/><small>modules/catalog/service.ts</small>")
+        catalog_service_httperror_9f7303cd("HttpError<br/><small>modules/catalog/service.ts</small>")
+        catalog_service_httperror_constructor_66e20afc("constructor()<br/><small>modules/catalog/service.ts</small>")
+        catalog_service_escaperegex_653e9896("escapeRegex()<br/><small>modules/catalog/service.ts</small>")
+        catalog_service_getactivefilter_41e60fd4("getActiveFilter()<br/><small>modules/catalog/service.ts</small>")
+        catalog_service_getpagination_5ba27178("getPagination()<br/><small>modules/catalog/service.ts</small>")
+        catalog_service_getsearchvalue_b721cbc2("getSearchValue()<br/><small>modules/catalog/service.ts</small>")
+        catalog_service_resolvebrandid_a74eb74a("resolveBrandId()<br/><small>modules/catalog/service.ts</small>")
+        catalog_service_resolvecategoryid_a334dfac("resolveCategoryId()<br/><small>modules/catalog/service.ts</small>")
+        catalog_service_topaginatedresponse_c0cdd9f7("toPaginatedResponse()<br/><small>modules/catalog/service.ts</small>")
+        catalog_service_getattributesinput_3452463c("getAttributesInput()<br/><small>modules/catalog/service.ts</small>")
+        catalog_service_getbodyrecord_7d907379("getBodyRecord()<br/><small>modules/catalog/service.ts</small>")
+    end
+    lib_mongodb_connectdb_2fdf6332("connectDB()<br/><small>backend/lib/mongodb.ts</small>")
+    catalog_service_httperror_9f7303cd -->|method| catalog_service_httperror_constructor_66e20afc
+    catalog_service_listproducts_9e0038be -->|calls| catalog_service_escaperegex_653e9896
+    catalog_service_listproducts_9e0038be -->|calls| catalog_service_getactivefilter_41e60fd4
+    catalog_service_listproducts_9e0038be -->|calls| catalog_service_getpagination_5ba27178
+    catalog_service_listproducts_9e0038be -->|calls| catalog_service_getsearchvalue_b721cbc2
+    catalog_service_listproducts_9e0038be -->|calls| catalog_service_resolvebrandid_a74eb74a
+    catalog_service_listproducts_9e0038be -->|calls| catalog_service_resolvecategoryid_a334dfac
+    catalog_service_listproducts_9e0038be -->|calls| catalog_service_topaginatedresponse_c0cdd9f7
+    catalog_service_listproducts_9e0038be -->|calls| lib_mongodb_connectdb_2fdf6332
+    catalog_service_createproduct_fd73ebb5 -->|calls| catalog_service_getattributesinput_3452463c
+    catalog_service_createproduct_fd73ebb5 -->|calls| catalog_service_getbodyrecord_7d907379
+    catalog_service_createproduct_fd73ebb5 -->|calls| catalog_service_getproductpayload_26206e84
+    catalog_service_createproduct_fd73ebb5 -->|calls| lib_mongodb_connectdb_2fdf6332
+    catalog_service_createproductvariant_e9d0b09a -->|calls| catalog_service_getbodyrecord_7d907379
+    catalog_service_createproductvariant_e9d0b09a -->|calls| lib_mongodb_connectdb_2fdf6332
+    catalog_service_listcatalogentities_4c80da41 -->|calls| catalog_service_escaperegex_653e9896
+    catalog_service_listcatalogentities_4c80da41 -->|calls| catalog_service_getactivefilter_41e60fd4
+    catalog_service_listcatalogentities_4c80da41 -->|calls| catalog_service_getpagination_5ba27178
+    catalog_service_listcatalogentities_4c80da41 -->|calls| catalog_service_getsearchvalue_b721cbc2
+    catalog_service_listcatalogentities_4c80da41 -->|calls| catalog_service_topaginatedresponse_c0cdd9f7
+    catalog_service_listcatalogentities_4c80da41 -->|calls| lib_mongodb_connectdb_2fdf6332
+    catalog_service_getproductpayload_26206e84 -->|calls| catalog_service_resolvebrandid_a74eb74a
+    catalog_service_getproductpayload_26206e84 -->|calls| catalog_service_resolvecategoryid_a334dfac
+    catalog_service_getproductupdatepayload_f4a5fa75 -->|calls| catalog_service_resolvebrandid_a74eb74a
+    %% Omitted for readability: 40 nodes, 2 edges
+    class catalog_service_listproducts_9e0038be function;
+    class catalog_service_getproductupdatepayload_f4a5fa75 function;
+    class catalog_service_createproduct_fd73ebb5 function;
+    class catalog_service_listcatalogentities_4c80da41 function;
+    class catalog_service_getproductpayload_26206e84 function;
+    class catalog_service_createproductvariant_e9d0b09a function;
+    class catalog_service_httperror_9f7303cd klass;
+    class catalog_service_httperror_constructor_66e20afc function;
+    class catalog_service_escaperegex_653e9896 function;
+    class catalog_service_getactivefilter_41e60fd4 function;
+    class catalog_service_getpagination_5ba27178 function;
+    class catalog_service_getsearchvalue_b721cbc2 function;
+    class catalog_service_resolvebrandid_a74eb74a function;
+    class catalog_service_resolvecategoryid_a334dfac function;
+    class catalog_service_topaginatedresponse_c0cdd9f7 function;
+    class catalog_service_getattributesinput_3452463c function;
+    class catalog_service_getbodyrecord_7d907379 function;
+    class lib_mongodb_connectdb_2fdf6332 function;
+    classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
+    classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
+    classDef async fill:#2e1065,stroke:#a78bfa,color:#ede9fe,stroke-width:1px;
+    classDef klass fill:#064e3b,stroke:#34d399,color:#d1fae5,stroke-width:1px;
+    classDef ui fill:#831843,stroke:#f472b6,color:#fce7f3,stroke-width:1px;
+    classDef module fill:#172554,stroke:#60a5fa,color:#dbeafe,stroke-width:1px;
+    classDef test fill:#3f3f46,stroke:#a1a1aa,color:#f4f4f5,stroke-width:1px;
+    classDef concept fill:#292524,stroke:#a8a29e,color:#fafaf9,stroke-dasharray:4 3;
+    classDef function fill:#0f172a,stroke:#38bdf8,color:#e0f2fe,stroke-width:1px;
+</div>
+
+<h3>Call Details</h3>
+<table class="call-table">
+<tr>
+  <th style="width:5%">#</th>
+  <th style="width:28%">Node</th>
+  <th style="width:10%">Type</th>
+  <th style="width:17%">Caller</th>
+  <th style="width:20%">Callees</th>
+  <th style="width:20%">Description</th>
+</tr>
+<tr>
+  <td>1</td>
+  <td><code>service.ts</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td><span class="tag tag-class">Module</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>connectDB()</code><br><small style="color:var(--muted)">backend/lib/mongodb.ts</small><br><code>mongodb.ts</code><br><small style="color:var(--muted)">backend/lib/mongodb.ts</small><br><code>validationPaginationParams()</code><br><small style="color:var(--muted)">shared/validation/validationParams.ts</small><br>+1 more</td>
+  <td>Module file in modules/catalog/service.ts.</td>
+</tr>
+<tr>
+  <td>2</td>
+  <td><code>BodyRecord</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>BodyRecord node in modules/catalog/service.ts.</td>
+</tr>
+<tr>
+  <td>3</td>
+  <td><code>CatalogEntityModel</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>CatalogEntityModel node in modules/catalog/service.ts.</td>
+</tr>
+<tr>
+  <td>4</td>
+  <td><code>ProductPayload</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>ProductPayload node in modules/catalog/service.ts.</td>
+</tr>
+<tr>
+  <td>5</td>
+  <td><code>ProductUpdatePayload</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>ProductUpdatePayload node in modules/catalog/service.ts.</td>
+</tr>
+<tr>
+  <td>6</td>
+  <td><code>ProductAttributeInput</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>ProductAttributeInput node in modules/catalog/service.ts.</td>
+</tr>
+<tr>
+  <td>7</td>
+  <td><code>ProductVariantInput</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>ProductVariantInput node in modules/catalog/service.ts.</td>
+</tr>
+<tr>
+  <td>8</td>
+  <td><code>ListFilter</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>ListFilter node in modules/catalog/service.ts.</td>
+</tr>
+<tr>
+  <td>9</td>
+  <td><code>HttpError</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>constructor()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td>HttpError node in modules/catalog/service.ts.</td>
+</tr>
+<tr>
+  <td>10</td>
+  <td><code>.constructor()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>HttpError</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td>No direct outbound edge</td>
+  <td>.constructor() node in modules/catalog/service.ts.</td>
+</tr>
+<tr>
+  <td>11</td>
+  <td><code>listProducts()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>connectDB()</code><br><small style="color:var(--muted)">backend/lib/mongodb.ts</small><br><code>escapeRegex()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small><br><code>getActiveFilter()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small><br>+5 more</td>
+  <td>listProducts() node in modules/catalog/service.ts.</td>
+</tr>
+<tr>
+  <td>12</td>
+  <td><code>createProduct()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>connectDB()</code><br><small style="color:var(--muted)">backend/lib/mongodb.ts</small><br><code>getAttributesInput()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small><br><code>getBodyRecord()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small><br>+3 more</td>
+  <td>createProduct() node in modules/catalog/service.ts.</td>
+</tr>
+<tr>
+  <td>13</td>
+  <td><code>getProduct()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>createProduct()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td><code>connectDB()</code><br><small style="color:var(--muted)">backend/lib/mongodb.ts</small><br><code>getObjectId()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td>getProduct() node in modules/catalog/service.ts.</td>
+</tr>
+<tr>
+  <td>14</td>
+  <td><code>updateProduct()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>connectDB()</code><br><small style="color:var(--muted)">backend/lib/mongodb.ts</small><br><code>getBodyRecord()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small><br><code>getObjectId()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small><br>+1 more</td>
+  <td>updateProduct() node in modules/catalog/service.ts.</td>
+</tr>
+<tr>
+  <td>15</td>
+  <td><code>listProductAttributes()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>assertProductExists()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small><br><code>connectDB()</code><br><small style="color:var(--muted)">backend/lib/mongodb.ts</small><br><code>getObjectId()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td>listProductAttributes() node in modules/catalog/service.ts.</td>
+</tr>
+<tr>
+  <td>16</td>
+  <td><code>upsertProductAttributes()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>assertProductExists()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small><br><code>connectDB()</code><br><small style="color:var(--muted)">backend/lib/mongodb.ts</small><br><code>getAttributesInput()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small><br>+1 more</td>
+  <td>upsertProductAttributes() node in modules/catalog/service.ts.</td>
+</tr>
+<tr>
+  <td>17</td>
+  <td><code>deleteProductAttributes()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>assertProductExists()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small><br><code>connectDB()</code><br><small style="color:var(--muted)">backend/lib/mongodb.ts</small><br><code>getAttributeNamesInput()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small><br>+1 more</td>
+  <td>deleteProductAttributes() node in modules/catalog/service.ts.</td>
+</tr>
+<tr>
+  <td>18</td>
+  <td><code>listProductVariants()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>assertProductExists()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small><br><code>connectDB()</code><br><small style="color:var(--muted)">backend/lib/mongodb.ts</small><br><code>getObjectId()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td>listProductVariants() node in modules/catalog/service.ts.</td>
+</tr>
+<tr>
+  <td>19</td>
+  <td><code>createProductVariant()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>assertProductExists()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small><br><code>connectDB()</code><br><small style="color:var(--muted)">backend/lib/mongodb.ts</small><br><code>getBodyRecord()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small><br>+2 more</td>
+  <td>createProductVariant() node in modules/catalog/service.ts.</td>
+</tr>
+<tr>
+  <td>20</td>
+  <td><code>upsertProductVariants()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>assertProductExists()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small><br><code>connectDB()</code><br><small style="color:var(--muted)">backend/lib/mongodb.ts</small><br><code>getObjectId()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small><br>+1 more</td>
+  <td>upsertProductVariants() node in modules/catalog/service.ts.</td>
+</tr>
+<tr>
+  <td>21</td>
+  <td><code>updateProductVariant()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>assertProductExists()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small><br><code>connectDB()</code><br><small style="color:var(--muted)">backend/lib/mongodb.ts</small><br><code>getBodyRecord()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small><br>+2 more</td>
+  <td>updateProductVariant() node in modules/catalog/service.ts.</td>
+</tr>
+<tr>
+  <td>22</td>
+  <td><code>deleteProductVariant()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>assertProductExists()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small><br><code>connectDB()</code><br><small style="color:var(--muted)">backend/lib/mongodb.ts</small><br><code>getObjectId()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td>deleteProductVariant() node in modules/catalog/service.ts.</td>
+</tr>
+<tr>
+  <td>23</td>
+  <td><code>createCategory()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>connectDB()</code><br><small style="color:var(--muted)">backend/lib/mongodb.ts</small><br><code>getBodyRecord()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small><br><code>getCatalogPayload()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td>createCategory() node in modules/catalog/service.ts.</td>
+</tr>
+<tr>
+  <td>24</td>
+  <td><code>createBrand()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>connectDB()</code><br><small style="color:var(--muted)">backend/lib/mongodb.ts</small><br><code>getBodyRecord()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small><br><code>getCatalogPayload()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td>createBrand() node in modules/catalog/service.ts.</td>
+</tr>
+<tr>
+  <td>25</td>
+  <td><code>listCatalogEntities()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>connectDB()</code><br><small style="color:var(--muted)">backend/lib/mongodb.ts</small><br><code>escapeRegex()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small><br><code>getActiveFilter()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small><br>+3 more</td>
+  <td>listCatalogEntities() node in modules/catalog/service.ts.</td>
+</tr>
+<tr>
+  <td>26</td>
+  <td><code>getCatalogEntity()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>connectDB()</code><br><small style="color:var(--muted)">backend/lib/mongodb.ts</small><br><code>getObjectId()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td>getCatalogEntity() node in modules/catalog/service.ts.</td>
+</tr>
+<tr>
+  <td>27</td>
+  <td><code>updateCatalogEntity()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>connectDB()</code><br><small style="color:var(--muted)">backend/lib/mongodb.ts</small><br><code>getBodyRecord()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small><br><code>getCatalogPayload()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small><br>+1 more</td>
+  <td>updateCatalogEntity() node in modules/catalog/service.ts.</td>
+</tr>
+<tr>
+  <td>28</td>
+  <td><code>deactivateCatalogEntity()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>connectDB()</code><br><small style="color:var(--muted)">backend/lib/mongodb.ts</small><br><code>getObjectId()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td>deactivateCatalogEntity() node in modules/catalog/service.ts.</td>
+</tr>
+<tr>
+  <td>29</td>
+  <td><code>getProductPayload()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>createProduct()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td><code>getOptionalString()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small><br><code>getRequiredReference()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small><br><code>getRequiredString()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small><br>+3 more</td>
+  <td>getProductPayload() node in modules/catalog/service.ts.</td>
+</tr>
+<tr>
+  <td>30</td>
+  <td><code>getProductUpdatePayload()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>updateProduct()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small></td>
+  <td><code>getOptionalString()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small><br><code>getRequiredReference()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small><br><code>getStringArray()</code><br><small style="color:var(--muted)">modules/catalog/service.ts</small><br>+4 more</td>
+  <td>getProductUpdatePayload() node in modules/catalog/service.ts.</td>
+</tr>
+</table>
+
+<div class="grid">
+  <div class="card">
+    <h4>Key Files</h4>
+    <table style="width:100%;font-size:0.85rem;">
+      <tr><th>File</th><th>Coverage</th></tr>
+      <tr><td><code>modules/catalog/service.ts</code></td><td>53 nodes</td></tr>
+<tr><td><code>backend/lib/mongodb.ts</code></td><td>3 nodes</td></tr>
+<tr><td><code>shared/validation/validationParams.ts</code></td><td>2 nodes</td></tr>
+    </table>
+  </div>
+  <div class="card">
+    <h4>Design Notes</h4>
+    <p>This section comes from graphify community clustering. Relationship summary: calls x98, contains x54, imports x2, imports x2. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
+  </div>
+</div>
+<hr>
+
+<!-- ====== 11. Community 9 ====== -->
+<h2 id="community-9">11. Community 9</h2>
+<p>Community 9 groups implementation around backend, app, auth, modules, mostly in user/controller/user.controller.ts, auth/login/LoginForm.tsx, auth/register/RegisterForm.tsx. This section covers 22 nodes and 32 internal edges; the diagram shows only representative relationships to stay readable.</p>
+
+<div class="mermaid">
+%%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
+flowchart LR
+    %% Section: Community 9 (22 nodes, 32 edges)
+    subgraph community_9_user_controller_user_controller_ts_35c067d3["user/controller/user.controller.ts"]
+        controller_user_controller_usercontroller_a5d5ed55("UserController<br/><small>user/controller/user.controller.ts</small>")
+        controller_user_controller_usercontroller_update_a4628e10("updateUser()<br/><small>user/controller/user.controller.ts</small>")
+        controller_user_controller_usercontroller_login_a76a4d97("login()<br/><small>user/controller/user.controller.ts</small>")
+        controller_user_controller_usercontroller_refres_177736a5("refreshToken()<br/><small>user/controller/user.controller.ts</small>")
+        controller_user_controller_usercontroller_constr_e6f20beb("constructor()<br/><small>user/controller/user.controller.ts</small>")
+        controller_user_controller_usercontroller_getuse_c645ad70("getUserProfile()<br/><small>user/controller/user.controller.ts</small>")
+        controller_user_controller_usercontroller_regist_49352cfe("register()<br/><small>user/controller/user.controller.ts</small>")
+        controller_user_controller_usercontroller_update_8f4b7adb("updatePassword()<br/><small>user/controller/user.controller.ts</small>")
+        controller_user_controller_usercontroller_update_1bd4a90f("updateUserPassword()<br/><small>user/controller/user.controller.ts</small>")
+        controller_user_controller_topublicuser_b4aaebfb("toPublicUser()<br/><small>user/controller/user.controller.ts</small>")
+    end
+    subgraph community_9_auth_login_LoginForm_tsx_241dac7b["auth/login/LoginForm.tsx"]
+        login_loginform_c1f14b8a("LoginForm.tsx")
+        login_loginform_loginform_b1e3991a("LoginForm()<br/><small>auth/login/LoginForm.tsx</small>")
+    end
+    subgraph community_9_auth_register_RegisterForm_tsx_70bbfcfd["auth/register/RegisterForm.tsx"]
+        register_registerform_93e4bc22("RegisterForm.tsx")
+        register_registerform_registerform_c3da64a2("RegisterForm()<br/><small>auth/register/RegisterForm.tsx</small>")
+    end
+    subgraph community_9_backend_lib_jwt_ts_e8c2a96a["backend/lib/jwt.ts"]
+        lib_jwt_createaccesstoken_4bd04041("createAccessToken()<br/><small>backend/lib/jwt.ts</small>")
+        lib_jwt_createrefreshtoken_9faf0fd8("createRefreshToken()<br/><small>backend/lib/jwt.ts</small>")
+    end
+    login_page_6485224e("page.tsx")
+    register_page_bdc060f9("page.tsx")
+    lib_jwt_createaccesstoken_4bd04041 -->|calls| controller_user_controller_usercontroller_login_a76a4d97
+    lib_jwt_createaccesstoken_4bd04041 -->|calls| controller_user_controller_usercontroller_refres_177736a5
+    lib_jwt_createrefreshtoken_9faf0fd8 -->|calls| controller_user_controller_usercontroller_login_a76a4d97
+    lib_jwt_createrefreshtoken_9faf0fd8 -->|calls| controller_user_controller_usercontroller_refres_177736a5
+    controller_user_controller_usercontroller_a5d5ed55 -->|method| controller_user_controller_usercontroller_constr_e6f20beb
+    controller_user_controller_usercontroller_a5d5ed55 -->|method| controller_user_controller_usercontroller_getuse_c645ad70
+    controller_user_controller_usercontroller_a5d5ed55 -->|method| controller_user_controller_usercontroller_login_a76a4d97
+    controller_user_controller_usercontroller_a5d5ed55 -->|method| controller_user_controller_usercontroller_refres_177736a5
+    controller_user_controller_usercontroller_a5d5ed55 -->|method| controller_user_controller_usercontroller_regist_49352cfe
+    controller_user_controller_usercontroller_a5d5ed55 -->|method| controller_user_controller_usercontroller_update_8f4b7adb
+    controller_user_controller_usercontroller_a5d5ed55 -->|method| controller_user_controller_usercontroller_update_a4628e10
+    controller_user_controller_usercontroller_a5d5ed55 -->|method| controller_user_controller_usercontroller_update_1bd4a90f
+    controller_user_controller_usercontroller_update_a4628e10 -->|calls| controller_user_controller_topublicuser_b4aaebfb
+    controller_user_controller_usercontroller_update_a4628e10 -->|calls| controller_user_controller_usercontroller_update_1bd4a90f
+    controller_user_controller_usercontroller_regist_49352cfe -->|calls| controller_user_controller_topublicuser_b4aaebfb
+    controller_user_controller_usercontroller_login_a76a4d97 -->|calls| controller_user_controller_topublicuser_b4aaebfb
+    controller_user_controller_usercontroller_refres_177736a5 -->|calls| controller_user_controller_topublicuser_b4aaebfb
+    controller_user_controller_usercontroller_update_1bd4a90f -->|calls| controller_user_controller_usercontroller_update_8f4b7adb
+    controller_user_controller_usercontroller_update_1bd4a90f -->|calls| controller_user_controller_topublicuser_b4aaebfb
+    controller_user_controller_usercontroller_getuse_c645ad70 -->|calls| controller_user_controller_topublicuser_b4aaebfb
+    login_loginform_c1f14b8a -->|imports| login_page_6485224e
+    login_loginform_loginform_b1e3991a -->|imports| login_page_6485224e
+    register_registerform_93e4bc22 -->|imports| register_page_bdc060f9
+    register_registerform_registerform_c3da64a2 -->|imports| register_page_bdc060f9
+    %% Omitted for readability: 4 nodes, 0 edges
+    class controller_user_controller_usercontroller_a5d5ed55 klass;
+    class controller_user_controller_usercontroller_update_a4628e10 function;
+    class controller_user_controller_usercontroller_login_a76a4d97 function;
+    class controller_user_controller_usercontroller_refres_177736a5 function;
+    class controller_user_controller_usercontroller_constr_e6f20beb function;
+    class controller_user_controller_usercontroller_getuse_c645ad70 function;
+    class controller_user_controller_usercontroller_regist_49352cfe function;
+    class controller_user_controller_usercontroller_update_8f4b7adb function;
+    class controller_user_controller_usercontroller_update_1bd4a90f function;
+    class controller_user_controller_topublicuser_b4aaebfb function;
+    class login_loginform_c1f14b8a ui;
+    class login_loginform_loginform_b1e3991a ui;
+    class register_registerform_93e4bc22 ui;
+    class register_registerform_registerform_c3da64a2 ui;
+    class lib_jwt_createaccesstoken_4bd04041 function;
+    class lib_jwt_createrefreshtoken_9faf0fd8 function;
+    class login_page_6485224e ui;
+    class register_page_bdc060f9 ui;
+    classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
+    classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
+    classDef async fill:#2e1065,stroke:#a78bfa,color:#ede9fe,stroke-width:1px;
+    classDef klass fill:#064e3b,stroke:#34d399,color:#d1fae5,stroke-width:1px;
+    classDef ui fill:#831843,stroke:#f472b6,color:#fce7f3,stroke-width:1px;
+    classDef module fill:#172554,stroke:#60a5fa,color:#dbeafe,stroke-width:1px;
+    classDef test fill:#3f3f46,stroke:#a1a1aa,color:#f4f4f5,stroke-width:1px;
+    classDef concept fill:#292524,stroke:#a8a29e,color:#fafaf9,stroke-dasharray:4 3;
+    classDef function fill:#0f172a,stroke:#38bdf8,color:#e0f2fe,stroke-width:1px;
+</div>
+
+<h3>Call Details</h3>
+<table class="call-table">
+<tr>
+  <th style="width:5%">#</th>
+  <th style="width:28%">Node</th>
+  <th style="width:10%">Type</th>
+  <th style="width:17%">Caller</th>
+  <th style="width:20%">Callees</th>
+  <th style="width:20%">Description</th>
+</tr>
+<tr>
+  <td>1</td>
+  <td><code>LoginForm.tsx</code><br><small style="color:var(--muted)">auth/login/LoginForm.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>page.tsx</code><br><small style="color:var(--muted)">auth/login/page.tsx</small></td>
+  <td>Module file in auth/login/LoginForm.tsx.</td>
+</tr>
+<tr>
+  <td>2</td>
+  <td><code>LoginFormData</code><br><small style="color:var(--muted)">auth/login/LoginForm.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>LoginFormData node in auth/login/LoginForm.tsx.</td>
+</tr>
+<tr>
+  <td>3</td>
+  <td><code>LoginForm()</code><br><small style="color:var(--muted)">auth/login/LoginForm.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>page.tsx</code><br><small style="color:var(--muted)">auth/login/page.tsx</small><br><code>register()</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
+  <td>LoginForm() node in auth/login/LoginForm.tsx.</td>
+</tr>
+<tr>
+  <td>4</td>
+  <td><code>page.tsx</code><br><small style="color:var(--muted)">auth/login/page.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>LoginForm()</code><br><small style="color:var(--muted)">auth/login/LoginForm.tsx</small><br><code>LoginForm.tsx</code><br><small style="color:var(--muted)">auth/login/LoginForm.tsx</small></td>
+  <td>No direct outbound edge</td>
+  <td>Module file in auth/login/page.tsx.</td>
+</tr>
+<tr>
+  <td>5</td>
+  <td><code>Page()</code><br><small style="color:var(--muted)">auth/login/page.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>Organizes documentation pages, navigation, or content lookup.</td>
+</tr>
+<tr>
+  <td>6</td>
+  <td><code>RegisterForm.tsx</code><br><small style="color:var(--muted)">auth/register/RegisterForm.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>page.tsx</code><br><small style="color:var(--muted)">auth/register/page.tsx</small></td>
+  <td>Module file in auth/register/RegisterForm.tsx.</td>
+</tr>
+<tr>
+  <td>7</td>
+  <td><code>RegisterFormData</code><br><small style="color:var(--muted)">auth/register/RegisterForm.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>RegisterFormData node in auth/register/RegisterForm.tsx.</td>
+</tr>
+<tr>
+  <td>8</td>
+  <td><code>RegisterForm()</code><br><small style="color:var(--muted)">auth/register/RegisterForm.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>page.tsx</code><br><small style="color:var(--muted)">auth/register/page.tsx</small><br><code>register()</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
+  <td>RegisterForm() node in auth/register/RegisterForm.tsx.</td>
+</tr>
+<tr>
+  <td>9</td>
+  <td><code>page.tsx</code><br><small style="color:var(--muted)">auth/register/page.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>RegisterForm()</code><br><small style="color:var(--muted)">auth/register/RegisterForm.tsx</small><br><code>RegisterForm.tsx</code><br><small style="color:var(--muted)">auth/register/RegisterForm.tsx</small></td>
+  <td>No direct outbound edge</td>
+  <td>Module file in auth/register/page.tsx.</td>
+</tr>
+<tr>
+  <td>10</td>
+  <td><code>Page()</code><br><small style="color:var(--muted)">auth/register/page.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>Organizes documentation pages, navigation, or content lookup.</td>
+</tr>
+<tr>
+  <td>11</td>
+  <td><code>createAccessToken()</code><br><small style="color:var(--muted)">backend/lib/jwt.ts</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>login()</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small><br><code>refreshToken()</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
+  <td>createAccessToken() node in backend/lib/jwt.ts.</td>
+</tr>
+<tr>
+  <td>12</td>
+  <td><code>createRefreshToken()</code><br><small style="color:var(--muted)">backend/lib/jwt.ts</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>login()</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small><br><code>refreshToken()</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
+  <td>createRefreshToken() node in backend/lib/jwt.ts.</td>
+</tr>
+<tr>
+  <td>13</td>
+  <td><code>UserController</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>constructor()</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small><br><code>getUserProfile()</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small><br><code>login()</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small><br>+5 more</td>
+  <td>UserController node in user/controller/user.controller.ts.</td>
+</tr>
+<tr>
+  <td>14</td>
+  <td><code>.constructor()</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>UserController</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
+  <td>No direct outbound edge</td>
+  <td>.constructor() node in user/controller/user.controller.ts.</td>
+</tr>
+<tr>
+  <td>15</td>
+  <td><code>.updateUser()</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>UserController</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
+  <td><code>toPublicUser()</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small><br><code>updateUserPassword()</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
+  <td>.updateUser() node in user/controller/user.controller.ts.</td>
+</tr>
+<tr>
+  <td>16</td>
+  <td><code>.register()</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>LoginForm()</code><br><small style="color:var(--muted)">auth/login/LoginForm.tsx</small><br><code>RegisterForm()</code><br><small style="color:var(--muted)">auth/register/RegisterForm.tsx</small><br><code>UserController</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
+  <td><code>toPublicUser()</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
+  <td>.register() node in user/controller/user.controller.ts.</td>
+</tr>
+<tr>
+  <td>17</td>
+  <td><code>.login()</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>createAccessToken()</code><br><small style="color:var(--muted)">backend/lib/jwt.ts</small><br><code>createRefreshToken()</code><br><small style="color:var(--muted)">backend/lib/jwt.ts</small><br><code>UserController</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
+  <td><code>toPublicUser()</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
+  <td>.login() node in user/controller/user.controller.ts.</td>
+</tr>
+<tr>
+  <td>18</td>
+  <td><code>.refreshToken()</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>createAccessToken()</code><br><small style="color:var(--muted)">backend/lib/jwt.ts</small><br><code>createRefreshToken()</code><br><small style="color:var(--muted)">backend/lib/jwt.ts</small><br><code>UserController</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
+  <td><code>toPublicUser()</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
+  <td>.refreshToken() node in user/controller/user.controller.ts.</td>
+</tr>
+<tr>
+  <td>19</td>
+  <td><code>.updateUserPassword()</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>updateUser()</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small><br><code>UserController</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
+  <td><code>toPublicUser()</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small><br><code>updatePassword()</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
+  <td>.updateUserPassword() node in user/controller/user.controller.ts.</td>
+</tr>
+<tr>
+  <td>20</td>
+  <td><code>.updatePassword()</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>updateUserPassword()</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small><br><code>UserController</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
+  <td>No direct outbound edge</td>
+  <td>.updatePassword() node in user/controller/user.controller.ts.</td>
+</tr>
+<tr>
+  <td>21</td>
+  <td><code>.getUserProfile()</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>UserController</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
+  <td><code>toPublicUser()</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
+  <td>.getUserProfile() node in user/controller/user.controller.ts.</td>
+</tr>
+<tr>
+  <td>22</td>
+  <td><code>toPublicUser()</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>getUserProfile()</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small><br><code>login()</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small><br><code>refreshToken()</code><br><small style="color:var(--muted)">user/controller/user.controller.ts</small><br>+3 more</td>
+  <td>No direct outbound edge</td>
+  <td>toPublicUser() node in user/controller/user.controller.ts.</td>
+</tr>
+</table>
+
+<div class="grid">
+  <div class="card">
+    <h4>Key Files</h4>
+    <table style="width:100%;font-size:0.85rem;">
+      <tr><th>File</th><th>Coverage</th></tr>
+      <tr><td><code>user/controller/user.controller.ts</code></td><td>10 nodes</td></tr>
+<tr><td><code>auth/login/LoginForm.tsx</code></td><td>3 nodes</td></tr>
+<tr><td><code>auth/register/RegisterForm.tsx</code></td><td>3 nodes</td></tr>
+<tr><td><code>auth/login/page.tsx</code></td><td>2 nodes</td></tr>
+<tr><td><code>auth/register/page.tsx</code></td><td>2 nodes</td></tr>
+<tr><td><code>backend/lib/jwt.ts</code></td><td>2 nodes</td></tr>
+    </table>
+  </div>
+  <div class="card">
+    <h4>Design Notes</h4>
+    <p>This section comes from graphify community clustering. Relationship summary: calls x12, method x8, contains x6, imports x2. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
+  </div>
+</div>
+<hr>
+
+<!-- ====== 12. Community 36 ====== -->
+<h2 id="community-36">12. Community 36</h2>
 <p>Community 36 groups implementation around modelsts, backend, modules, catalog, mostly in modules/catalog/models.ts. This section covers 14 nodes and 13 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
@@ -2263,169 +2987,8 @@ flowchart LR
 </div>
 <hr>
 
-<!-- ====== 11. Community 9 ====== -->
-<h2 id="community-9">11. Community 9</h2>
-<p>Community 9 groups implementation around app, auth, pagetsx, login, mostly in auth/login/LoginForm.tsx, auth/register/RegisterForm.tsx, auth/login/page.tsx. This section covers 10 nodes and 10 internal edges; the diagram shows only representative relationships to stay readable.</p>
-
-<div class="mermaid">
-%%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
-flowchart LR
-    %% Section: Community 9 (10 nodes, 10 edges)
-    subgraph community_9_auth_login_LoginForm_tsx_241dac7b["auth/login/LoginForm.tsx"]
-        login_loginform_c1f14b8a("LoginForm.tsx")
-        login_loginform_loginform_b1e3991a("LoginForm()<br/><small>auth/login/LoginForm.tsx</small>")
-        login_loginform_loginformdata_7d999427("LoginFormData<br/><small>auth/login/LoginForm.tsx</small>")
-    end
-    subgraph community_9_auth_register_RegisterForm_tsx_70bbfcfd["auth/register/RegisterForm.tsx"]
-        register_registerform_93e4bc22("RegisterForm.tsx")
-        register_registerform_registerform_c3da64a2("RegisterForm()<br/><small>auth/register/RegisterForm.tsx</small>")
-        register_registerform_registerformdata_4832f254("RegisterFormData<br/><small>auth/register/RegisterForm.tsx</small>")
-    end
-    subgraph community_9_auth_login_page_tsx_d48b20f7["auth/login/page.tsx"]
-        login_page_6485224e("page.tsx")
-        login_page_page_e78c58fd("Page()<br/><small>auth/login/page.tsx</small>")
-    end
-    subgraph community_9_auth_register_page_tsx_a1d5d3e5["auth/register/page.tsx"]
-        register_page_bdc060f9("page.tsx")
-        register_page_page_a162bab9("Page()<br/><small>auth/register/page.tsx</small>")
-    end
-    login_loginform_c1f14b8a -->|imports| login_page_6485224e
-    login_loginform_loginform_b1e3991a -->|imports| login_page_6485224e
-    register_registerform_93e4bc22 -->|imports| register_page_bdc060f9
-    register_registerform_registerform_c3da64a2 -->|imports| register_page_bdc060f9
-    class login_loginform_c1f14b8a ui;
-    class login_loginform_loginform_b1e3991a ui;
-    class login_loginform_loginformdata_7d999427 ui;
-    class register_registerform_93e4bc22 ui;
-    class register_registerform_registerform_c3da64a2 ui;
-    class register_registerform_registerformdata_4832f254 ui;
-    class login_page_6485224e ui;
-    class login_page_page_e78c58fd ui;
-    class register_page_bdc060f9 ui;
-    class register_page_page_a162bab9 ui;
-    classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
-    classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
-    classDef async fill:#2e1065,stroke:#a78bfa,color:#ede9fe,stroke-width:1px;
-    classDef klass fill:#064e3b,stroke:#34d399,color:#d1fae5,stroke-width:1px;
-    classDef ui fill:#831843,stroke:#f472b6,color:#fce7f3,stroke-width:1px;
-    classDef module fill:#172554,stroke:#60a5fa,color:#dbeafe,stroke-width:1px;
-    classDef test fill:#3f3f46,stroke:#a1a1aa,color:#f4f4f5,stroke-width:1px;
-    classDef concept fill:#292524,stroke:#a8a29e,color:#fafaf9,stroke-dasharray:4 3;
-    classDef function fill:#0f172a,stroke:#38bdf8,color:#e0f2fe,stroke-width:1px;
-</div>
-
-<h3>Call Details</h3>
-<table class="call-table">
-<tr>
-  <th style="width:5%">#</th>
-  <th style="width:28%">Node</th>
-  <th style="width:10%">Type</th>
-  <th style="width:17%">Caller</th>
-  <th style="width:20%">Callees</th>
-  <th style="width:20%">Description</th>
-</tr>
-<tr>
-  <td>1</td>
-  <td><code>LoginForm.tsx</code><br><small style="color:var(--muted)">auth/login/LoginForm.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>page.tsx</code><br><small style="color:var(--muted)">auth/login/page.tsx</small></td>
-  <td>Module file in auth/login/LoginForm.tsx.</td>
-</tr>
-<tr>
-  <td>2</td>
-  <td><code>LoginFormData</code><br><small style="color:var(--muted)">auth/login/LoginForm.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>LoginFormData node in auth/login/LoginForm.tsx.</td>
-</tr>
-<tr>
-  <td>3</td>
-  <td><code>LoginForm()</code><br><small style="color:var(--muted)">auth/login/LoginForm.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>page.tsx</code><br><small style="color:var(--muted)">auth/login/page.tsx</small></td>
-  <td>LoginForm() node in auth/login/LoginForm.tsx.</td>
-</tr>
-<tr>
-  <td>4</td>
-  <td><code>page.tsx</code><br><small style="color:var(--muted)">auth/login/page.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td><code>LoginForm()</code><br><small style="color:var(--muted)">auth/login/LoginForm.tsx</small><br><code>LoginForm.tsx</code><br><small style="color:var(--muted)">auth/login/LoginForm.tsx</small></td>
-  <td>No direct outbound edge</td>
-  <td>Module file in auth/login/page.tsx.</td>
-</tr>
-<tr>
-  <td>5</td>
-  <td><code>Page()</code><br><small style="color:var(--muted)">auth/login/page.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>Organizes documentation pages, navigation, or content lookup.</td>
-</tr>
-<tr>
-  <td>6</td>
-  <td><code>RegisterForm.tsx</code><br><small style="color:var(--muted)">auth/register/RegisterForm.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>page.tsx</code><br><small style="color:var(--muted)">auth/register/page.tsx</small></td>
-  <td>Module file in auth/register/RegisterForm.tsx.</td>
-</tr>
-<tr>
-  <td>7</td>
-  <td><code>RegisterFormData</code><br><small style="color:var(--muted)">auth/register/RegisterForm.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>RegisterFormData node in auth/register/RegisterForm.tsx.</td>
-</tr>
-<tr>
-  <td>8</td>
-  <td><code>RegisterForm()</code><br><small style="color:var(--muted)">auth/register/RegisterForm.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>page.tsx</code><br><small style="color:var(--muted)">auth/register/page.tsx</small></td>
-  <td>RegisterForm() node in auth/register/RegisterForm.tsx.</td>
-</tr>
-<tr>
-  <td>9</td>
-  <td><code>page.tsx</code><br><small style="color:var(--muted)">auth/register/page.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td><code>RegisterForm()</code><br><small style="color:var(--muted)">auth/register/RegisterForm.tsx</small><br><code>RegisterForm.tsx</code><br><small style="color:var(--muted)">auth/register/RegisterForm.tsx</small></td>
-  <td>No direct outbound edge</td>
-  <td>Module file in auth/register/page.tsx.</td>
-</tr>
-<tr>
-  <td>10</td>
-  <td><code>Page()</code><br><small style="color:var(--muted)">auth/register/page.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>Organizes documentation pages, navigation, or content lookup.</td>
-</tr>
-</table>
-
-<div class="grid">
-  <div class="card">
-    <h4>Key Files</h4>
-    <table style="width:100%;font-size:0.85rem;">
-      <tr><th>File</th><th>Coverage</th></tr>
-      <tr><td><code>auth/login/LoginForm.tsx</code></td><td>3 nodes</td></tr>
-<tr><td><code>auth/register/RegisterForm.tsx</code></td><td>3 nodes</td></tr>
-<tr><td><code>auth/login/page.tsx</code></td><td>2 nodes</td></tr>
-<tr><td><code>auth/register/page.tsx</code></td><td>2 nodes</td></tr>
-    </table>
-  </div>
-  <div class="card">
-    <h4>Design Notes</h4>
-    <p>This section comes from graphify community clustering. Relationship summary: contains x6, imports x2, imports x2. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
-  </div>
-</div>
-<hr>
-
-<!-- ====== 12. Community 6 ====== -->
-<h2 id="community-6">12. Community 6</h2>
+<!-- ====== 13. Community 6 ====== -->
+<h2 id="community-6">13. Community 6</h2>
 <p>Community 6 groups implementation around theme, layouttsx, app, themeprovidertsx, mostly in src/app/layout.tsx, src/theme/ThemeProvider.tsx, src/theme/theme.ts. This section covers 7 nodes and 8 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
@@ -2552,8 +3115,8 @@ flowchart LR
 </div>
 <hr>
 
-<!-- ====== 13. Community 38 ====== -->
-<h2 id="community-38">13. Community 38</h2>
+<!-- ====== 14. Community 38 ====== -->
+<h2 id="community-38">14. Community 38</h2>
 <p>Community 38 groups implementation around readmemd, getting, started, learn, mostly in README.md. This section covers 4 nodes and 3 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
@@ -2641,8 +3204,8 @@ flowchart LR
 </div>
 <hr>
 
-<!-- ====== 14. Community 11 ====== -->
-<h2 id="community-11">14. Community 11</h2>
+<!-- ====== 15. Community 11 ====== -->
+<h2 id="community-11">15. Community 11</h2>
 <p>Community 11 groups implementation around docker, composeyaml, pnpm, workspaceyaml, mostly in README.md, docker-compose.yaml, pnpm-workspace.yaml. This section covers 3 nodes and 2 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
@@ -2719,22 +3282,74 @@ flowchart LR
 </div>
 <hr>
 
-<!-- ====== 15. Community 14 ====== -->
-<h2 id="community-14">15. Community 14</h2>
-<p>Community 14 groups implementation around commentssectionclienttsx, app, posts, slug, mostly in posts/[slug]/CommentsSectionClient.tsx. This section covers 3 nodes and 2 internal edges; the diagram shows only representative relationships to stay readable.</p>
+<!-- ====== 16. Other ====== -->
+<h2 id="other">16. Other</h2>
+<p>Other groups implementation around app, pagetsx, posts, commentssectionclienttsx, mostly in posts/[slug]/CommentsSectionClient.tsx, AGENTS.md, src/app/page.tsx. This section covers 19 nodes and 10 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
 %%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
 flowchart LR
-    %% Section: Community 14 (3 nodes, 2 edges)
-    slug_commentssectionclient_17313334("CommentsSectionClient.tsx")
-    slug_commentssectionclient_comment_18f9b231("Comment<br/><small>posts/[slug]/CommentsSectionClient.tsx</small>")
-    slug_commentssectionclient_commentssectionclient_4198ed39("CommentsSectionClient()<br/><small>posts/[slug]/CommentsSectionClient.tsx</small>")
+    %% Section: Other (19 nodes, 10 edges)
+    subgraph other_AGENTS_md_b8f71333["AGENTS.md"]
+        agents_e7052aeb("AGENTS.md")
+        agents_this_is_not_the_next_js_you_know_84c753c3("This is NOT the Next.js you know<br/><small>AGENTS.md</small>")
+        agents_graphify_933e8fd9("graphify<br/><small>AGENTS.md</small>")
+    end
+    subgraph other_posts_slug_CommentsSectionClient_tsx_31f18edd["posts/[slug]/CommentsSectionClient.tsx"]
+        slug_commentssectionclient_17313334("CommentsSectionClient.tsx")
+        slug_commentssectionclient_comment_18f9b231("Comment<br/><small>posts/[slug]/CommentsSectionClient.tsx</small>")
+        slug_commentssectionclient_commentssectionclient_4198ed39("CommentsSectionClient()<br/><small>posts/[slug]/CommentsSectionClient.tsx</small>")
+    end
+    subgraph other_app_posts_page_tsx_b2e3d5ae["app/posts/page.tsx"]
+        posts_page_12c85b13("page.tsx")
+        posts_page_page_80919ee6("Page()<br/><small>app/posts/page.tsx</small>")
+    end
+    subgraph other_eslint_config_mjs_2d8a3a4c["eslint.config.mjs"]
+        eslint_config_80901414("eslint.config.mjs")
+        eslint_config_eslintconfig_96927dc4("eslintConfig<br/><small>eslint.config.mjs</small>")
+    end
+    subgraph other_next_config_ts_1b204a5f["next.config.ts"]
+        next_config_531ff3ba("next.config.ts")
+        next_config_nextconfig_cf9503a0("nextConfig<br/><small>next.config.ts</small>")
+    end
+    subgraph other_postcss_config_mjs_8a50bb24["postcss.config.mjs"]
+        postcss_config_bfe60bb8("postcss.config.mjs")
+        postcss_config_config_b5a26879("config<br/><small>postcss.config.mjs</small>")
+    end
+    subgraph other_src_app_page_tsx_da3aede8["src/app/page.tsx"]
+        app_page_c77e992c("page.tsx")
+        app_page_home_8cd6c4cc("Home()<br/><small>src/app/page.tsx</small>")
+    end
+    bruno_readme_395ed24c("README.md")
+    jest_config_7540205c("jest.config.js")
+    eslint_config_80901414 -->|contains| eslint_config_eslintconfig_96927dc4
+    next_config_531ff3ba -->|contains| next_config_nextconfig_cf9503a0
+    postcss_config_bfe60bb8 -->|contains| postcss_config_config_b5a26879
+    app_page_c77e992c -->|contains| app_page_home_8cd6c4cc
     slug_commentssectionclient_17313334 -->|contains| slug_commentssectionclient_comment_18f9b231
     slug_commentssectionclient_17313334 -->|contains| slug_commentssectionclient_commentssectionclient_4198ed39
+    posts_page_12c85b13 -->|contains| posts_page_page_80919ee6
+    agents_e7052aeb -->|contains| agents_this_is_not_the_next_js_you_know_84c753c3
+    agents_this_is_not_the_next_js_you_know_84c753c3 -->|contains| agents_graphify_933e8fd9
+    %% Omitted for readability: 1 nodes, 0 edges
+    class agents_e7052aeb concept;
+    class agents_this_is_not_the_next_js_you_know_84c753c3 concept;
+    class agents_graphify_933e8fd9 concept;
     class slug_commentssectionclient_17313334 entry;
     class slug_commentssectionclient_comment_18f9b231 ui;
     class slug_commentssectionclient_commentssectionclient_4198ed39 entry;
+    class posts_page_12c85b13 ui;
+    class posts_page_page_80919ee6 ui;
+    class eslint_config_80901414 function;
+    class eslint_config_eslintconfig_96927dc4 function;
+    class next_config_531ff3ba module;
+    class next_config_nextconfig_cf9503a0 function;
+    class postcss_config_bfe60bb8 function;
+    class postcss_config_config_b5a26879 function;
+    class app_page_c77e992c ui;
+    class app_page_home_8cd6c4cc ui;
+    class bruno_readme_395ed24c concept;
+    class jest_config_7540205c module;
     classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
     classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
     classDef async fill:#2e1065,stroke:#a78bfa,color:#ede9fe,stroke-width:1px;
@@ -2780,101 +3395,8 @@ flowchart LR
   <td>No direct outbound edge</td>
   <td>CommentsSectionClient() node in posts/[slug]/CommentsSectionClient.tsx.</td>
 </tr>
-</table>
-
-<div class="grid">
-  <div class="card">
-    <h4>Key Files</h4>
-    <table style="width:100%;font-size:0.85rem;">
-      <tr><th>File</th><th>Coverage</th></tr>
-      <tr><td><code>posts/[slug]/CommentsSectionClient.tsx</code></td><td>3 nodes</td></tr>
-    </table>
-  </div>
-  <div class="card">
-    <h4>Design Notes</h4>
-    <p>This section comes from graphify community clustering. Relationship summary: contains x2. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
-  </div>
-</div>
-<hr>
-
-<!-- ====== 16. Other ====== -->
-<h2 id="other">16. Other</h2>
-<p>Other groups implementation around pagetsx, agentsmd, app, eslintconfigmjs, mostly in AGENTS.md, src/app/page.tsx, eslint.config.mjs. This section covers 14 nodes and 7 internal edges; the diagram shows only representative relationships to stay readable.</p>
-
-<div class="mermaid">
-%%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
-flowchart LR
-    %% Section: Other (14 nodes, 7 edges)
-    subgraph other_AGENTS_md_b8f71333["AGENTS.md"]
-        agents_e7052aeb("AGENTS.md")
-        agents_this_is_not_the_next_js_you_know_84c753c3("This is NOT the Next.js you know<br/><small>AGENTS.md</small>")
-        agents_graphify_933e8fd9("graphify<br/><small>AGENTS.md</small>")
-    end
-    subgraph other_app_posts_page_tsx_b2e3d5ae["app/posts/page.tsx"]
-        posts_page_12c85b13("page.tsx")
-        posts_page_page_80919ee6("Page()<br/><small>app/posts/page.tsx</small>")
-    end
-    subgraph other_eslint_config_mjs_2d8a3a4c["eslint.config.mjs"]
-        eslint_config_80901414("eslint.config.mjs")
-        eslint_config_eslintconfig_96927dc4("eslintConfig<br/><small>eslint.config.mjs</small>")
-    end
-    subgraph other_next_config_ts_1b204a5f["next.config.ts"]
-        next_config_531ff3ba("next.config.ts")
-        next_config_nextconfig_cf9503a0("nextConfig<br/><small>next.config.ts</small>")
-    end
-    subgraph other_postcss_config_mjs_8a50bb24["postcss.config.mjs"]
-        postcss_config_bfe60bb8("postcss.config.mjs")
-        postcss_config_config_b5a26879("config<br/><small>postcss.config.mjs</small>")
-    end
-    subgraph other_src_app_page_tsx_da3aede8["src/app/page.tsx"]
-        app_page_c77e992c("page.tsx")
-        app_page_home_8cd6c4cc("Home()<br/><small>src/app/page.tsx</small>")
-    end
-    jest_config_7540205c("jest.config.js")
-    eslint_config_80901414 -->|contains| eslint_config_eslintconfig_96927dc4
-    next_config_531ff3ba -->|contains| next_config_nextconfig_cf9503a0
-    postcss_config_bfe60bb8 -->|contains| postcss_config_config_b5a26879
-    app_page_c77e992c -->|contains| app_page_home_8cd6c4cc
-    posts_page_12c85b13 -->|contains| posts_page_page_80919ee6
-    agents_e7052aeb -->|contains| agents_this_is_not_the_next_js_you_know_84c753c3
-    agents_this_is_not_the_next_js_you_know_84c753c3 -->|contains| agents_graphify_933e8fd9
-    class agents_e7052aeb concept;
-    class agents_this_is_not_the_next_js_you_know_84c753c3 concept;
-    class agents_graphify_933e8fd9 concept;
-    class posts_page_12c85b13 ui;
-    class posts_page_page_80919ee6 ui;
-    class eslint_config_80901414 function;
-    class eslint_config_eslintconfig_96927dc4 function;
-    class next_config_531ff3ba module;
-    class next_config_nextconfig_cf9503a0 function;
-    class postcss_config_bfe60bb8 function;
-    class postcss_config_config_b5a26879 function;
-    class app_page_c77e992c ui;
-    class app_page_home_8cd6c4cc ui;
-    class jest_config_7540205c module;
-    classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
-    classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
-    classDef async fill:#2e1065,stroke:#a78bfa,color:#ede9fe,stroke-width:1px;
-    classDef klass fill:#064e3b,stroke:#34d399,color:#d1fae5,stroke-width:1px;
-    classDef ui fill:#831843,stroke:#f472b6,color:#fce7f3,stroke-width:1px;
-    classDef module fill:#172554,stroke:#60a5fa,color:#dbeafe,stroke-width:1px;
-    classDef test fill:#3f3f46,stroke:#a1a1aa,color:#f4f4f5,stroke-width:1px;
-    classDef concept fill:#292524,stroke:#a8a29e,color:#fafaf9,stroke-dasharray:4 3;
-    classDef function fill:#0f172a,stroke:#38bdf8,color:#e0f2fe,stroke-width:1px;
-</div>
-
-<h3>Call Details</h3>
-<table class="call-table">
 <tr>
-  <th style="width:5%">#</th>
-  <th style="width:28%">Node</th>
-  <th style="width:10%">Type</th>
-  <th style="width:17%">Caller</th>
-  <th style="width:20%">Callees</th>
-  <th style="width:20%">Description</th>
-</tr>
-<tr>
-  <td>1</td>
+  <td>4</td>
   <td><code>AGENTS.md</code><br><small style="color:var(--muted)">AGENTS.md</small></td>
   <td><span class="tag tag-func">Concept</span></td>
   <td>External entry / no inbound edge</td>
@@ -2882,7 +3404,7 @@ flowchart LR
   <td>Documentation node describing AGENTS.md.</td>
 </tr>
 <tr>
-  <td>2</td>
+  <td>5</td>
   <td><code>This is NOT the Next.js you know</code><br><small style="color:var(--muted)">AGENTS.md</small></td>
   <td><span class="tag tag-func">Concept</span></td>
   <td>External entry / no inbound edge</td>
@@ -2890,7 +3412,7 @@ flowchart LR
   <td>Documentation node describing This is NOT the Next.js you know.</td>
 </tr>
 <tr>
-  <td>3</td>
+  <td>6</td>
   <td><code>graphify</code><br><small style="color:var(--muted)">AGENTS.md</small></td>
   <td><span class="tag tag-func">Concept</span></td>
   <td>External entry / no inbound edge</td>
@@ -2898,7 +3420,7 @@ flowchart LR
   <td>Documentation node describing graphify.</td>
 </tr>
 <tr>
-  <td>4</td>
+  <td>7</td>
   <td><code>page.tsx</code><br><small style="color:var(--muted)">src/app/page.tsx</small></td>
   <td><span class="tag tag-hook">UI</span></td>
   <td>External entry / no inbound edge</td>
@@ -2906,7 +3428,7 @@ flowchart LR
   <td>Module file in src/app/page.tsx.</td>
 </tr>
 <tr>
-  <td>5</td>
+  <td>8</td>
   <td><code>Home()</code><br><small style="color:var(--muted)">src/app/page.tsx</small></td>
   <td><span class="tag tag-hook">UI</span></td>
   <td>External entry / no inbound edge</td>
@@ -2914,7 +3436,7 @@ flowchart LR
   <td>Home() node in src/app/page.tsx.</td>
 </tr>
 <tr>
-  <td>6</td>
+  <td>9</td>
   <td><code>eslint.config.mjs</code><br><small style="color:var(--muted)">eslint.config.mjs</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -2922,7 +3444,7 @@ flowchart LR
   <td>Reads, resolves, or persists project configuration.</td>
 </tr>
 <tr>
-  <td>7</td>
+  <td>10</td>
   <td><code>eslintConfig</code><br><small style="color:var(--muted)">eslint.config.mjs</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -2930,7 +3452,7 @@ flowchart LR
   <td>Reads, resolves, or persists project configuration.</td>
 </tr>
 <tr>
-  <td>8</td>
+  <td>11</td>
   <td><code>next.config.ts</code><br><small style="color:var(--muted)">next.config.ts</small></td>
   <td><span class="tag tag-class">Module</span></td>
   <td>External entry / no inbound edge</td>
@@ -2938,7 +3460,7 @@ flowchart LR
   <td>Module file in next.config.ts.</td>
 </tr>
 <tr>
-  <td>9</td>
+  <td>12</td>
   <td><code>nextConfig</code><br><small style="color:var(--muted)">next.config.ts</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -2946,7 +3468,7 @@ flowchart LR
   <td>Reads, resolves, or persists project configuration.</td>
 </tr>
 <tr>
-  <td>10</td>
+  <td>13</td>
   <td><code>postcss.config.mjs</code><br><small style="color:var(--muted)">postcss.config.mjs</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -2954,7 +3476,7 @@ flowchart LR
   <td>Reads, resolves, or persists project configuration.</td>
 </tr>
 <tr>
-  <td>11</td>
+  <td>14</td>
   <td><code>config</code><br><small style="color:var(--muted)">postcss.config.mjs</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -2962,7 +3484,7 @@ flowchart LR
   <td>Reads, resolves, or persists project configuration.</td>
 </tr>
 <tr>
-  <td>12</td>
+  <td>15</td>
   <td><code>page.tsx</code><br><small style="color:var(--muted)">app/posts/page.tsx</small></td>
   <td><span class="tag tag-hook">UI</span></td>
   <td>External entry / no inbound edge</td>
@@ -2970,7 +3492,7 @@ flowchart LR
   <td>Module file in app/posts/page.tsx.</td>
 </tr>
 <tr>
-  <td>13</td>
+  <td>16</td>
   <td><code>Page()</code><br><small style="color:var(--muted)">app/posts/page.tsx</small></td>
   <td><span class="tag tag-hook">UI</span></td>
   <td>External entry / no inbound edge</td>
@@ -2978,7 +3500,23 @@ flowchart LR
   <td>Organizes documentation pages, navigation, or content lookup.</td>
 </tr>
 <tr>
-  <td>14</td>
+  <td>17</td>
+  <td><code>README.md</code><br><small style="color:var(--muted)">bruno/README.md</small></td>
+  <td><span class="tag tag-func">Concept</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>Documentation node describing README.md.</td>
+</tr>
+<tr>
+  <td>18</td>
+  <td><code>Bruno API Collection</code><br><small style="color:var(--muted)">bruno/README.md</small></td>
+  <td><span class="tag tag-func">Concept</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>Documentation node describing Bruno API Collection.</td>
+</tr>
+<tr>
+  <td>19</td>
   <td><code>jest.config.js</code><br><small style="color:var(--muted)">jest.config.js</small></td>
   <td><span class="tag tag-class">Module</span></td>
   <td>External entry / no inbound edge</td>
@@ -2993,17 +3531,18 @@ flowchart LR
     <table style="width:100%;font-size:0.85rem;">
       <tr><th>File</th><th>Coverage</th></tr>
       <tr><td><code>AGENTS.md</code></td><td>3 nodes</td></tr>
+<tr><td><code>posts/[slug]/CommentsSectionClient.tsx</code></td><td>3 nodes</td></tr>
+<tr><td><code>bruno/README.md</code></td><td>2 nodes</td></tr>
 <tr><td><code>eslint.config.mjs</code></td><td>2 nodes</td></tr>
 <tr><td><code>next.config.ts</code></td><td>2 nodes</td></tr>
 <tr><td><code>postcss.config.mjs</code></td><td>2 nodes</td></tr>
 <tr><td><code>src/app/page.tsx</code></td><td>2 nodes</td></tr>
 <tr><td><code>app/posts/page.tsx</code></td><td>2 nodes</td></tr>
-<tr><td><code>jest.config.js</code></td><td>1 nodes</td></tr>
     </table>
   </div>
   <div class="card">
     <h4>Design Notes</h4>
-    <p>This section comes from graphify community clustering. Relationship summary: contains x7. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
+    <p>This section comes from graphify community clustering. Relationship summary: contains x10. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
   </div>
 </div>
 <hr>
@@ -3014,17 +3553,17 @@ flowchart LR
   <div class="card">
     <h4>Graph</h4>
     <table style="width:100%;font-size:0.85rem;">
-      <tr><td>Nodes</td><td>391</td></tr>
-      <tr><td>Edges</td><td>637</td></tr>
+      <tr><td>Nodes</td><td>393</td></tr>
+      <tr><td>Edges</td><td>638</td></tr>
       <tr><td>Hyperedges</td><td>0</td></tr>
-      <tr><td>Communities</td><td>48</td></tr>
+      <tr><td>Communities</td><td>50</td></tr>
       <tr><td>Documented Sections</td><td>15</td></tr>
     </table>
   </div>
   <div class="card">
     <h4>Edge Confidence</h4>
     <table style="width:100%;font-size:0.85rem;">
-      <tr><td>EXTRACTED</td><td>615</td></tr>
+      <tr><td>EXTRACTED</td><td>616</td></tr>
       <tr><td>INFERRED</td><td>22</td></tr>
       <tr><td>AMBIGUOUS</td><td>0</td></tr>
     </table>
@@ -3033,7 +3572,7 @@ flowchart LR
 
 <div style="text-align:center; padding:40px 0; color: var(--muted); font-size:0.9rem;">
   <p>next-app — Architecture Documentation</p>
-  <p>Generated: 2026-06-12 18:47 UTC · graphify callflow-html</p>
+  <p>Generated: 2026-06-12 18:57 UTC · graphify callflow-html</p>
 </div>
 
 </div><!-- .container -->

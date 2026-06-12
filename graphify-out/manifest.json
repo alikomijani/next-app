@@ -318,5 +318,10 @@
     "mtime": 1775719444.0203364,
     "ast_hash": "a2760511c65806022ad20adf74370ff3",
     "semantic_hash": ""
+  },
+  "bruno/README.md": {
+    "mtime": 1781290010.555575,
+    "ast_hash": "bef8c75aa92fb4e10e6ad3cb7fc8c03f",
+    "semantic_hash": ""
   }
 }
