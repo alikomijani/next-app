@@ -28,7 +28,9 @@ export async function POST(req: Request) {
     });
 
     return response;
-  } catch (error: any) {
-    return NextResponse.json({ message: error.message }, { status: 401 });
+  } catch (error: unknown) {
+    const message =
+      error instanceof Error ? error.message : "Invalid credentials";
+    return NextResponse.json({ message }, { status: 401 });
   }
 }

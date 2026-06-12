@@ -32,39 +32,55 @@ export function verifyToken(
   try {
     const decoded = jwt.verify(token, secret);
 
-    if (
-      typeof decoded === "object" &&
-      decoded !== null &&
-      typeof (decoded as any).userID === "number" &&
-      typeof (decoded as any).iat === "number" &&
-      typeof (decoded as any).exp === "number"
-    ) {
-      return decoded as JwtPayload;
+    if (isJwtPayload(decoded)) {
+      return decoded;
     }
 
     throw new Error("Malformed token payload");
-  } catch (err: any) {
-    if (err.name === "TokenExpiredError") {
+  } catch (err: unknown) {
+    if (err instanceof Error && err.name === "TokenExpiredError") {
       throw new Error("TokenExpired");
     }
-    if (err.name === "JsonWebTokenError") {
+    if (err instanceof Error && err.name === "JsonWebTokenError") {
       throw new Error("InvalidToken");
     }
     throw new Error("TokenVerificationFailed");
   }
 }
 
+function isJwtPayload(decoded: string | jwt.JwtPayload): decoded is JwtPayload {
+  return (
+    typeof decoded === "object" &&
+    decoded !== null &&
+    typeof decoded.userID === "number" &&
+    typeof decoded.iat === "number" &&
+    typeof decoded.exp === "number"
+  );
+}
+
 export function getAccessToken(req: NextRequest) {
   const header = req.headers.get("authorization");
+  const token = getBearerToken(header) ?? req.cookies.get("accessToken")?.value;
+
+  if (!token) {
+    throw new Error("Access token not found");
+  }
+
+  return verifyToken(token, "ACCESS");
+}
+
+function getBearerToken(header: string | null) {
   if (!header) {
-    throw new Error("Authorization header not found");
+    return undefined;
   }
   if (!header.startsWith("Bearer ")) {
     throw new Error("Authorization header must start with 'Bearer '");
   }
+
   const token = header.substring(7).trim();
   if (!token) {
     throw new Error("Bearer token is empty");
   }
-  return verifyToken(token, "ACCESS");
+
+  return token;
 }

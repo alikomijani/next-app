@@ -13,8 +13,9 @@ export async function POST(req: Request) {
 
     // اینجا نتیجه نهایی در ریسپانس به کاربر ارسال میشه
     return NextResponse.json(user);
-  } catch (error: any) {
+  } catch (error: unknown) {
     // اگه خطا داشتیم متن خطا با کد ۴۰۰ ارسال بشه
-    return NextResponse.json({ message: error.message }, { status: 400 });
+    const message = error instanceof Error ? error.message : "Register failed";
+    return NextResponse.json({ message }, { status: 400 });
   }
 }

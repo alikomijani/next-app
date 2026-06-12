@@ -6,7 +6,7 @@ export async function GET(req: NextRequest) {
   try {
     const payload = getAccessToken(req);
     const userController = await newUserController();
-    const user = userController.getUserProfile(payload.userID);
+    const user = await userController.getUserProfile(payload.userID);
     if (!user) {
       return NextResponse.json({ message: "user not found" }, { status: 404 });
     }

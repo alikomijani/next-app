@@ -1,13 +1,20 @@
 import mongoose, { Schema, Model } from "mongoose";
+import mongooseSequence from "mongoose-sequence";
 import {
   CreateUserDto,
+  UpdateUserDto,
   User,
   UserModelInterface,
 } from "../controller/user.controller";
 
-const AutoIncrementFactory = require("mongoose-sequence")(mongoose);
+type AutoIncrementPlugin = (schema: Schema, options?: object) => void;
+type AutoIncrementFactory = (
+  connection: typeof mongoose,
+) => AutoIncrementPlugin;
 
-const AutoIncrement = AutoIncrementFactory(mongoose);
+const AutoIncrement = (
+  mongooseSequence as unknown as AutoIncrementFactory
+)(mongoose);
 
 /* 1. User Schema مطابق همان type User */
 const UserSchema = new Schema<User>({
@@ -36,7 +43,7 @@ class UserModelMongo implements UserModelInterface {
     return created.toObject();
   }
 
-  async updateUser(id: number, user: CreateUserDto): Promise<User> {
+  async updateUser(id: number, user: UpdateUserDto): Promise<User> {
     const updated = await UserModel.findOneAndUpdate({ id: id }, user, {
       new: true,
     }).lean();

@@ -3,6 +3,7 @@ import {
   UserModelInterface,
   User,
   CreateUserDto,
+  UpdateUserDto,
 } from "../controller/user.controller";
 
 const users: User[] = [];
@@ -20,7 +21,7 @@ class UserModelMock implements UserModelInterface {
     return newUser;
   }
 
-  async updateUser(id: number, updatedUserData: CreateUserDto): Promise<User> {
+  async updateUser(id: number, updatedUserData: UpdateUserDto): Promise<User> {
     const index = users.findIndex((u) => u.id === id);
 
     if (index === -1) {
